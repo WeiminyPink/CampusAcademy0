@@ -6,7 +6,7 @@ body{width: 980px;
 }
 .left{width: 110px;
 	font-family: "黑体";
-	background-color: #f5e327;
+	background-color: #d45d5c;
 display: inline-block
 ;padding-top: 40px;
 margin-top: 0px;}
@@ -176,7 +176,7 @@ border-bottom: solid 2px;
 }
 #bottomright{
 	position: relative;
-	left:500px;
+	left:430px;
 	bottom: 800px;
 }
  .tec-img{
@@ -248,7 +248,7 @@ border-bottom: solid 2px;
     border-right: 5px solid transparent;
     border-bottom: 10px solid #10456b;
 }
- .news ul li>span{
+ .news ul li span{
     float: right;
     padding-top: 3px;
     font: 12px "宋体";
@@ -286,6 +286,10 @@ border-bottom: solid 2px;
     margin: 5px 0 0;
     font:12px "黑体";
     color: #fff;
+}
+.news-footer-info{
+	background-color:#eeedd6
+
 }
  .news .news-footer .news-footer-info{
     float: right;
