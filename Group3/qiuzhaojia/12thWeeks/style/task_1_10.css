@@ -1,0 +1,44 @@
+*{
+	padding: 20px;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.box_1,.box_2,.box_3,.box_4{
+	width: 120px;
+	border: 1px solid #f00;
+	margin-bottom: 20px;
+}
+.box_1{
+	height: 120px;
+}
+.box_2{
+	height: 100px;
+}
+.box_3{
+	height: 40px;
+}
+.box_4{
+	height: 200px;
+	border:1px solid #00f;
+}
+/*屏幕宽度大于640px*/
+@media screen and(min-width:640px){
+	
+}
+/*屏幕宽度小于或等于640px*/
+@media screen and (max-width: 640px){
+	.box_4{
+		order:-1;
+	}
+	.wrap{
+		align-items: flex-start;
+	}
+}
