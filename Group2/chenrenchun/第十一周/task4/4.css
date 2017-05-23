@@ -1,0 +1,30 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.total {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 200px;
+	width: 400px;
+	background-color: #ccc;
+	margin-left: -200px;
+	margin-top: -100px;
+}
+.left {
+	position: absolute;
+	background-color: #fc0;
+	height: 50px;
+	width: 50px;
+	border-radius: 0 0 50px 0;
+}
+.right {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background-color: #fc0;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px 0 0 0;
+}

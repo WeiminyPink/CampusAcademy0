@@ -1,0 +1,38 @@
+
+.flex {
+	display: flex;
+	padding: 20px;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #eee;
+}
+.flex1,.flex2,.flex3 {
+	border: 1px solid #f00;
+	width: 150px;
+}
+.flex1 {
+	height: 120px;
+}
+.flex2 {
+	height: 100px;
+}
+.flex3 {
+	height: 40px;
+}
+.flex4 {
+	height: 200px;
+	border: 1px solid #0f0;
+	width: 150px;
+	margin-bottom: 20px;
+}
+@media screen and (max-width: 640px) {
+	.flex {
+		display: flex;
+		align-items: flex-start;
+		flex-wrap: wrap;
+	}
+	.flex4 {
+		order: -1;
+	}
+
+}

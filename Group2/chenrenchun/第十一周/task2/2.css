@@ -1,0 +1,174 @@
+/*重置样式*/
+body,p,h1,h2,h3,h4,h5,h6,dl,dd{
+	margin:0;
+	font-size:12px;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+}
+body {
+	background-color: #0e0e0e;
+	font-family: "microsoft yahei"
+}
+.all {
+	width: 1500px;
+	background-color: #D3D3D3;
+	margin:0 auto;
+}
+/*导航*/
+#nav {
+	background-color: #333;
+	height: 60px;
+	margin:0 auto;
+}
+img {
+	height: 60px;
+}
+#nav ul {
+	float: right;
+	width: 360px;
+	height: 40px;
+}
+#nav li {
+	width: 60px;
+	float: left;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+#nav li a {
+	color: #fff;
+}
+#nav li span {
+	color: #888;
+}
+/*内容*/
+.content {
+	background-color: #fff;
+	margin: 20px 20px;
+	padding: 40px 20px;
+	border: 1px solid #eee;
+}
+h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+h3 {
+	color: #888;
+	font-size: 16px;
+	margin-bottom: 18px;
+}
+.p1 {
+	color: #888;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.p2 {
+	text-indent: 2em;
+	font-size: 16px;
+	line-height: 26px;
+}
+.content img {
+	width: 300px;
+	height: 300px;
+	margin-top: 20px;
+}
+.content ul {
+	list-style: none;
+	font-size: 16px;
+}
+.content ol {
+	font-size: 16px;
+}
+.picture {
+	background-color: #fff;
+	margin: 20px 20px;
+	padding: 40px 20px;
+	border: 1px solid #eee;
+}
+.pic {
+	width: 120px;
+	height: 124px;
+	border: 1px solid #eee;
+	margin-left: 60px;
+	margin-top: 16px;
+	padding:10px 10px;
+	font-size: 12px;
+	text-align: center;
+}
+.pic img {
+	width: 120px;
+	height: 94px;
+	margin-top: 12px;
+}
+.table {
+	width: 1420px;
+	border-collapse: collapse;
+	border-color: #eee;
+}
+.content p {
+	font-size: 16px;
+}
+th {
+	background-color: #333;
+	color: #fff;
+}
+tr {
+	text-align: left;
+	font-size: 15px;
+}
+/*侧栏*/
+.side_bar h2 {
+	margin-top: 0;
+	padding-left: 10px;
+	height: 35px;
+	line-height: 35px;
+	border-left: 4px solid #eee;
+}
+.user {
+	width: 100%;
+	font-size: 16px;
+}
+.user div {
+	margin-bottom: 10px;
+}
+.user label {
+	font-size: 16px;
+	display: inline-block;
+	width: 30%;
+	text-align: right;
+}
+}
+.user input {
+	margin-left:
+}
+.user p {
+	margin-left: 30%;
+	padding-left: 10px;
+	margin-top: 12px;
+	color: #eee;
+}
+textarea {
+  	width: 60%;
+  	max-width: 60%;
+  	height: 100px;
+  	vertical-align: top;
+  	border: 1px solid #ccc;
+}
+.submit {
+	width: 100%;
+  	color: #fff;
+  	background-color: #35D;
+  	height: 40px;
+  	border-radius: 10px;
+}
+footer p {
+	padding-top: 10px;
+  	display: block;
+  	text-align: center;
+ 	margin: 0 auto;
+ 	color: #fff;
+}
