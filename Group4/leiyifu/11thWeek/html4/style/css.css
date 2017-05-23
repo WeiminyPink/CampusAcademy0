@@ -1,0 +1,5 @@
+body {margin: 0;padding:0px;}
+
+.box{width: 400px;height: 200px;background-color: #ccc;border: 1px solid gray;
+margin:0 auto;position: relative;margin-top: 350px;}
+.right-bottom {position: absolute;left: 350px;top: 150px;}

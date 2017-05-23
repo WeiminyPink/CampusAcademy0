@@ -1,0 +1,10 @@
+body,p {margin: 0;padding: 0;}
+
+.pen{border:1px solid #000;padding: 20px;height: 600px;}
+
+.p1 {border:1px solid #f00;width:150px;height:120px;margin:20px;margin-top:240px;}
+.p2 {border:1px solid #f00;width:150px;height:100px;margin:20px;margin-top:250px;}
+.p3 {border:1px solid #f00;width:150px;height:40px;margin:20px;margin-top:280px;}
+.p4 {border:1px solid #0f0;width:150px;height:200px;margin:20px;margin-top:200px;}
+.p1,.p2,.p3,.p4 {float: left;}
+

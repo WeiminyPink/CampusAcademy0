@@ -1,0 +1,46 @@
+body{padding:0px; margin:0;}
+
+.left{background-color:#ccc;width:1280px;}
+.top {height: 60px;padding:0;margin: 0;
+	background: url(D:/web/html2/images/top_bg.jpg)no-repeat;
+border:1px solid black;}
+.top_menu {margin-left: 816px;}
+.top_menu li {float: left;line-height: 16px;margin-top: 8px;
+margin-left: 8px;padding-right: 16px;}
+
+.pen1 {border:2px solid #000;width: 856px;height: 770px;
+	margin:22px;background: #fff;}
+.text1 {margin-left: 22px;margin-right: 22px;line-height: 20px;}
+.image1 {margin: 18px 0;}
+
+.pen2 {border:2px solid #000;width: 856px;height: 760px;
+	margin:22px 22px;background: #fff;}
+.text2 {margin-left: 22px;margin-right: 22px;line-height: 28px;}
+.image2 {margin: 18px 0;}
+.pen2 li {list-style-type: none;}
+
+.pen3 {border:2px solid #000;width: 856px;height: 460px;
+	margin:22px 22px;background: #fff;}
+.text3 {margin-top:30px; margin-left: 22px;margin-right: 22px;
+	line-height: 28px;}
+.image3 {float: left; margin-left: 38px;padding:10px;
+	line-height: 24px;}
+
+.pen4 {border:2px solid #000;width: 856px;height: 420px;
+	margin:22px 22px;background: #fff;}
+.text4 {margin-top:30px; margin-left: 22px;margin-right: 22px;
+	;}
+
+.pen5 {border:2px solid #000;width: 356px;height: 500px;
+	margin:22px 22px;background: #fff;position: relative;position: absolute;
+	top: 62px;left: 878px;}
+.text5 {margin-top:50px; margin-left: 50px;margin-right: 22px;height: 18px;
+	;}
+.pen5 textarea {position:absolute;top: 280px;width:210px;height:100px;}
+.pen5 button {background:blue;border:1px solid #CCC;border-radius: 6px;
+	position: absolute;top: 400px;left:26px;width: 320px;height:40px;}
+.label {margin-top: -16px;}
+.sf {position: absolute;left:10px;top: 0px;}
+
+.pen6 {height: 68px;background-color: black;position: relative;}
+.pen6 p {color: #fff;position: absolute;top:8px;left: 600px;}
