@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    position: relative;
+    display: block;
+    background: #eee;
+    border: 1px solid #999;
+    height: 500px;
+    width: 1460px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.left{
+    position: relative;
+    float: left;
+    border: 1px solid #999;
+    width: 160px;
+    background: #fff;
+    padding: 20px; 
+}
+.left div,span{
+    float: left;
+}
+.left span{
+    position: relative;
+    margin-left: 14px;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    background: #eee;
+    border: 1px solid #999;
+}
+.center{
+    position: relative;
+    height: auto;
+    padding: 20px;
+    border: 1px solid #999;
+    margin-left: 220px;
+    margin-right: 140px;
+}
+.right{
+    width: 120px;
+    background: #fff;
+    float: right;
+    border: 1px solid #999;
+}
+.right ul{
+    position: relative;
+    padding: 20px;
+}
+.right ul li{
+    position: relative;
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    background: #eee;
+    border: 1px solid #999;
+    margin-bottom: 20px; 
+}
