@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*body*/
+body { margin:10px; padding:0px; }
+
+#wrap { display:flex; clear:both; }
+.col { border:1px solid #f00; width:150px; margin:10px; float:left; }
+.col-1 { height:120px; }
+.col-2 { height:100px; }
+.col-3 { height:40px; }
+.col-4 { height:200px; border:1px solid #00f; }
+
+/*≥640px*/
+@media (min-width:640px) 
+{
+#wrap { flex-flow:row wrap; justify-content:space-between; align-items:center; }
+}
+
+/*≤640px*/
+@media (max-width:640px) 
+{
+.col-4{order:-1; }
+#wrap{ flex-wrap:wrap; align-items:flex-start; justify-content:space-between;  }
+}
+
