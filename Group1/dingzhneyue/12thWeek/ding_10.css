@@ -1,0 +1,60 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+.wrapper
+{
+
+	box-sizing: border-box;
+	display: flex;/*弹性布局*/
+
+	justify-content: space-between;/*项目在主轴上的对齐方式，两端对齐，项目之间的间隔都相等*/
+	-webkit-justify-content:space-between;
+	align-items: center;/*在交叉轴上中心对齐*/
+	-webkit-align-items:center;
+}
+.wrapper div
+{
+	width: 150px;
+	border: 1px solid #f00;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	padding:10px;
+}
+.box1
+{
+	height: 120px;
+}
+.box2
+{
+	height: 100px;
+}
+.box3
+{
+	height: 40px;
+}
+.box4
+{
+	height: 200px;
+	border:1px solid blue !important;
+	margin-right: 0px !important;
+}
+@media screen and (max-width: 640px)
+{
+	.wrapper
+	{
+		flex-wrap: wrap;/*换行*/
+		-webkit-flex-wrap:wrap;
+
+
+		align-items: flex-start;
+		-webkit-align-items:flex-start;
+	}
+	.box4
+	{
+		order: -1;/*数值越小，排列越靠前*/
+		-webkit-order:-1;
+		-ms-flex-order:-1;
+	}
+}

@@ -1,0 +1,12 @@
+body{
+	padding: 0;
+	margin: 0;
+	width: 1080px;
+	height: 4554px;
+}
+.top_right li{
+	float:left;
+	display: block;
+	text-decoration: none;
+	height: 57px;
+}
