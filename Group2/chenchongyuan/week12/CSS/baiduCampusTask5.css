@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #E3E3E3;
+}
+
+.top {
+	width: 100%;
+	height: 60px;
+	background-color: #3E3E3E;
+}
+
+nav {
+	float: right;
+	line-height: 60px;
+}
+
+nav li {
+	float: left;
+	margin-right: 25px;
+}
+
+nav li a {
+	color: white;
+	text-decoration: none;
+}
+
+.left {
+	float: left;
+	width: 70%;
+}
+
+.left ul {
+	margin-top: 20px;
+	list-style: none;
+	padding-left: 20px;
+}
+
+.left ol {
+	margin-left: 45px;
+}
+
+.left p {
+	margin: 10px;
+}
+
+article {
+	margin: 20px;
+	padding-bottom: 20px;
+	background-color: white;
+}
+
+h1 {
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+h4 {
+	padding-left: 20px;
+	color: #7A7979;
+}
+
+p {
+	padding: 0px 10px;
+	line-height: 26px;
+}
+
+.paragraph {
+	text-indent: 32px;
+	padding-bottom: 10px;
+}
+
+.img1 {
+	margin: -10px 20px;
+}
+
+.gallery {
+	min-height: 200px;
+}
+
+.img2 {
+	display: inline-block;
+	border: 1px solid #DDDBDB;
+	width: 140px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+table{
+	border: 1px solid #CBC7C7;
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 96%;
+}
+
+th {
+	background-color: #3D3D3D;
+	color: white;
+}
+
+#tableBottom {
+	background-color: #C4C4C4;
+	font-weight: bold;
+}
+
+.right {
+	float: right;
+	width: 26%;
+	height: 560px;
+	margin: 20px;
+	padding-bottom: 20px;
+	background-color: white;
+}
+
+#aside {
+	position: relative;
+	height: 600px;
+}
+
+#asideTitle {
+	border-left: 3px solid #C4C4C4;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding-left: 15px;
+	height: 38px;
+	line-height: 38px;
+	font-weight: bold;
+}
+
+#email1 {
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 20px;
+}
+
+#email1 p,#password1 p  {
+	margin-top: 0px;
+	margin-left: 120px;
+	color: #C4C4C4;
+}
+
+#password {
+	position: absolute;
+	margin-top: 130px;
+	margin-left: 20px;
+}
+
+#password1 {
+	position: absolute;
+	margin-top: 170px;
+	margin-left: 20px;
+}
+
+#sex {
+	position: absolute;
+	margin-top: 220px;
+	margin-left: 20px;
+}
+
+#city {
+	position: absolute;
+	margin-top: 255px;
+	margin-left: 20px;
+}
+
+#hobby {
+	position: absolute;
+	margin-top: 290px;
+	margin-left: 20px;
+}
+
+#description1 {
+	position: absolute;
+	margin-top: 325px;
+	margin-left: 20px;
+}
+
+#description {
+	position: absolute;
+	margin-top: 330px;
+	margin-left: 110px;
+}
+
+#description2 {
+	width: 190px;
+	height: 150px;
+}
+
+#submit {
+	position: absolute;
+	margin-top: 510px;
+	margin-left: 3%;
+	width: 21%;
+	height: 40px;
+	color: white;
+	border-style: none;
+	border-radius: 9px;
+	background-color: #5DC2EC;
+	cursor: pointer;
+}
+
+.bottom {
+	clear: both;
+	color: white;
+	text-align: center;
+	line-height: 60px;
+	width: 100%;
+	height: 60px;
+	background-color: #3E3E3E;
+}

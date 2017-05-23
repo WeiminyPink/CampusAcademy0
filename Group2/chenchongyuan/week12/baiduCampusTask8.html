@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>响应式布局</title>
+	<style>
+		body{ margin: 0; padding: 0;}
+		
+		.container{ box-sizing: border-box; padding: 10px;}
+		
+		.row::before, .row::after { content: ""; display: table; clear: both;} /*clearfix*/
+		
+		[class*='col-']{ box-sizing: border-box; float: left; height: 50px; margin: 10px; background-color: #eee; border: 1px solid #999; font-size: 12px; text-align: center; line-height: 50px;} /*给每个以‘col-’开头的块添加基础样式；*表示所有，*/
+		
+		@media all and (min-width: 769px) { /*屏幕宽度大于768px时*/
+			.col-md-1{ width: calc( 8.333% - 20px );} /*calc()中的表达式进行‘+’、‘-’运算时，加减号前后必带一空格‘ ’*/
+			.col-md-2{ width: calc( 16.666% - 20px );}/*calc()中的表达式可以进行混合单位计算*/
+			.col-md-3{ width: calc( 25% - 20px );}
+			.col-md-4{ width: calc( 33.333% - 20px );}
+			.col-md-6{ width: calc( 50% - 20px );}
+		}
+
+		@media all and (max-width: 768px) { /*屏幕宽度小于等于768px时*/
+			.col-sm-2{ width: calc( 16.666% - 20px );}
+			.col-sm-3{ width: calc( 25% - 20px );}
+			.col-sm-6{ width: calc( 50% - 20px );}
+			.col-sm-8{ width: calc( 66.666% - 20px );}
+			.col-sm-12{ width: calc( 100% - 20px );}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-6">col-md-4 || col-sm-6</div>
+			<div class="col-md-4 col-sm-6">col-md-4 || col-sm-6</div>
+			<div class="col-md-4 col-sm-12">col-md-4 || col-sm-12</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 col-sm-3">col-md-3 || col-sm-3</div>
+			<div class="col-md-6 col-sm-6">col-md-6 || col-sm-6</div>
+			<div class="col-md-3 col-sm-3">col-md-3 || col-sm-3</div>			
+		</div>
+		<div class="row">
+			<div class="col-md-1 col-sm-2">col-md-1 || col-sm-2</div>
+			<div class="col-md-1 col-sm-2">col-md-1 || col-sm-2</div>
+			<div class="col-md-2 col-sm-8">col-md-2 || col-sm-8</div>
+			<div class="col-md-2 col-sm-3">col-md-2 || col-sm-3</div>
+			<div class="col-md-6 col-sm-3">col-md-6 || col-sm-3</div>			
+		</div>
+	</div>
+</body>
+</html>

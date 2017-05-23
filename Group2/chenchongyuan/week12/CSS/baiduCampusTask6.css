@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*block1*/
+#block1 { width: inherit; height: 301px; padding: 17px 0;}
+/*大图片*/
+#banner { float: left; position: relative; width: 641px; height: 301px;}
+#banner:hover #green, #banner:hover #red { display: none;}
+#green { position: absolute; margin-top: -305px;}
+#red { position: absolute; margin-top: -305px; right: 0;}
+/*About Technologe*/
+#aboutTec { float: right; position: relative;box-sizing: border-box; width: 203px; height: 301px; border-top: 2px solid #cc8091;}
+#aboutTec a { font-size: 17px; color: #000000; font-family: "微软雅黑"; border-bottom: 2px solid black; margin-top: 20px;}
+.ATtitle { padding-top: 4px;}
+.bigLetter { font-size: 24px;}
+#ATtext { font-size: 12px; color: #676767; font-family: "楷体"; padding: 6px 0; line-height: 10px; font-style: italic;}
+#num700 { font-size: 116px; color: #75b86b; font-family: "微软雅黑"; font-style: italic; margin-left: -20px;}
+#num3p2 { font-size: 55px; color: #cc8091; font-family: "微软雅黑"; margin-top: -11px; margin-left: 8px;}
+#wordCSS { position: absolute; top: 265px; left: 90px; font-size: 15px; color: #cc8091; font-family: "微软雅黑";}
+#smallCSS { font-size: 12px; color: #bcbbba; font-family: "微软雅黑";}
+
+/*block2*/
+#block2 { width: inherit; height: 225px; padding: 17px 0;}
+#block2::after { content: ""; display: table; clear: both;}
+.articleTitle { font-size: 20px; font-family: "微软雅黑"; text-decoration: underline;}
+#article1 { float: left; width: 268px; height: 167px; margin-right: 14px;}
+#article2 { float: left; width: 250px; height: 167px; margin-left: 14px; margin-right: 14px;}
+#article3 { float: left; width: 260px; height: 167px; margin-left: 14px; margin-right: 14px;}
+#articleText1 { padding: 5px 0; font-size: 12px; color: #767777; font-family: "宋体"; line-height: 17px}
+.articleText2 { padding: 5px 0; font-size: 12px; color: #231815; font-family: "微软雅黑"; opacity: 0.7;}
+#WhatPercent { margin-top: 14px;}
+.percent { font-size: 12px; color: #cd4a48; font-family: "微软雅黑"; opacity: 0.7; font-style: italic;}
+.what { font-size: 12px; color: #231815; font-family: "微软雅黑"; margin-top: 5px;}
+
+/*block3*/
+#block3 { width: inherit; padding: 17px 0;}
+#block3::after { content: ""; display: table; clear: both;}
+/*leftCol*/
+#leftCol { float: left; width: 415px;}
+#THE { font-size: 72px; color: #f5e327; font-family: "黑体"; font-weight: bold; font-style: italic;}
+#front { font-size: 42px; color: #11456b; font-family: "黑体"; font-weight: bold; line-height: 42px;}
+#frontDomain { font-size: 33px; color: #11456b; font-family: "黑体"; font-weight: bold; padding: 10px 0;}
+#midHoz { width: 415px; height: 2px; background-color: #11456b;}
+#essay { width: 415px;}
+#essay p { font-size: 12px; color: #767777; font-family: "宋体";line-height: 17px;}
+#qian { float: left; margin-right: 10px; font-size: 70px; color: #f5e327; font-family: "微软雅黑";}
+#essayPic { float: right; margin: 20px 0 10px 20px;}
+/*rightCol*/
+#rightCol { float: right; width: 458px;}
+#frontPic { width: 458px; height: 275px;}
+#frontIntroduction { position: absolute; margin-top: -65px; width: 458px; height: 61px; background-color: rgba(0,0,0,0.40);}
+#spacer { float: left; margin-top: 8px; margin-left: 40px; width: 3px; height: 44px; background-color: #72b16a; margin-right: 10px;}
+#frontTitle { font-size: 26px; color: #ffffff; font-family: "微软雅黑"; line-height: 61px;}
+#subTitle { font-size: 12px; color: #72b16a; font-family: "微软雅黑"; font-style: italic; margin-left: 10px; word-spacing: 140%;}
+#frontGuide { width: 458px; height: 318px; margin-top: 30px; background-color: #eeedd6;}
+.frontIndex { font-size: 16px; color: #5a5b5b; font-family: "宋体"; line-height: 20px; padding: 10px 25px; letter-spacing: 1px;}
+.frontIndex::before { position: absolute; margin-top: 2px; margin-left: -15px; content: ""; border-color: transparent transparent black transparent; border-style: solid; border-width: 5px;}
+.frontPage { font-size: 12px; color: #5a5b5b; font-family: "宋体"; font-style: italic; }
+#redInformation { position: absolute; margin-left: 0px; margin-top: 32px; width: 260px; height: 160px;  background-color: #d45d5c;}
+#num0 { position: absolute; margin-left: 12px; font-size: 110px; color: #ffffff; font-family: "微软雅黑"; }
+#whiteSpacer { position: absolute; margin-top: 32px; margin-left: 78px; width: 2px; height: 86px; background-color: #ffffff;}
+#redText { position: absolute; margin-top: 40px; margin-left: 88px;}
+.redTextTitle { font-size: 21px; color: #ffffff; font-family: "黑体"; font-style: italic; }
+.redTextContent { font-size: 12px; color: #ffffff; font-family: "黑体"; }
+#cite { position: absolute; margin-top: 30px; margin-left: 275px;  width: 180px; height: 115px; font-size: 14px; color: #5a5b5b; font-family: "黑体"; font-style: italic;}
+.quote { padding-right: 8px;}
+#quote1 { position: absolute; margin-top: 140px; margin-left: 409px;}
+#quote2 { position: absolute; margin-top: 140px; margin-left: 427px;}
