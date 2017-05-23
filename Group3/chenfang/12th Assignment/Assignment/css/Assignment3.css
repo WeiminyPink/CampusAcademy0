@@ -1,0 +1,43 @@
+#both{
+    display:flex;
+    justify-content: space-between;
+}
+.red{
+    width:150px;
+    border:1px solid red;
+}
+.blue{
+    width:150px;
+    border:1px solid blue;
+}
+.box{
+    margin-top:20px;
+    order:1;
+    padding:20px;
+}
+.box1{
+    height:120px;
+}
+.box2{
+    height:100px;
+}
+.box3{
+    height:40px;
+}
+.box4{
+    height:200px;
+}
+@media screen and (min-width:640pt){
+    #both{
+        align-items: center;
+    }
+}
+@media screen and (max-width:640pt){
+    #both{
+        flex-flow:row wrap;
+        align-items: start;
+    }
+    .box4{
+        order:0;
+    }
+}

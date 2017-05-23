@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+<title>清除浮动</title>
+<style>
+
+    /*方法一  给父级也加一个浮动
+    问题1：父级以上如果还有父级则需要给所有父级添加浮动
+    问题2：居中效果消失*/
+    /*.box{
+        width:300px;
+        margin:0 auto;
+        border:10px solid #000;
+        float:left;
+    }
+    .div{
+        width:200px;
+        height:200px;
+        background:red;
+        float:left;
+    }*/
+
+    /*方法二 给父级加上display: inline-block;
+    优点：并不脱离文档流 解决问题1
+    缺点：问题2并不能解决 居中效果仍然消失
+          IE6下最小高度问题：
+          在IE6下高度小于19px的元素，高度会被当做19px来处理
+	        解决办法:font-size:0;*/
+    /*.box{
+        width:300px;
+        margin:0 auto;
+        border:10px solid #000;
+        float:left;
+    }
+    .div{
+        width:200px;
+        height:200px;
+        background:red;
+        float:left;
+    }*/
+
+    /*方法三：在浮动元素下加<div class="clear"></div>
+    .clear{ height:0px;font-size:0;background:blue;clear:both; }
+    */
+    /*.box{
+        width:300px;
+        margin:0 auto;
+        border:10px solid #000;
+        float:left;
+    }
+    .div{
+        width:200px;
+        height:200px;
+        background:red;
+        float:left;
+    }
+    .clear{
+        height:0px;
+        font-size:0px;
+        background:blue;
+        clear:both;
+    }*/
+
+    /*方法四：在浮动元素下加 <br clear="all"/>
+    缺点：不符合W3C标准：结构、样式、行为 三者分离*/
+    /*.box{
+        width:300px;
+        margin:0 auto;
+        border:10px solid #000;
+        float:left;
+    }
+    .div{
+        width:200px;
+        height:200px;
+        background:red;
+        float:left;
+    }*/
+
+    /*方法五 after伪类
+      给浮动元素的父级加{ zoom:1; }
+      :after{ content:""; display:block; clear:both; }
+      */
+    /*在 IE6 IE7 下浮动元素的父级有宽度的话就不用清浮动
+      haslayout 根据元素内容的大小 或者父级的父级大小来重新计算元素的宽高
+      display: inline-block
+      height: (任何值除了auto
+      float: (left 或 right)
+      width: (任何值除了auto)
+      zoom: (除 normal 外任意值) --zoom 放大或缩小
+    */
+    .box{
+        width:300px;
+        margin:0 auto;
+        border:10px solid #000;
+        float:left;
+    }
+    .div{
+        width:200px;
+        height:200px;
+        background:red;
+        float:left;
+    }
+    .clear{
+        zoom:1;
+    }
+    .clear:after{
+        content:"";
+        display:block;
+        clear:both;
+    }
+
+    /* overflow整理溢出样式
+       给浮动元素的父级加overflow 一定要配合 zoom:1; 使用！！！*/
+    /*.box{
+        margin:0 auto;
+        border:10px solid #000;
+        overflow:auto;
+    }
+    .div{
+        width:200px;
+        height:200px;
+        background:red;
+        float:left;
+    }*/
+</style>
+<body>
+    <div class="box clear">
+        <div class="div"></div>
+        <!-- <div class="clear"></div> -->
+        <!--<br clear="all"/>-->
+    </div>
+</body>
+</html>
