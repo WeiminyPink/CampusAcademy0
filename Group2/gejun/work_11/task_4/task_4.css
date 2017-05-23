@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* taks_4 */
+
+.BBB{width:800px;height:600px;margin:0 auto;border:1px solid #333;}
+#Bg{width:400px;height:200px; margin:200px auto ;background:#ccc;}
+#rdius{width:50px; height:50px;background:#fc0; margin-left:0px;margin-top:0px;border-radius:0 0 50px 0;}
+#rdius2{width:50px; height:50px;background:#fc0; margin-left:350px;margin-top:100px;border-radius:50px 0 0 0;}

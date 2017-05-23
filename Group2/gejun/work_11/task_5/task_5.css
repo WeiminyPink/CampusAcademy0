@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* task_5 */
+@charset "utf-8";
+/* hard bee task_2 */
+h1,h2,h3,body,ul,dl,a,th,td,table,textarea,input,p{margin:0;padding:0;list-style:none;border:none;text-decoration:none;border-collapse:collapse;resize:none;outline:none;}
+
+/* 清浮动部分和标题统一格式 */
+.clear{zoom:1}
+.clear:after{content:"";display:block;clear:both;}
+.Title{font-size:18px;color:#9e968d;margin-top:16px;}
+.Commentary{font-size:12px;color:#756b6f;}
+body{background:#dedede;min-width:800px;}
+.Content{margin:0 auto;width:100%;background:#dedede;padding-bottom:4px;}
+.Top{margin:0 auto;height:48px;background:#333;}
+.Top ul{list-style:circle;}
+.Top li{float:right; margin-top:16px;padding-right:20px;}
+.Top a{font-size:12px;color:#FFF;}
+.Top_spa{float:left;}
+.Top a:hover{color:#828282;}
+
+
+.artic{margin:30px 24px 24px 24px;border:2px solid #aaa;background:#FFF;border-top:none;border-left:none;margin-right:500px;}
+.artic_1_1{display:block;margin:30px 24px 24px 24px;padding-top:30px;}
+
+.artic_2_1{display:block;margin:30px 24px 24px 24px;padding-top:30px;}
+.artic_2_ul{display:block; margin:40px 0px 30px 40px;}
+
+.img_1 h2{display:block;margin:30px;padding-top:30px;}
+.img_1_1 div{width:120px;height:100px; border:1px solid #333;margin-left:10%;margin-bottom:10px;padding-top:10px;text-align:center;float:left;}
+.img_1_1 div dd{text-align:center;margin-left:0px;}
+
+
+.form_1_1{margin:30px 24px 24px 24px;padding-top:30px;}
+.table_1 td{background:#333;width:360px;color:#FFF;font-weight:bold;border:1px solid #000;}
+.form_1_1 td{border:1px solid #000;}
+
+
+.Put{margin:0px 24px 24px 24px;border:2px solid #aaa;background:#FFF;border-top:none;border-left:none;float:right;width:400px;}
+.Put_cont{margin:0px 24px 24px 24px;padding-top:24px;margin-bottom:24px}
+.Put_bar{background:url(image/put_nav.png) no-repeat;padding-left:12px;font-size:20px;font-weight:bold;color:#000;height:36px;text-align:left;padding-top:6px;}
+.formS_1 label{margin-left:10px; margin-right:10px;font-size:16px;}
+.formS_1 p{margin-left:132px; font-size:12px;font-weight:bold;color:#b4b4b4;}
+.formS_1 input{margin-top:10px;padding-left:10px;height:24px;border:1px solid #b4b4b4;}
+.Put span{ margin-left:74px;margin-right:10px;}
+.formS_2,.formS_2,.formS_3,.formS_4{margin-top:10px;}
+
+
+.formS_5{margin-top:10px;}
+.formS_5 label{margin-left:42px;margin-right:10px;}
+.formS_5 textarea{margin-left:132px; border:1px solid #b4b4b4;height:100px;}
+
+
+.formS_6{margin:16px auto;width:100%;height:40px;}
+.formS_6 input{width:100%;;height:40px;text-align:center;background:#3355d0;font-size:20px;color:#FFF;border-radius
+:8px;}
+/* 提交按钮样式代码 */
+
+.bottom{width:100%; height:44px;background:#000;text-align:center;margin:0 auto;}
+.bottom span{display:block; font-size:16px;color:#FFF;padding-top:14px;font-weight:bold;}

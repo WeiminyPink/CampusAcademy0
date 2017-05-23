@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* task_10 */
+
+body{margin:0px;padding:0px;}
+
+@media all and (max-width:640px)
+{
+	.contain{
+		
+		align-items:flex-start;
+		flex-wrap:wrap;
+		}
+	.four{
+		order:-1;
+		}
+}
+.contain
+{
+	margin:20px;
+	padding:20px;
+	border:1px solid #999;
+	box-sizing:border-box;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.one,.two,.three,.four
+{
+	width:150px;
+	padding:20px;
+	border:1px solid #F06;
+	box-sizing:border-box;
+}
+.one
+{
+	height:120px;
+}
+.two
+{
+	height:60px;
+}
+.three
+{
+	height:40px;
+}
+.four
+{	
+	height:200px;
+	border:1px solid #03C;
+}
+	
