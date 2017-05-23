@@ -1,0 +1,59 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: "微软雅黑";
+}
+#mainbody{
+	margin:20px;
+	border:1px solid #999;
+	background-color: #eee;
+	overflow: auto;
+	position: relative;
+	height: 470px;
+}
+.team_name{
+	width: 200px;
+	border:1px solid #999;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: white;
+	margin:20px;
+}
+.logo{
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+	border: 1px solid #999;
+	background-color: #eee;
+	display: inline-block;
+}
+.team_name span{
+	display: inline-block;
+	float: right;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.introduction{
+	margin: 20px 160px 20px 240px;
+	border: 1px solid #999;
+	padding:20px;
+	background-color: white;
+}
+.perlogo{
+	border: 1px solid #999;
+	background-color: white;
+	margin:20px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 120px;
+}
+.perlogo div{
+	border: 1px solid #999;
+	margin: 20px;
+	background-color: #eee;
+	width: 80px;
+	height: 80px;
+}
