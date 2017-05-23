@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<style>
+*{padding: 0; margin: 0;}
+.wrap{display: flex;justify-content: space-between;align-items: center;}
+.wrap-box{ width: 150px; border: 1px solid #f00;margin: 20px;}
+.x4{border: 1px solid #00f;height: 200px;}
+.x1{height: 120px;}
+.x2{ height: 100px;}
+.x3{height: 40px;}
+@media (max-width: 640px) 
+{
+.x4{ order: -1; }
+.wrap{flex-wrap: wrap;align-items: flex-start;}
+}
+</style>
+</head>
+<body>
+	<body>
+    <div class="wrap">
+        <div class="wrap-box x1">1</div>
+        <div class="wrap-box x2">2</div>
+        <div class="wrap-box x3">3</div>
+        <div class="wrap-box x4">4</div>
+    </div>
+</body>
+</body>
+</html>
