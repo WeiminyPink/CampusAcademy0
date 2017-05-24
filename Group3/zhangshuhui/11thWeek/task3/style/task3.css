@@ -1,0 +1,11 @@
+body{padding: 20px; font-size: 15px; font-family: "微软雅黑"}
+h2{ margin:0pc;}
+
+.left, .right, .personal_logo, .middle{background: #fff;border: 1px solid #999; }
+.main_lump{ margin: 0 auto; padding: 20px; background: #eee; border: 1px solid #999;overflow: auto;min-width: 600px; }
+.left{ float: left; padding: 20px; width: 160px; background: #fff;border: 1px solid #999; }
+.team_logo{ float: left; }
+.team_name{ width: 180px;font-size: 13px;font-weight: bold;text-align: center;}
+.right{ width: 120px;float: right;}
+.personal_logo{ display: block;margin: 20px;background: #fff;border: 1px solid #999;  }
+.middle{ padding: 20px;margin-left: 220px;margin-right: 140px;background: #fff;border: 1px solid #999;  }
