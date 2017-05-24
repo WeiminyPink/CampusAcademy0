@@ -1,0 +1,17 @@
+body{width:1280px; background-color: #dedede; margin:0 auto; padding:0;}
+.head{width:1280px;height:60px;background-color:#333333;}
+.head img{padding-left:40px;padding-top: 10px;}
+.head a{float:right; padding-top:-22px; padding-right: 21px; margin:20px; 
+	background:url(../images/point.png) ; color: #fae0df; font-size: 13px;}
+.head span{color:#f0ffff;}
+
+.text1{ width:1240px;height:650px; background-color: #ffffff;box-shadow: 4px 4px 2px #848484; margin-left:10px; padding-left: 21px ; }
+.text2{ width:1240px;height:656px; background-color: #ffffff;box-shadow: 4px 4px 2px #848484; margin-left:10px; padding-left: 21px;}
+.text3{ width:1240px;height:1516px; background-color: #ffffff;box-shadow: 4px 4px 2px #848484; margin-left:10px; padding-left: 21px;}
+.text4{ width:1240px;height:424px; background-color: #ffffff;box-shadow: 4px 4px 2px #848484; margin-left:10px; padding-left: 21px;}
+.text4 td {color:#e1ffea;}
+.text5{ width:1240px;height:496px; background-color: #ffffff;box-shadow: 4px 4px 2px #848484; margin-left:10px; padding-left: 21px; margin-bottom: 20px;}
+.text5 dt {width: 1280px; text-align:center;}
+.text5 dd {width: 1280px;  text-align: center; }
+
+.footer{width:1280px;height:60px;background-color:#000000; text-align: center;color:#f9fbf8;padding-top:30px;}	
