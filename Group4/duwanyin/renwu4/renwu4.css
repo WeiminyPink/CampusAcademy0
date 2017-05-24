@@ -1,0 +1,35 @@
+ #juxing {
+    width: 400px;
+    height: 200px;
+    margin: -100px 0px 0px -200px;
+    background-color: #ccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+ }
+.juxing1 {
+    width: 50px;
+    height: 50px; 
+    position: absolute;
+    top:150px;
+    left: 350px;
+    background-color: #fc0;
+    border-top-left-radius:50px;
+}
+.juxing2 {
+    width: 50px;
+    height: 50px; 
+    background-color: #fc0;
+    position: absolute;
+    border-bottom-right-radius:50px;
+}
+
+#juxing i {
+    font-size: 20px;
+}
+
+#xuanyan em {
+    position: absolute;
+    top: 50%;
+    left: 44%;
+}

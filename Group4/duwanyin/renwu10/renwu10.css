@@ -1,0 +1,43 @@
+.flexbox
+{
+	padding: 20px; 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.yi{
+	border: 1px solid #f00;
+	height: 120px;
+	width: 150px;
+}
+.er{
+	border: 1px solid #f00;
+	height: 100px;
+	width: 150px;
+}
+.san{
+	border: 1px solid #f00;
+	height: 40px;
+	width: 150px;
+}
+.si{
+	border: 1px solid #0f0;
+	height: 200px;
+	width: 150px; 
+}
+
+@media screen and (max-width: 640px)
+{
+	.flexbox{
+		flex-wrap: wrap;
+		align-items: flex-start;
+	}
+	.si{
+		order: 1;
+	}
+	.yi{order: 2;}
+	.er{order: 3;}
+	.san{order: 4;}
+}

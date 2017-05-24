@@ -1,0 +1,166 @@
+.baidu {
+	width: 892px;
+	height: 1386px;
+	padding: 0 44px;
+	margin: 0 auto;
+}
+header
+{
+	margin-bottom: 30px;
+	position: relative;
+}
+header .baidu_1{
+	background-color:#FF3333 ;
+	width: 110px;
+	height: 61px;
+	position: relative;
+}
+header div p {
+	position: absolute;
+	bottom: 3px;
+	color: #ffffff;
+	font-family: "黑体";
+	margin-left: 5px;
+}
+.riqi
+{
+	position: absolute;
+	border: 5px;
+	right: 0px;
+	font-family: "黑体";
+	color: #d45d5c;
+	top: 40px;
+}
+.image img
+{
+	width: 641px;
+	height: 301px;
+}
+.right
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 203px;
+	height: 301px;
+}
+
+.wenzi
+{
+	color: #000000;
+	font-family: "Microsoft YaHei";
+	text-decoration: underline;
+	font-size: 24px;
+
+}
+
+.wenzi1
+{
+	margin-bottom: 10px;
+	color: #676767;
+	font-size: 12px;
+	font-family: "楷体";
+}
+
+.shuzi
+{
+	font-size: 116px;
+	color: #75b86b;
+	font-family: "Microsoft YaHei";
+	text-decoration: underline;
+	position: absolute;
+	top: 80px;
+	right: 0px;
+}
+
+.shuzi1
+{
+	font-family: "Microsoft YaHei";
+	font-size: 55px;
+	color: #cc8091;
+	position: absolute;
+	top: 150px;
+	right: 80px;
+}
+
+.shuzi2
+{
+	font-family: "Microsoft YaHei";
+	font-size: 21px;
+	color: #cc8091;
+	position: absolute;
+	top: 170px;
+	right: 50px;
+}
+.shuzi3
+{
+	font-family: "Microsoft YaHei";
+	font-size: 12px;
+	color: #cc8091;
+	position: absolute;
+	top: 195px;
+	right: 30px;
+}
+.shuzi4
+{
+	position: absolute;
+	top:-40px;
+}
+#duanluo1 div
+{
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 20px;
+}
+
+.duan1
+{
+	width: 415px;
+	float: left;
+	margin-bottom: 25px;
+}
+.duan11 p span
+{
+	color: #f5e327;
+	font-family: "黑体";
+	font-size: 72px;
+}
+.duan12 img
+{
+	float: right;
+	padding: 15px;
+	width: 200px;
+	height: 300px;
+}
+#mowei1 .qianru1
+{
+	color: #ffffff;
+	font-size: 26px;
+}
+#mowei1 .qianru2
+{
+	color: #72b16a;
+	font-size: 12px;
+}
+#mowei2
+{
+	width: 459px;
+	height: 318px;
+	background: #eeedd6;
+	margin-top: 50px; 
+}
+#mowei2 p
+{
+	font-size: 16px;
+	font-family: "宋体";
+	color: #5a5b5b;
+	margin-left: 20px;
+}
+.mowei3
+{
+	width: 150px;
+	height: 30px; 
+	position: absolute;
+	top: 1150px;
+	right: 250px;
+}
