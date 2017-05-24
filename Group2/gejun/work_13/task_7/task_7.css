@@ -1,0 +1,735 @@
+@charset "utf-8";
+/* task_7 */
+
+body,p,ul,li,input,h1,h2,a{
+	margin:0;
+	padding:0;
+	list-style:none;
+	outline:none;
+	text-decoration:none;
+	border:none;
+}
+
+@media all and (max-width:1280px){
+	#Main{width:1280px;margin:0 auto;}
+}
+clear{zoom:1;}
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+/* nav导航部分 */
+.nav{
+	height:50px;
+}
+.nav-left{
+	float:left;
+	margin-left:46px;
+	height:50px;
+	line-height:50px;
+}
+.nav-left span,.nav-left img{
+	float:left;
+}
+.nav-left img{
+	margin-top:8px;
+}
+.nav-left span{
+	font-size:20px;
+	font-family:黑体;
+	color:#393a3a;
+	padding-left:24px;
+}
+
+.nav-right{
+	float:right;
+	margin-right:40px;
+	width:47%;height:50px;
+	line-height:50px;
+}
+.nav-right li{
+	display:inline-block;
+	font-size:14px;
+	color:#787b83;
+	text-align:center;
+	width:15%; 
+	font-family:微软雅黑;
+	cursor:pointer;
+	box-sizing:border-box;
+	transition:all 0.3s ease-in-out;
+}
+.nav-right li:hover{
+	border-bottom:4px solid #C30;
+	color:#c30;
+}
+#nav-right-sp a{
+	color:#ea6f6e;
+}
+#nav-right-sp:hover{
+	border:none;
+}
+#nav-right-sp a:hover{
+	color: #0F0;
+}
+/* end */
+
+
+/* 内容一 */
+.Substance-one{
+	background:url(images/Substance-one.png) no-repeat center;
+	height:690px;width:100%;
+	background-size:100%;
+}
+#Bg-one-1{
+	background:url(images/Substance-two.png) no-repeat;
+	background-size:100%;
+	height:690px;
+}
+.One-content{
+	padding-left:116px;
+	padding-top:210px;
+	font-family:微软雅黑;
+}
+.One-content h2{
+	font-size:60px;
+	line-height:80px;
+	color:#FFF;
+	font-weight:500;
+}
+.One-content p{
+	font-size:20px;
+	line-height:34px;color:#FFF;
+}
+.One-content input{
+	width:330px;
+	height:64px;
+	background:#e74f4d;
+	font-size:30px;
+	color:#FFF;
+	margin-top:60px;
+	border:none;
+	transition:all 0.4s ease-in;
+	cursor:pointer;
+}
+.One-content input[type="submit"]:hover{
+	background:#900;
+}
+/* end */
+
+
+/* 内容二 */
+.Substance-two{
+	height:250px;
+}
+.Substance-two div{
+	display:inline-block;
+	width:25%;
+	margin-right:-8px;
+}
+.Substance-two div img{
+	margin:12.5% 43% 13% 43%;
+}
+.Substance-two p{
+	height:50px;
+	font-size:14px;
+	color:#767777;
+	font-family:黑体;
+	text-align:center;
+	border-right:2px solid #aaa;
+}
+#Substance-twosp{
+	border:none;
+}
+/* end */
+
+
+/* 内容三 */
+.Substance-three{
+	background:#edecec;
+	height:360px;
+}
+.Substance-three img{
+	margin:88px 46% 50px 46%;
+}
+.Substance-three h1{
+	text-align:center;
+	font-size:54px;font-family;
+	黑体;color:#a1a1a1;
+}
+/* end */
+
+
+/* 内容四 */
+.Substance-four{
+	height:340px;
+	background: url(images/Substance-four-1.png) no-repeat;
+	background-size:100%;
+	text-align: center;
+}
+.Substance-four-main{
+	height:298px;
+	background:url(images/Substance-four-2.png) no-repeat;
+	background-size:100%;
+	padding-top:42px;
+}
+.Substance-four-main h1{
+	color:#fff;
+	font-size:20px; 
+	font-family:微软雅黑;
+}
+#Substance-four-sp{
+	width:30px;
+	height:20px;
+	border-top:2px solid #fff;
+	display: block;margin:0 auto;
+	margin-top:10px;
+	transition:width 0.4s ease-in-out;
+}
+.Substance-four-main p{
+	font-size:12px;
+	color:#ded1cc;
+	margin-bottom:50px;
+}
+#Substance-four-sp:hover{
+	width:250px;
+}
+.select{
+	width:240px;
+	height:34px;
+	display:inline-block;
+	vertical-align:middle;
+}
+#serch{
+	background:#be4e48;
+	font-size:14px;
+	color:#fff;
+	letter-spacing:30px;
+	padding-left:30px;
+	transition:all 0.4s ease-in-out;
+	cursor:pointer;
+	width:240px;
+	height:34px;
+}
+#serch:hover{
+	background: #C33;
+}
+
+.select{
+	font-size:12px;
+	color:#787878;
+	font-family:微软雅黑;
+	background:url(images/Substance-four-3.png) no-repeat;
+	text-align:left;
+	line-height:36px;
+	box-sizing: border-box;
+	border:1px solid #bd675f;
+	transition:all 0.6s ease-in-out;
+	vertical-align:text-top;
+	overflow:hidden;
+}
+.select span{
+	padding-left:12px;
+}
+.select ul{
+	background:#e3e2e4;
+	margin-top:-3px;
+}
+.select ul li{
+	background:url(images/Substance-four-4.png) no-repeat 4px center;
+	padding-left:20px;
+	transition:all 0.4s ease-in-out;
+}
+.select ul li:hover{
+	background:#bf4f49;color:#fff;
+	cursor:pointer;
+}
+.option-1:hover{
+	height:106px;
+}
+.option-2:hover{
+	height:250px;
+}
+.option-3:hover{
+	height:250px;
+}
+.select:hover{
+	overflow:visible;
+	cursor:pointer;
+}
+/* end */
+
+
+/* 内容五 */
+.Substance-five{
+	height:604px;
+	background:#f7f7f7;
+	text-align:center;
+}
+.Substance-five div{
+	display:inline-block;
+	margin-right:30px;
+	margin-top:100px;
+	vertical-align: middle;
+}
+.Substance-five span{
+	font-size:12px;
+	color:#a8aaaa;
+	font-family:微软雅黑;
+	line-height:26px;
+}
+.five-1 h1,.five-3 h1,.five-4 h1{
+	font-size:14px;
+	color:#636464;
+	line-height:24px;
+}
+.five-2 h1{
+	font-size:20px;
+	color:#323333;
+	line-hright:24px;
+	letter-spacing:30px;
+	padding-left:20px;
+}
+/* end */
+
+
+/* 内容六 */
+.Substance-six{
+	height:570px;
+	overflow:hidden;
+}
+.six-left{
+	float:left;
+	text-align:center;
+	height:568px;
+	background:url(images/Substance-six-1.png) no-repeat;
+	width:66.4%;
+	background-size:100%;
+	padding-top:130px;
+	color:#fff;
+	font-family:微软雅黑;
+}
+.six-left h1{
+	font-size:50px;
+	font-weight:500;
+}
+.six-left h2{
+	font-size:158px;
+	font-weight:normal;
+}
+.six-left span{font-size:22px;}
+
+.six-right{
+	float:right;
+	height:568px;
+	width:33.6%;
+	text-align:center;
+	padding-top:140px;
+}
+.six-right a{
+	display:block;
+	line-height:32px;
+	height:32px;
+	width:104px;
+	border:1px solid #e4666a;
+	margin:0 auto;
+	transition:all 0.4s ease-in-out;
+	font-size:12px;
+	font-family:微软雅黑;
+	color:#e25c60;
+}
+.six-right a:hover{
+	background:#900;
+	color:#fff;
+}
+.chapter p{
+	line-height:30px;
+	font-size:14px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#aaa;
+}
+.chapter h1{
+	font-size:24px;
+	color:#000;
+	display:block;
+	margin-bottom:24px;
+	font-family:宋体;
+}
+.chapter h1 span{
+	color:#e7504d;
+}
+.six-right input[type="radio"],.list{
+	width:12px;
+	height:12px;
+	position:relative;
+	top:300px;display:
+	inline-block;z-index:10;
+	opacity:0;
+	cursor:pointer;
+}
+.list{
+	background:#fff;top:282px;
+	z-index:1;
+	border-radius:6px;
+	border:1px solid #333;
+	opacity:1;
+}
+.list:first-of-type{
+	background:#333;
+}
+.chapter{
+	display:none;
+	margin-bottom:44px;
+	padding-left:16%;
+	padding-right:16%
+}
+.chapter-1{
+	display:block;
+}
+.six-right input[type="radio"]:checked~.chapter{
+	display:none;
+}
+.six-right input[type="radio"]:checked~.list{
+	background:#fff;
+}
+.six-right input[type="radio"]:nth-of-type(1):checked~.list:nth-of-type(1){
+	background:#333;
+}
+.six-right input[type="radio"]:nth-of-type(1):checked~.chapter-1{
+	display:block;
+}
+.six-right input[type="radio"]:nth-of-type(2):checked~.list:nth-of-type(2){
+	background:#333;
+}
+.six-right input[type="radio"]:nth-of-type(2):checked~.chapter-2{
+	display:block;
+}
+.six-right input[type="radio"]:nth-of-type(3):checked~.list:nth-of-type(3){
+	background:#333;
+}
+.six-right input[type="radio"]:nth-of-type(3):checked~.chapter-3{
+	display:block;
+}
+/* end */
+
+/* 内容七 */
+.Substance-seven{
+	height:520px;
+	overflow:hidden;
+}
+.Substance-seven div{
+	float:left;
+	width:33.3333%;
+	height:520px;
+	text-align:center;
+	font-size:20px;
+	font-family:黑体;
+	line-height:30px;
+	padding-top:160px;
+}
+.seven-1{
+	background:#e74f4d;
+	color:#FFF;
+}
+.seven-2{
+	background:#fff;
+	color:#323333;
+}
+.seven-3{
+	background:url(images/Substance-seven-1.png);
+	background-size:100%;
+}
+.Substance-seven p{
+	margin-bottom:20px;
+}
+.seven-1 span{
+	display:block;
+	margin:0 auto;
+	width:20px;
+	height:20px;
+	border-top:2px solid #fff;
+	transition:width 0.4s ease-in-out;
+	margin-bottom:10px; 
+}
+.seven-1 span:hover{
+	width:200px;
+}
+.seven-2 span{
+	display:block;
+	margin:0 auto;
+	width:20px;
+	height:20px;
+	border-top:2px solid #ababaa;
+	transition:width 0.4s ease-in-out;
+	margin-bottom:10px;
+}
+.seven-2 span:hover{
+	width:200px;
+}
+.seven-1 a{
+	margin:0 auto;
+	display:block;
+	width:170px;
+	height:40px;
+	border:1px solid #fff;
+	transition:all ease-in-out 0.4s;
+	text-align:center;
+	line-height:40px;
+	color:#fff;
+}
+.seven-1 a:hover{
+	color:#F00;
+	background:#FFF;
+}
+.seven-2 a{
+	margin:0 auto;
+	display:block;
+	width:170px;
+	height:40px;
+	border:1px solid #f00;
+	transition:all ease-in-out 0.4s;
+	text-align:center;
+	line-height:40px;
+	color:#f00;
+}
+.seven-2 a:hover{
+	color:#FFF;
+	background:#F00;
+}
+/* end */
+
+
+/* 内容八 */
+.Substance-eight{
+	height:750px;
+	overflow:hidden;
+	text-align:center;
+}
+.eight-art1{
+	margin-top:110px;
+}
+.eight-art1 h2{
+	font-size:20px;
+	line-height:30px;
+	font-family:宋体;
+	color:#323333;
+}
+.eight-art1 span{
+	display:block;
+	margin:0 auto;
+	width:30px;
+	height:10px;
+	border-top:2px solid #ea6563;
+	transition:width ease-in-out 0.4s;
+}
+.eight-art1 span:hover{
+	width:180px;
+}
+.eight-art1 p{
+	font-size:12px;
+	font-family:微软雅黑;
+	color:#aaa;
+	line-height:18px;
+	margin-bottom:100px;	
+}
+.eight-art2{
+	display:inline-block;
+	vertical-align:middle;
+	width:40%;
+	height:300px;
+	margin-left:-6px;
+}
+.eight-art2 ul{
+	padding-left:140px;
+	padding-right:70px;
+	text-align:left;
+}
+.eight-art2 h3{
+	display:block;
+	font-size:14px;
+	font-family:黑体;
+	color:#231815;
+	margin-bottom:20px;
+}
+.eight-art2 p{
+	font-size:12px;
+	font-family:微软雅黑;
+	color:#aaa;
+	line-height:18px;
+}
+#eight-more{
+	display:block;
+	width:30px;
+	height:14px;
+	line-height:14px;
+	background:url(images/Substance-eight-1.png) no-repeat left center;
+	padding-left:12px;
+	margin-left:88%;
+}
+#eight-more:hover{
+	color:#F00;
+}
+.eight-forms{
+	display:inline-block;
+	vertical-align:middle;
+	margin-left:-8px;
+	width:60%;
+	height:300px;
+	background:#fff;
+	text-align:center;
+}
+.eight-forms input[type="text"]{
+	width:38%;
+	height:40px;
+	display:inline-block;
+	vertical-align:middle;
+	margin:6px;
+	font-size:16px;
+	color:#231815;
+	font-family:宋体;
+	padding-left:2%;
+	background:#ececee;
+}
+.eight-forms input[type="text"]:focus,.eight-forms textarea:focus{
+	background:#f5f5f5;
+}
+.eight-forms textarea{
+	height:120px;
+	width:78.5%;
+	margin:6px;
+	padding:1.888%;
+	background:#ececee;
+	font-size:16px;
+	color:#231815;
+	font-family:宋体;
+	resize:none;
+	outline:none;
+	border:none;
+}
+.eight-forms input[type="submit"]{
+	font-size:14px;
+	color:#323333;
+	font-family:黑体;
+	height:40px;
+	width:82.3%;
+	margin:6px;
+	background:#ececee;
+	transition:all ease-in-out 0.4s;
+}
+.eight-forms input[type="submit"]:hover{
+	background:#C00;
+	color:#fff;
+	cursor:pointer;
+	border-radius:6px;
+}
+/* end */
+
+
+/* 底部 */
+.Substance-nine{
+	height:416px;
+	text-align:center;
+	background:#32363e;
+}
+.nine-top{
+	height:216px;
+	padding-top:90px;
+	padding-bottom:50px;
+}
+.nine-top h1{
+	font-size:20px;
+	font-family:黑体;
+	color:#fff;
+	line-height:48px;
+}
+.nine-top p{
+	font-size:12px;
+	font-family:宋体;
+	line-height:18px;
+	color:#fff;
+	margin-bottom:30px;
+}
+.nine-top input[type="text"]{
+	display:inline-block;
+	vertical-align:middle;
+	width:31.6%;
+	padding-left:2%;
+	height:40px;
+	font-size:16px;
+	color:#aaa;
+	font-family:微软雅黑;
+	line-height:30px;
+}
+.nine-top input[type="submit"]{
+	display:inline-block;
+	vertical-align:middle;
+	margin-left:-8px;
+	box-sizing:border-box;
+	background:#6f7178;
+	font-size:16px;
+	font-family:微软雅黑;
+	padding-left:10px;
+	letter-spacing:10px;
+	line-height:22px;
+	color:#fff;
+	width:6.25%;
+	height:40px;
+	transition:all ease-in-out 0.4s;
+}
+.nine-top input[type="submit"]:hover{
+	background:#C00;
+	cursor:pointer;
+}
+.nine-top ul{
+	margin-top:34px;
+}
+.nine-top li{
+	display:inline-block;
+	height:26px;
+	width:26px;
+	vertical-align:top;
+	margin-right:20px;
+	transition:all ease-in-out 0.4s;
+}
+.nine-top li:hover{
+	width:28px;
+	height:28px;
+	cursor:pointer;
+}
+.QQ{
+	background:url(images/Substance-nine-1.png) no-repeat center;
+}
+.weibo{
+	background:url(images/Substance-nine-2.png) no-repeat center;
+}
+.tuite{
+	background:url(images/Substance-nine-3.png) no-repeat center;
+}
+.net{
+	background:url(images/Substance-nine-4.png) no-repeat center;
+}
+.nine-bottom{
+	height:30px;
+	padding-top:30px;
+	background:#303039;;
+}
+.nine-bottom span{
+	float:left;
+	margin-left:7.8%;
+	font-size:12px;
+	line-height:22px;
+	font-family:宋体;
+	color:#fff;
+}
+.nine-bottom a{
+	float:right;
+	margin-right:3%;
+	font-size:12px;
+	line-height:22px;
+	font-family:宋体;
+	color:#fff;
+}
+.nine-bottom a:hover{
+	color:#f00;	
+}

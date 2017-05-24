@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* task_12 */
+
+table{
+	width:300px;
+}
+table thead th{
+	background-color:#000;
+	color:#fff;
+	text-align:left;
+}
+table tbody tr:nth-of-type(even) td{
+	background-color:#aaa;
+}
+table tbody tr:nth-child(-n+3) td{
+	color:#F00;
+}
+
+
+.Input input[type="text"]{
+	border:none;
+	outline:none;
+	border:2px solid #0C0;
+	height:28px;
+	width:180px;
+	padding-left:20px;
+	transition:all ease-in-out 0.4s;
+}
+.Input input[type="text"]:focus{
+	width:280px;
+	border:2px solid #0F6;
+}
+
+
+.Banner{
+	width:300px;
+	height:200px;
+	margin-top:20px;
+	position:relative;
+	overflow:hidden;
+	background:#F00;
+}
+#btn{
+	z-index:20;
+	position:absolute;
+	text-align:center;
+	width:90px;
+	height:22px;
+	top:178px;
+	left:35%;
+}
+#btn a{
+	display:inline-block;
+	vertical-align:middle;
+	box-sizing:border-box;
+	border:1px solid #C30;
+	text-decoration:none;
+	color:#fff;
+	width:20px;
+	line-height:20px;
+	transition: all 0.4s ease-in-out;
+}
+#btn a:hover{
+	border-radius:4px;
+	color:#fff;
+	background:#CCC;
+}
+.sides{
+	position:absolute;
+	left:0%;
+	right:0%;
+
+}
+.sides div{
+	width:100%;
+	height:200px;
+	position:absolute;
+	left:-100%;
+	top:0px;
+	animation:1.2s side-out linear;
+}
+.sides div:target{
+	left:0%;
+	animation:1.2s side-in linear;
+}
+#side-1{
+	background:#F00;
+	
+}
+#side-2{
+	background:#0F0;
+}
+#side-3{
+	background:#00F;
+}
+@keyframes side-init {
+	0%{left:-100%;}
+	100%{left:0%;}
+}
+@keyframes side-out {
+	0%{left:0%;}
+	100%{left:-100%;}
+}
+@keyframes side-in {
+	0%{left:100%;}
+	100%{left:0%;}	
+}
