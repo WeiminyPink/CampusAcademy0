@@ -1,0 +1,80 @@
+body,
+table,
+tr,
+th,
+td,
+form,
+input,
+ul,
+li {
+	padding: 0;
+	margin: 0;
+}
+.wrap{width: 600px; margin: 0 auto;}
+li {
+	list-style: none;
+}
+
+body {
+	font-family: "微软雅黑";
+}
+
+th {
+	background-color: #000;
+	color: #fff;
+	text-align: left;
+}
+
+tr:nth-child(2n+1) {
+	background: #CCCCCC;
+}
+
+tr:nth-child(2) {
+	color: red;
+}
+
+tr:nth-child(3) {
+	color: red;
+}
+
+tr:nth-child(4) {
+	color: red;
+}
+
+form input {
+	width: 100px;
+	height: 22px;
+	margin-top: 50px;
+	transition: 1s width;
+	outline: none;
+}
+form input:focus{width: 200px;border-color: cornflowerblue;}
+.frames{  width: 250px; height: 150px;position: relative;margin-top: 100px;overflow: hidden;background: red;}
+.frames .play{width: 300%;height: 100%;position: absolute;animation: .5s myth linear;}
+.frames ul li{width: 250px;height: 150px;position: absolute;left: -250px;top: 0;animation: myfirst .5s linear;}
+.frames li:target{left:0;animation: .5s mysecond linear;}
+@keyframes mysecond{
+	0%{left: 250px;}
+	100%{0px;}
+}
+@keyframes myfirst{
+	0%{left: 0;}
+	100%{left: -250px;}
+}
+@keyframes  myth{
+	0%{left: -250px;}
+	100%{left: 0px;}
+}
+#slider-1{background: red;}
+#slider-2{background: hotpink;}
+#slider-3{background: cyan;}
+.play:hover{animation-play-state: paused;}
+.btn:hover{animation-play-state: paused;}
+.btn{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+}
+.btn a{color: white;text-decoration: none;width: 20px;height: 20px;display: block;
+background-color: rgba(255, 255, 255, 0.5);padding-left: 4px;margin-left: 2px;}
