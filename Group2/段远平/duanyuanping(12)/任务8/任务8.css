@@ -1,0 +1,54 @@
+body,p{
+	margin:0;
+	padding:0;
+}
+body{
+	width:600px;
+	height:440px;
+	border:1px solid #999;
+	margin:0 auto;
+	padding-top:20px;
+	padding-left:20px;
+	background:#eee;
+	padding:20px 0 0 20px;
+}
+div{
+	border:1px solid #999;
+	margin-right:20px;
+	margin-bottom:20px;
+	float:left;
+	height:50px;
+}
+.d1{
+	width:270px;
+}
+.d2{
+	width:270px;
+}
+.d3{
+	width:560px;
+}
+.d4{
+	width:125px;
+}
+.d5{
+	width:270px;
+}
+.d6{
+	width:125px;
+}
+.d7{
+	width:75px;
+}
+.d8{
+	width:75px;
+}
+.d9{
+	width:370px;
+}
+.d10{
+	width:125px;
+}
+.d11{
+	width:125px;
+}

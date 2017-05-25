@@ -1,0 +1,143 @@
+body,h1,h2,h3,input,form{
+	margin:0;
+	padding:0;
+}
+img{
+	border:none;
+}
+
+
+body{
+	background-color:#ccc;
+}
+.header{
+	height:100px;
+	background-color:#333;
+}
+img{
+	margin-left:40px;
+	margin-top:30px;
+}
+.header ul{
+	position:absolute;
+	top:20px;
+	right:40px;
+}
+.header li{
+	margin-right:20px;
+	float:left;
+	list-style:disc;
+}
+
+
+.one,.interactive{
+	float:left;
+}
+.one{
+	width:900px;
+	background-color: #fff;
+	margin:20px 20px;
+	padding:20px;
+}
+.one p{
+	text-indent:2em;
+}
+.one img{
+	margin-left:0;
+}
+.one span{
+	font-weight:bold;
+}
+
+.interactive{
+	width:352px;
+	background-color:#fff;
+	
+	font-size:12px;
+	margin-top:20px;
+}
+.in-side{
+	font-size:16px;
+	font-weight:bold;
+}
+.contiver{
+	margin-top:40px;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+.interactive tr{
+	height:40px;
+}
+
+.sure input{
+	height:40px;
+	background-color: blue;
+	width:300px;
+	color:#fff;
+	border:none;
+	border-radius:10px;
+}
+
+.another{
+	width:900px;
+	background-color:#fff;
+	margin-top:662px;
+	margin-left:20px;
+	padding:20px;
+}
+.another img{
+	margin-left:0;
+}
+
+
+.photo{
+	width:900px;
+	background-color:#fff;
+	margin-top:20px;
+	margin-left:20px;
+	padding:20px;
+}
+
+.photo li{
+	display:inline-block;
+	list-style:none;
+	margin-bottom:20px;
+	width:140px;
+	height:140px;
+	margin-right:20px;
+	margin-top:20px;
+}
+.photo div{
+	border:1px solid #ccc;
+}
+.photo img{
+	margin-top:0px;
+	margin-left:20px;
+	width:100px;
+	height:100px;
+}
+.photo li p{
+	margin-left:30px;
+}
+
+
+.last{
+	width:900px;
+	background-color:#fff;
+	margin-top:20px;
+	margin-left:20px;
+	padding:20px;
+}
+.last .tab-head{
+	background-color: #333;
+}
+.last td{
+	width:294px;
+}
+.last .tab-head{
+	color:#fff;
+}
+.last .totle{
+	background-color: #ccc;
+}
+
