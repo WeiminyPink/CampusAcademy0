@@ -1,0 +1,51 @@
+body,p{
+	margin:0;
+	padding:0;
+}
+body{
+	width:800px;
+	height:300px;
+	border:1px solid #999;
+	margin:0 auto;
+	padding:20px 0 0 20px;
+}
+div{
+	border:1px solid #999;
+	margin-right:20px;
+	margin-bottom:20px;
+	float:left;
+	height:50px;
+}
+.d1{
+	width:240px;
+}
+.d2{
+	width:240px;
+}
+.d3{
+	width:240px;
+}
+.d4{
+	width:175px;
+}
+.d5{
+	width:370px;
+}
+.d6{
+	width:175px;
+}
+.d7{
+	width:45px;
+}
+.d8{
+	width:45px;
+}
+.d9{
+	width:110px;
+}
+.d10{
+	width:110px;
+}
+.d11{
+	width:370px;
+}
