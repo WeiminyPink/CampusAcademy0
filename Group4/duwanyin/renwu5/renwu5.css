@@ -1,0 +1,93 @@
+.header{
+  height: 70px;
+  width: 100%;
+  background: #333333;
+  display: table;
+  vertical-align: middle;
+}
+.header span{
+  display: table-cell;
+  vertical-align: middle;
+  height: 70px;
+}
+.header span img{
+  margin-left: 35px;
+  cursor: pointer;
+}
+nav ul{
+  float: right;
+  margin: 0px;
+  padding: 0px;
+}
+nav ul li{
+  line-height: 70px;
+  float: left;
+  margin-right: 20px;
+}
+nav ul li a{
+  color: #FFF;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color:gray;
+}
+div{
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin: 20px 500px 40px 30px;
+  box-shadow: 1px 1px 1px 1px #000000;
+}
+.biaoti{
+  color: gray;
+}
+.duanluo{
+  text-indent: 2em;
+}
+.liebiao{
+  list-style: none;
+}
+
+.table {
+	width: 750px;
+	margin:90px auto;
+}
+.table th {
+	height: 30px;
+	background:#CAFFFF; 
+}
+.table td {height: 25px;}
+
+.biaodan {
+	font-size: 20px;
+	font-family: 楷体;
+ 	padding: 20px;
+  	box-shadow: 1px 1px 1px 1px #000000;
+  	float: right;
+  	margin-top: -3000px;
+  }
+.submit {
+	font-size: 25px;
+	color: #FFFFFF;
+	background-color: blue;
+	border: 1px solid blue;
+	width: 300PX;
+
+}
+
+.pic{
+	height:120px;
+  border: 1px solid #000000;
+  padding-bottom: 450px;
+  margin-bottom: 30px;
+  display: inline-block; 
+  text-align: center;
+}
+a:link{ font-size:60px;
+	text-decoration: none; 
+	color: green;
+	 }
+a:visited { color: black;}
+a:hover { color: red; }
+a:active { color: yellow; }
+
+

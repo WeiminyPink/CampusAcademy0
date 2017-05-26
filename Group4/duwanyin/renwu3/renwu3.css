@@ -1,0 +1,57 @@
+#duanluo{
+         border: solid 1px #999;
+         background-color: #eee;
+         overflow: auto; zoom:1;
+         position: relative;margin: 20px;
+         padding: 20px 0px 20px 20px;
+}
+
+
+#duanluo1{
+         width:100%; 
+         float:left;
+}
+#duanluo1 #duanluo2{
+         margin:0px 160px 0px 220px;
+         border: solid 1px #999;
+         background-color: #fff;
+}
+
+#zuobian{
+         width:200px; 
+         float:left;
+         margin-left:-100%;
+         background-color: #fff;
+         border: solid 1px #999;
+ }
+
+#youbian{
+         margin-left:-140px;
+         float:left;width: 120px; 
+         border: solid 1px #999;
+         background-color: #fff;
+}
+#body .duanluo4{ 
+         padding: 20px;
+}
+.image3{ 
+         padding: 20px 20px 0 20px;
+}
+.image3 img {
+         margin-bottom: 20px;
+}
+.image{
+         float: left;
+         margin: 0px 20px 20px 20px;
+}
+.text{ 
+         float: left;
+}
+.zuobian1{
+         padding-right: 20px;
+}
+img{
+         display:block;
+         border: solid 1px #999;
+         width: 80px;
+         height: 80px;}

@@ -1,0 +1,66 @@
+.toubu1,.shengti1,.shengti2,.weibu1,.weibu2,.weibu3
+{
+    float: left; 
+    height: 50px;
+    width: 20%; 
+    background-color: #eee;
+    outline: 1px solid #999;
+    margin: 20px 20px 0  0px;
+}
+@media (min-width: 769px)
+{.toubu1
+{ 
+	width: 25%;
+}
+.shengti1
+{ 
+	width: 20%;
+}
+.shengti2
+{ width: 50%; 
+}
+.weibu1
+{ 
+	width: 6%;
+}
+.weibu2
+{ 
+	width: 10%;
+}
+.weibu3
+{
+	width: 50%;
+}
+}
+ @media (max-width: 768px)
+ {
+.toubu12
+{
+    width:40%;
+}
+.toubu22
+{
+    width:100%;
+}
+.shengti12
+{
+    width:20%;
+}
+.shengti22
+{
+	width: 50%;
+}
+.weibu12
+{
+    width:14%;
+}
+
+.weibu22
+{
+    width:60%;
+}
+.weibu32
+{
+	width: 15%
+}
+}
