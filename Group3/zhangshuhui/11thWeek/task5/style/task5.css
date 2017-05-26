@@ -1,0 +1,40 @@
+body,ul,dl,dd,form,input,textarea,p,select{ padding: 0; margin: 0;font-family: arial;  }
+h3,h5{ color: #808080; }
+img { border: none; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+body { background:#dedede; }
+
+#top{ height: 60px; margin: 0 auto; background: #333333; }
+
+.top_menu{ float: right;  margin-right: 10px;}
+.top_menu li { list-style: none; float: left; background: url(../images/top_menu.png) no-repeat left; font-size: 13px; line-height: 60px; padding-left:12px; margin-right: 10px;}
+.top_menu a { color: #c0c0c0; }
+.top_menu a:hover { color: #fff; }
+
+#baidu{ width: 164px;height: 58px; background: url(../images/top_baidu.png) no-repeat; }
+
+#lump_1, #lump_2{display: block; margin-left:40px; margin-right: 550px; margin-bottom: 20px;margin-top: 40px; padding:20px;background:white;font-size: 15px;line-height: 30px;}
+#lump_3{ display: block; background: #fff;float: right;width: 430px;margin-top: 40px;margin-right: 40px;padding: 20px; font-size: 15px;line-height: 30px;}
+#lump_1 a{ color: blue; }
+#lump_1 a:hover{ color: #c0c0c0; }
+#lump_1 ul{ text-indent: 1em; list-style: none; }
+#retract{ text-indent: 2em; }
+
+#lump_1 dd {display: block; height: 270px;width: 250px;border:1px solid #000;margin: 50px;text-align: center;padding-top: 25px; }
+
+#lump_2 table{border: 1px solid  white;width: 100%;border-spacing: 0;}
+#lump_2 tr th{background-color: black;border: 1px solid  #DCDCDC;color: white;}
+#lump_2 tr td{border: 1px solid  #DCDCDC;}
+#lump_2 tr.tablesum{background-color: #DCDCDC;	border: 1px solid  #CCCCCC;}
+
+#lump_3 #sidebar{padding: 20px;background-color:  #FFFFFF;}
+#lump_3 #sidebar div.sidebar-content{background: white;padding: 20px;}
+#lump_3 #sidebar h2{margin-left: 20px;text-align: left;font-family: "Microsoft Yahei" ;line-height: 40px;font-size: 18px;font-weight: 600;border-left: 3px solid #DCDCDC;}
+#lump_3 #sidebar div.inp{display: block;margin: 20px;text-align: center;}
+#lump_3 #sidebar div.inp p{float: left;width: 30%;text-align: center;padding-right: 10px;}
+#lump_3 #sidebar div.inp input[type="submit"]{width: 100%;background: #3355D0;border: none;padding: 10px 25px 10px 25px;color: #FFF;box-shadow: 1px 1px 5px #B6B6B6;border-radius: 3px;text-shadow: 1px 1px 1px #9E3F3F;cursor: pointer;font-weight: bold;}
+#lump_3 #sidebar div.tip{height: 25px;text-align: center;float: center;}
+#lump_3 #sidebar div.tip div.tip-right{width: 100%;text-align: center;}
+#lump_3 #sidebar div.tip p{text-align: left;font-family: "Microsoft Yahei" ;line-height: 30px;color: #A9A9A9;font-size: 15px;font-weight: 400;text-indent: 0;text-align: center;}
