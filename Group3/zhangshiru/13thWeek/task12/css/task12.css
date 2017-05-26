@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+.content_wrap{
+	width: 300px;
+	height: 825px;
+	margin: 0 auto;
+}
+.content_wrap table{
+	margin: 0 auto;
+}
+.content_wrap tr:nth-child(2n+1){
+	background-color: #d0cacc;
+}
+.content_wrap tr:first-child{
+	background-color: black;
+	color: white;
+}
+.content_wrap tr:nth-child(2){
+	color: red;
+}
+.content_wrap tr:nth-child(3){
+	color: red;
+}
+.content_wrap tr:nth-child(4){
+	color: red;
+}
+.input_box{
+	width: 100%;
+	height: 210px;
+}
+.input_box input{
+	display: block;
+	margin: 60px auto 0;
+	width: 100px;
+	height: 20px;
+	border: 1px solid #e2e2e2;
+}
+@keyframes inputmove{
+	0%{
+		width: 100px;
+		height: 20px;
+		border: 1px solid #e2e2e2;
+	}
+	100%{
+		width: 200px;
+		box-shadow: 0 0 5px 5px #75abf3;
+		border-radius: 3px;
+		-moz-box-shadow:0 0 5px 5px #75abf3;
+		-webkit-box-shadow:0 0 5px 5px #75abf3;
+		// behavior: url(ie-css3.htc);
+	}
+}
+.input_box input:focus{
+	animation:inputmove 1.5s ease-in 0.1s;
+	animation-fill-mode:forwards;
+}
+.first_box{
+	display: flex;
+	justify-content:flex-end;
+	align-items:flex-end;
+	background-color: #008100;
+	width: 270px;
+	height: 110px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.first_box ul li{
+	float: left;
+	list-style-type: none;
+	width: 27px;
+	height: 27px;
+	background-color: #7fc07e;
+	margin-left: 5px;
+	text-align: center;
+	line-height: 27px;
+	color: #fff;
+	cursor: default;
+	position: relative;
+	z-index: 2;
+	animation:lichange-color 3s ease-in-out infinite alternate forwards;
+	-moz-animation:lichange-color 3s ease-in-out infinite alternate forwards;
+	-webkit-animation:lichange-color 3s ease-in-out infinite alternate forwards;
+}
+@keyframes lichange-color{
+	0%{
+		background-color: #7fc07e;
+	}
+	50%{
+		background-color: #7fc07e;
+	}
+	100%{
+		background-color: rgb(124, 124, 255);
+	}
+}
+#left_box{
+	width: 270px;
+	height: 110px;
+	background-color: #0100fe;
+	left: -270px;
+	position: absolute;
+}
+@keyframes limove{
+	0%{
+		left: -270px;
+	}
+	50%{
+		left: -135px;
+	}
+	100%{
+		left: 0;
+	}
+}
+#left_box{
+	animation:limove 3s ease-in-out infinite alternate forwards;
+	-moz-animation:limove 3s ease-in-out infinite alternate forwards;
+	-webkit-animation:limove 3s ease-in-out infinite alternate forwards;
+}
+
+

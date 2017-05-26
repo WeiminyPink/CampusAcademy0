@@ -1,0 +1,48 @@
+@charset 'utf-8';
+%after-before{
+	content: "";
+	display: table;
+	clear: both;
+}
+.container-fulid{
+	width: 100%;
+	max-width: 2400px;
+	box-sizing:border-box;
+	padding: 15px;
+}
+.row{
+	&:after{
+		@extend %after-before;
+	}
+	&:before{
+		@extend %after-before;
+	}
+	margin: -15px;
+
+}
+div[class*='col-']{
+	float: left;
+	min-height: 1px;
+	padding: 0 15px;
+	box-sizing:border-box;
+}
+.row div p{
+	border: 1px solid #999;
+	background-color: #eee;
+	height: 50px;
+}
+@media screen and (min-width:769px){
+	@for $i from 1 through 12{
+		.col-md-#{$i}{
+			width: 100% / 12 *$i;
+		}
+	}
+}
+@media screen and (max-width:769px){
+	@for $i from 1 through 12{
+		.col-xs-#{$i}{
+			width: 100% / 12 *$i;
+		}
+	}
+
+}
