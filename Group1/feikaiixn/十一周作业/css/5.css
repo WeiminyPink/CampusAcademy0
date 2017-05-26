@@ -1,0 +1,41 @@
+body,li,ul,p,h1,h2,dd,dl,td,tr,table,input{margin: 0;padding: 0;font-family: "宋体";}
+input{outline: none;}
+body{min-width: 1000px;}
+a{text-decoration: none;}
+img{vertical-align: top; border: none;}
+.clear{zoom: 1;}
+.clear:after{content: "";display: block;clear: both;}
+.logo{background: url(../img/4.png) repeat-x;}
+.logo img{float: left;}
+.logo li{float: right;width: 80px;margin-top: 10px;}
+.logo li a{color: #f4fff6;font-size: 12px;}
+.logo li a:hover{color: #8e8c8d;}
+.middle{background: #dedede;padding: 20px 20px 0 20px;}
+.middle .right{float: right;background: white;border-radius: 20px;padding: 20px;width: 450px;margin-left: 20px;}
+.middle .left{margin-right: 520px;}
+.text1{background: #ffffff;border: 1px solid #9f9f9f;padding: 38px 28px 32px 20px;}
+.text1 h2{font-size: 18px; color: #000102;font-weight: bold;}
+.text1 h3{color: #5c6560; font-size: 16px;}
+.text1 h4{color: #5c6560;margin-bottom: 10px;font-size: 12px;}
+.text1 p{font-size: 14px; text-indent: 2em;line-height: 26px;}
+.middle .text1{margin-bottom: 25px;border-radius: 20px;}
+.text1 .list{list-style: none;text-indent: 2em;line-height: 26px;}
+.text1 dt{font-size: 20px;color: #00030c;font-weight: bold;}
+.text1 dl dd {width: 122px; margin: 30px;padding: 10px 10px 10px 10px; border: 1px solid #cecece;}
+.text1 dd span{font-size: 12px;text-align: center;display: block;line-height: 30px;}
+.text1 table{width: 100%;border:1px solid #CCCCCC;border-spacing: 0;}
+.text1 .tr-1{background: #333333;color: white;text-align: center;}
+.text1 .tr-5{background: #cccccc;}
+
+.right .ce{color: #01030f;font-size: 22px;height: 38px;line-height: 38px;border-left: 2px solid #cccccc;padding-left: 10px;}
+.iform .message{width: 30%;text-align: right;margin-right: 20px;margin-top: 10px;font-size: 12px;color: #000000;
+display: inline-block;}
+.iform p{font-size: 12px;color: #9d9391;margin-left: 35%;margin-top: 10px;}
+.iform1{margin-bottom: 10px;}
+.iform8 input{background: #3355d0; color: white;font-size: 16px;height: 40px;line-height: 40px;width: 100%;
+outline: none;border-radius: 20px;cursor: pointer;}
+.intut-text{margin-top: 10px;width: 50%;height: 50px;margin-left: 150px;}
+.bottom { width: 100%;height: 60px;text-align: center;background: #000;color: #fff;font-weight: 500;font-size: 16px;line-height: 60px;}
+
+
+
