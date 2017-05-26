@@ -1,0 +1,50 @@
+/*默认样式*/
+body{
+	padding: 20px;
+	margin: 0 auto;
+	width: 100%;
+	font-size: 0;
+}
+div{
+	height: 50px;
+	background: #eee;
+	border:1px solid #999;
+	float: left;
+	margin: 10px;
+	box-sizing:border-box;
+}
+.bigbox{
+	height: auto;
+	width: 100%;
+	background: none;
+	border:none;
+	margin: 0 ;
+}
+/*屏幕宽度大于768px*/
+@media screen and (min-width: 768px){
+	.box_1{width: calc(33.33% - 20px);}
+	.box_2{width: calc(33.33% - 20px);}
+	.box_3{width: calc(33.33% - 20px);}
+	.box_4{width: calc(25% - 20px);}
+	.box_5{width: calc(50% - 20px);}
+	.box_6{width: calc(25% - 20px);}
+	.box_7{width: calc(8.33% - 20px);}
+	.box_8{width: calc(8.33% - 20px);}
+	.box_9{width: calc(16.67% - 20px);}
+	.box_10{width: calc(16.67% - 20px);}
+	.box_11{width: calc(50% - 20px);}
+}
+/*屏幕宽度小于或等于768px*/
+@media screen and (max-width: 768px){
+	.box_1{width: calc(50% - 20px);}
+	.box_2{width: calc(50% - 20px);}
+	.box_3{width: calc(100% - 20px);}
+	.box_4{width: calc(25% - 20px);}
+	.box_5{width: calc(50% - 20px);}
+	.box_6{width: calc(25% - 20px);}
+	.box_7{width: calc(16.67% - 20px);}
+	.box_8{width: calc(16.67% - 20px);}
+	.box_9{width: calc(66.67% - 20px);}
+	.box_10{width: calc(25% - 20px);}
+	.box_11{width: calc(25% - 20px);}
+}

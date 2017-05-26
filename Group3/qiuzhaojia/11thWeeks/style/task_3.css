@@ -1,0 +1,49 @@
+/*默认样式*/
+body,ul{
+	margin: 0;
+	padding: 0;
+}
+img{
+	width: 80px;
+	height: 80px;
+}
+div{
+	padding:20px;
+	border:1px #999 solid;
+}
+li{
+	list-style: none;
+	margin-bottom: 15px;
+}
+/**/
+.wrap{
+	background: #eee;
+	margin: 20px;
+	position: relative;
+	overflow: auto;
+}
+.left{
+	width: 160px;
+	background: #fff;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+.left span{
+	float: right;
+}
+.center{
+	background: #fff;
+	margin: 0px 140px 0px 220px;
+}
+.right{
+	width: 80px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	background: #fff;
+	margin-bottom: 20px;
+}
+.img{ 
+	margin-bottom: 0px ; 
+}
