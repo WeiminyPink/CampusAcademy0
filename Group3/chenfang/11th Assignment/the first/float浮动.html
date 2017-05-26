@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+    <title>float浮动</title>
+    <style>/*
+        div, span{
+            height:100px;
+            background:blue;
+            width:100px;
+            border:1px;
+            solid: #000;
+            float:left;
+        }*/
+        /*浮动使块元素在同一行显示
+          使内嵌支持宽高
+          不设置宽度时宽度由内容撑开*/
+
+        .box1{
+            width:100px;
+            height:100px;
+            background:red;
+            float:left;
+        }
+       .box2{
+            width:200px;
+            height:200px;
+            background:blue;
+            clear:left;
+        }
+    </style>
+</head>
+<body>
+    <!--<div class="div1">div1</div>
+    <div class="div2">div2</div>
+    <span class="span1">span1</span>
+    <span class="span2">span2</span>
+    -->
+    <div class="box1">div1</div>
+    <div class="box2">div2</div>
+</body>
+</html>
