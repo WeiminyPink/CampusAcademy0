@@ -1,0 +1,232 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>课后练习3</title>
+    <style>
+        body,ul,ol,li,p,img,div{margin:0;padding:0;}
+        body{font-size:12px;}
+        img{border:none;vertical-align:top;}
+        li{list-style:none;}
+        a{text-decoration:none;}
+        .wrap{
+            width:950px;
+            height:370px;
+            background:url(images3/body_bg.png) repeat-x;
+            margin:30px auto;
+        }
+        .left{
+            background:url(images3/left_bg.png) no-repeat;
+            width:227px;
+            height:350px;
+            float:left;
+            margin-top:10px;
+            margin-left:7px;
+        }
+        .middle{
+            background:url(images3/middle_bg.png) no-repeat;
+            width:453px;
+            height:287px;
+            float:left;
+            margin-top:10px;
+            margin-left:11px;
+        }
+        .right{
+            background:url(images3/right_bg.png) no-repeat;
+            width:227px;
+            height:327px;
+            float:left;
+            margin-top:10px;
+            margin-left:14px;
+        }
+        .l_top{
+            font-size:13px;
+            color:#b21f25;
+            font-weight:bold;
+            position:relative;
+            left:40px;
+            top:-32px;
+        }
+        .left img{
+            display:inline-block;
+            margin-left:12px;
+        }
+        .l_content img{
+            margin-top:-5px;
+        }
+        .l_content li{
+            float:left;
+            width:66px;
+            height:24px;
+            margin-left:8px;
+            margin-top:7px;
+            font-size:11px;
+            background:url(images3/left_content2.png) no-repeat;
+        }
+        .l_content li:first-child{
+            background:url(images3/left_content1.png) no-repeat;
+            color:#b21f25;
+        }
+        .l_content a{
+            color:#000;
+            margin-left:8px;
+            line-height:23px;
+        }
+        .l_content .one a{
+            color:#b21f25;
+        }
+        .m_top_left,.r_top_left{
+            font-size:13px;
+            color:#b21f25;
+            font-weight:bold;
+            position:relative;
+            margin-top:12px;
+            display:inline-block;
+        }
+        .m_top img{
+            margin-left:12px;
+        }
+        .m_top_right,.r_top_right{
+            font-size:13px;
+            color:#b21f25;
+            font-weight:bold;
+            position:relative;
+            margin-top:-32px;
+            margin-left:398px;
+        }
+        .m_top_right a,.r_top_right a{
+            color:#b21f25;
+        }
+        .pic1,.pic2,.pic3{
+            float:left;
+            margin-left:20px;
+            margin-top:31px;
+        }
+        .m_content a{
+            font-size:12px;
+            color:#000;
+            line-height:28px;
+        }
+        .name{
+            margin-left:16px;
+        }
+        .type a,.type1 a{
+            margin-left:20px;
+            line-height:24px;
+        }
+        .type1{background:url(images3/left_content1.png) no-repeat;margin-left:30px;margin-top:6px;}
+        .type{background:url(images3/left_content2.png) no-repeat;margin-left:30px;margin-top:6px;}
+        .r_top_right{
+            margin-left:174px;
+        }
+        .r_top_right a{text-decoration:underline;}
+        .r_content ol li{
+            width:55px;
+            height:23px;
+            margin-top:15px;
+            margin-left:8px;
+            float:left;
+            background:url(images3/right2.png) no-repeat;
+        }
+        .r_content ol li:first-child{background:url(images3/right1.png) no-repeat;}
+        .r_content ol li a{color:#000;line-height:23px;margin-left:11px;}
+        .r_content_content{
+            margin-top:44px;
+            margin-left:22px;
+        }
+        .r_content_content a{
+            color:#000;
+            font-size:12px;
+            line-height:24px;
+        }
+        .r_content_content li{ width:181px;border-bottom:1px dotted #000;background:url(images3/list_bg.png) no-repeat right;}
+        .r_content_content p a{
+            color:#b21f25;
+            text-decoration:underline;
+            font-weight:bold;
+            margin-left:138px;
+        }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="left">
+        <img src="images3/left_top_bg.png">
+        <div class="l_top">音乐达人</div>
+        <div class="l_content">
+            <img src="images3/left_img.png" title="pic" alt="pic" />
+            <ol>
+                <li class="one"><a href="#">个人资料</a></li>
+                <li><a href="#">交友资料</a></li>
+                <li><a href="#">加为好友</a></li>
+                <li><a href="#">投他一票</a></li>
+                <li><a href="#">给他留言</a></li>
+                <li><a href="#">送他卡片</a></li>
+            </ol>
+        </div>
+    </div>
+    <div class="middle">
+        <div class="m_top">
+            <img src="images3/left_top_bg.png">
+            <div class="m_top_left">视频</div>
+            <div class="m_top_right"><a href="">more</a></div>
+        </div>
+        <div class="m_content">
+            <div class="pic1">
+                <div class="pic">
+                    <a href="#">
+                        <img src="images3/pic1.png" title="pic" alt="pic" />
+                    </a>
+                </div>
+                <p class="name"><a href="#" >爱的初体验 233票</a></p>
+                <p class="type1"><a href="#">投票</a></p>
+            </div>
+            <div class="pic2">
+                <div class="pic">
+                    <a href="#">
+                        <img src="images3/pic2.png" title="pic" alt="pic" />
+                    </a>
+                </div>
+                <p class="name"><a href="#" >爱的初体验 233票</a></p>
+                <p class="type"><a href="#">投票</a></p>
+            </div>
+            <div class="pic3">
+                <div class="pic">
+                    <a href="#">
+                        <img src="images3/pic3.png" title="pic" alt="pic" />
+                    </a>
+                </div>
+                <p class="name"><a href="#" >爱的初体验 233票</a></p>
+                <p class="type"><a href="#">投票</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <div class="r_top">
+            <img src="images3/left_top_bg.png">
+            <div class="r_top_left">音乐盒</div>
+            <div class="r_top_right"><a href="">more</a></div>
+        </div>
+        <div class="r_content">
+            <ol class="r_content_top">
+                <li class="r_content_first"><a href="">歌单一</a></li>
+                <li><a href="">歌单二</a></li>
+                <li><a href="">歌单三</a></li>
+            </ol>
+        </div>
+        <div class="r_content_content">
+            <ul class="r_content_list">
+                <li><a href="">1.有没有人告诉你-陈楚生</a></li>
+                <li><a href="">2.改变自己-王力宏</a></li>
+                <li><a href="">3.还不是因为爱-苏醒</a></li>
+                <li><a href="">4.西界-林俊杰</a></li>
+                <li><a href="">5.我们的歌-王力宏</a></li>
+                <li><a href="">6.如果你也听说-张惠妹</a></li>
+                <li><a href="">7.热浪-温岚</a></li>
+                <li><a href="">8.少年游-魏晨-快乐男声</a></li>
+            </ul>
+            <p><a href="">试听全部</a></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>task_1_6_1</title>
+    <link type="text/css" href="css/task_1_6_1.css" rel="stylesheet"/>
+    <style>
+        body,div{margin:0;padding:0;}
+        img{border:none;vertical-align:top;}
+        a{text-decoration:none;}
+        #container{
+            width:639px;
+            height:299px;
+            overflow:hidden;
+            position:relative;
+        }
+        #list{
+            width:3195px;
+            height:400px;
+            position:absolute;
+            z-index:1;
+        }
+        #list img{
+            float:left;
+            margin-left:-3px;
+        }
+        #buttons{
+            position:absolute;
+            height:10px;
+            width:100px;
+            z-index:2;
+            bottom:20px;
+            left:250px;
+        }
+        #buttons span{
+            cursor:pointer;
+            float:left;
+            border:1px solid #fff;
+            width:10px;
+            height:10px;
+            border-radius:10px;
+            background:#333;
+            margin-right:5px;
+        }
+        #buttons .on{
+            background:#d45d5c;
+        }
+        .arrow{
+            cursor:pointer;
+            display:none;
+            line-height:39px;
+            text-align:center;
+            font-size:36px;
+            font-weight:normal;
+            width:30px;
+            height:30px;
+            position:absolute;
+            top:144px;
+        }
+        .arrow:hover{
+            font-weight:bold;
+        }
+        #container:hover .arrow{
+            display:block;
+        }
+        #prev{left:182px;color:#d45d5c;z-index:6;}
+        #next{right:182px;color:#d45d5c;z-index:6;}
+    </style>
+    <script type="text/javascript">
+        window.onload=function(){
+            var container=document.getElementById('container');
+            var list=document.getElementById('list');
+            var buttons=document.getElementById('buttons').getElementsByTagName('span');
+            var prev=document.getElementById('prev');
+            var next=document.getElementById('next');
+            var index=1;
+
+            function showButton(){//设置小圆点滚动
+                for(var i=0;i<buttons.length;i++){//让滚过的小圆点不亮，开始
+                    if(buttons[i].className == 'on'){
+                        buttons[i].className = '';
+                        break;
+                    }
+                }//让滚过的小圆点不亮，结束
+                buttons[index - 1].className='on';
+            }
+
+            function animate(offset){//无限滚动开始
+                var newLeft=parseInt(list.style.left) + offset;
+                list.style.left=newLeft + 'px';//parseInt是只取数值忽略单位
+                if(newLeft>-639){
+                    list.style.left=-1917+'px';
+                }
+                if(newLeft<-1917){
+                    list.style.left=-639+'px';
+                }
+            }//无限滚动结束
+
+            next.onclick=function(){//点击箭头事件开始
+                if(index == 5){
+                    index = 1;
+                }
+                else{
+                    index += 1;
+                }
+                showButton();
+                animate(-639);
+            }
+            prev.onclick=function(){
+                if(index == 1){
+                    index = 5;
+                }
+                else{
+                    index -= 1;
+                }
+                showButton();
+                animate(639);
+            }//点击箭头事件结束
+
+            for(var i = 0;i<buttons.length;i++){
+                buttons[i].onclick=function(){
+                    if(this.className == 'on'){
+                        return;
+                    }
+                    var myIndex=parseInt(this.getAttribute('index'));//getAttribute既可以获取自带的属性，也可以获取自定义的属性
+                    var offset=-639 * (myIndex - index);
+                    animate(offset);
+                    index=myIndex;
+                    showButton();
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="wrap">
+    <header>
+        <div class="left"><a href="#">ife.baidu.com</a></div>
+        <div class="right">2016.03</div>
+    </header>
+    <div class="top">
+        <div class="top_left">
+            <div id="container">
+                <div id="list" style="left:-639px;">
+                    <img src="images/6_1.jpg" title="logo" alt="logo"/>
+                    <img src="images/top_left.png" title="logo" alt="logo"/>
+                    <img src="images/6_2.jpg" title="logo" alt="logo"/>
+                    <img src="images/6_1.jpg" title="logo" alt="logo"/>
+                    <img src="images/top_left.png" title="logo" alt="logo"/>
+                </div>
+                <div id="buttons">
+                    <span index="1" class="on"></span>
+                    <span index="2"></span>
+                    <span index="3"></span>
+                    <span index="4"></span>
+                    <span index="5"></span>
+                </div>
+                <a href="javascript:;" class="arrow" id="prev">&lt;</a>
+                <a href="javascript:;" class="arrow" id="next">&gt;</a>
+            </div>
+            <div class="top_l_p_l"></div>
+            <div class="top_l_p_r"></div>
+        </div>
+        <div class="top_right">
+            <h2><a href="#"><span>A</span>BOUT</a></h2>
+            <h2><a href="#"><span>T</span>ECHNOLOGE</a></h2>
+            <p>About technologe about technologo about technologo</p>
+            <div class="num">700</div>
+            <div class="top_bottom">
+                <p class="sign_1">3.2</p>
+                <p class="sign_2">css</p>
+                <p class="sign_3">cssssscsssscss</p>
+            </div>
+        </div>
+    </div>
+    <div class="contentOne">
+        <div class="part1">
+            <h2>What</h2>
+            <p>我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端
+            </p>
+        </div>
+        <div class="part2">
+            <h2>When</h2>
+            <p>我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端
+            </p>
+        </div>
+        <div class="part3">
+            <h2>How</h2>
+            <p>我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端</p>
+            <ul>
+                <li>What--------<span>40%</span></li>
+                <li>What--------<span>30%</span></li>
+                <li>What--------<span>30%</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="contentTwo">
+        <div class="contentTwo_left">
+            <div class="mark">
+                <p><span>THE</span>TECHNOLOGE</p>
+                <p>OF&nbsp;&nbsp;FRONT</p>
+                <p style="font-weight:normal;">前段技术领域</p>
+            </div>
+            <div class="section1">
+                <p><span>前</span>端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+                <div class="s_right">
+                    <img src="images/s_right.png" title="picture" alt="picture"/>
+                </div>
+            </div>
+            <div class="section2">
+                <div class="s_left">
+                    <p>我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端我爱前端</p>
+                    <p>&nbsp;&nbsp;&nbsp;前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前
+                    </p>
+                </div>
+
+            </div>
+            <div class="section3">
+                <p>&nbsp;&nbsp;&nbsp;前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端
+                </p>
+            </div>
+        </div>
+        <div class="contentTwo_right">
+            <div class="c_r_top">
+                <img src="images/c_r_top1.png" title="example" alt="example" />
+                <!--<div class="sign"></div>-->
+                <div class="introduce"><span>前端技术</span>前端技术前端技术</div>
+            </div>
+            <div class="c_r_bottom">
+                <ul>
+                    <li>我爱前端我爱前端我爱.................................................前端</li>
+                    <li>爱前端我爱前端我.........................................................前端</li>
+                    <li>爱前端我爱前端爱前端我爱前端................................前端</li>
+                </ul>
+                <div class="c_r_b_b_l">
+                    <span>0</span>
+                    <div class="message">
+                        <p class="signO">ONE TWO <br> THREE FOUR FIVE</p>
+                        <p class="signT">hello world hello world <br> hello world</p>
+                    </div>
+                </div>
+                <div class="c_r_b_b_r">
+                    <blockquote>world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello</blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="address">ife.baidu.com</div>
+    </footer>
+</div>
+</body>
+</html>

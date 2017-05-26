@@ -1,0 +1,43 @@
+body,div{margin:0;padding:0;}
+.wrap{
+    padding:20px 0;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row; /*从左向右*/
+    flex-wrap: wrap; /*多行*/
+    justify-content: space-between; /*各行中留有空白的容器，平均分布空隙*/
+    -webkit-justify-content: space-between;
+    border: 1px solid #000;
+}
+.wrap div {
+    width: 150px;
+    box-sizing: border-box;
+    border: 1px solid #f00;
+    padding: 20px;
+}
+.partOne {
+    height: 120px;
+}
+.partTwo {
+    height: 100px;
+}
+.partThree {
+    height: 40px;
+}
+.wrap .partFour {
+    height: 200px;
+    border: 1px solid #0000ff;
+}
+@media (min-width:641px) {
+    .wrap {
+        align-items: center; /*设置居中*/
+    }
+}
+@media (max-width:640px){
+    .wrap .partFour{
+        -webkit-order: -1;
+        -ms-flex-order: -1;
+        order: -1;
+    }
+    .wrap div{margin-bottom:20px;}
+}

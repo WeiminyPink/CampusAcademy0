@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>基础练习3++</title>
+    <style>
+        body, div, input, img {margin:0;padding:0;}
+        img {border:none;vertical-align:top;}
+        a {text-decoration:none;}
+        form {
+            display:table;
+            padding:27px 70px 12px 35px;
+            width: 319px;
+            height: 400px;
+            margin: 30px auto;
+            border:1px solid #000;
+            font-size:16px;
+        }
+        .img2{
+            padding-left:86px;
+        }
+        div{
+            padding-bottom:14px;
+        }
+        .tableRow-f{padding-left:35px;}
+        .input{
+            height:24px;
+            width:220px;
+        }
+        .link{
+            padding-left:51px;
+            color:#005eac;
+            font-size:12px;
+        }
+        .tableRow-two{padding-left:18px;}
+        span{font-size:12px;}
+        .tableRow-three{padding-left:88px;}
+        .tableRow-three a{padding-left:0;}
+        .tableRow-four{padding-left:19px;}
+    </style>
+</head>
+<body>
+<form action="http://www.varbee.com/campuswork/" method="post">
+    <div class="wrap">
+        <div class="tableRow">
+            <label for="message1">电子邮箱：</label>
+            <input type="text" id="message1" class="input"/><br/>
+        </div>
+        <div class="tableRow">
+            <label for="message2">设置密码：</label>
+            <input type="password" id="message2" class="input"/><br/>
+        </div>
+        <div class="tableRow">
+            <label for="message3">真实姓名：</label>
+            <input type="text" id="message3" class="input"/><br/>
+        </div>
+        <div class="tableRow-f">
+            <label>性别：</label>
+                <input type="radio" name="性别" id="a"/><label for="a" id=>男</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="性别" id="b"/><label for="b">女</label><br/>
+        </div>
+        <div class="tableRow-f">
+            <label for="message4">生日：</label>
+            <select id="message4">
+                <option>请选择</option>
+                <option>1999</option>
+                <option>1998</option>
+                <option>1997</option>
+                <option>1996</option>
+            </select>&nbsp;年&nbsp;
+            <select>
+                <option>--</option>
+                <option>12</option>
+                <option>10</option>
+                <option>9</option>
+                <option>8</option>
+                <option>...</option>
+            </select>&nbsp;月&nbsp;
+            <select>
+                <option>--</option>
+                <option>31</option>
+                <option>30</option>
+                <option>29</option>
+                <option>28</option>
+                <option>...</option>
+            </select>日<br/>
+            <a href="#" title="why" class="link">为什么要填我的生日?</a><br/>
+        </div>
+        <div class="tableRow-two">
+            <label for="message5">我现在：</label>
+            <select id="message5">
+                <option>请选择身份</option>
+                <option>共青团员</option>
+                <option>党员</option>
+                <option>学生</option>
+                <option>...</option>
+            </select>
+            <span>&nbsp;(&nbsp;非常重要&nbsp;)</span><br/>
+        </div>
+        <div class="tableRow-three">
+            <img src="img表单3/表单3.png" title="验证图" alt="验证图">
+            <a href="" title="换图" class="link">看不清换一张？</a><br/>
+        </div>
+        <div class="tableRow-four">
+            <label for="message6">验证码：</label>
+            <input type="text" id="message6" class="input"/><br/>
+        </div>
+        <img src="img表单3/立即注册.png" title="立即注册" alt="立即注册" class="img2"/>
+    </div>
+</form>
+</body>
+</html>
