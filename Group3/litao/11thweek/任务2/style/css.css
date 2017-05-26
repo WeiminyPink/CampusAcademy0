@@ -1,0 +1,9 @@
+body{background-color: grey;margin: 0;}
+#top{background-color: black;}
+#top img{width: 64px;height: 34px;}
+#top #navigation{float: right;}
+#text_1,#text_2,#picture,#text_last,#side{margin: 20px auto;
+	background-color: white;width: 96%;padding:15px;}
+#input,#city,#gental,#habbit,#introduce{margin-left:100px;}
+#button{background-color: blue;width:94%;border-radius: 5px;
+	margin: 0 auto; }
