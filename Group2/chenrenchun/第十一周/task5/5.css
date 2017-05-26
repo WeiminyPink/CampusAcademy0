@@ -1,0 +1,171 @@
+/*重置样式*/
+body,p,h1,h2,h3,h4,h5,h6,dl,dd,ul,dl{
+	margin:0;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+}
+body {
+	background-color: #ccc;
+	font-family: "Microsoft YaHei"
+}
+
+/*导航*/
+#nav {
+	width: 100%;
+	background-color: #333;
+}
+#nav ul {
+	display: inline-block;
+	float: right;
+	margin-top: 10px;
+}
+#nav li {
+	float: left;
+	margin-right: 25px;
+
+}
+#nav li a {
+	color: #fff;
+}
+#nav li span {
+	color: #888;
+}
+/*内容*/
+.content,.picture {
+	background-color: #fff;
+	margin: 20px 20px;
+	padding: 40px 20px;
+	border: 1px solid #eee; 
+	margin-right: 430px;
+}
+h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+h3 {
+	color: #888;
+	font-size: 16px;
+	margin-bottom: 18px;
+}
+.p1 {
+	color: #888;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.p2 {
+	text-indent: 2em;
+	font-size: 16px;
+	line-height: 26px;
+}
+.content img {
+	width: 300px;
+	height: 300px;
+	margin-top: 20px;
+}
+.content ul {
+	list-style: none;
+	font-size: 16px;
+}
+.content ol {
+	font-size: 16px;
+}
+
+.pic {
+	display: inline-block;
+	border: 1px solid #eee;
+	margin-left: 60px;
+	margin-top: 16px;
+	padding:10px 10px;
+	font-size: 12px;
+	text-align: center;
+}
+.pic img {
+	width: 120px;
+	height: 94px;
+	margin-top: 12px;
+}
+.table {
+	width: 100%;
+	border-collapse: collapse;
+	border-color: #eee;
+}
+.content p {
+	font-size: 16px;
+}
+th {
+	background-color: #333;
+	color: #fff;
+}
+tr {
+	text-align: left;
+	font-size: 15px;
+}
+/*侧栏*/
+.side_bar {
+	background-color: #fff;
+	width: 350px;
+	margin: 20px 20px;
+	padding: 40px 20px;
+	border: 1px solid #eee;
+	float: right;
+	text-align: center;
+}
+.side_bar h2 {
+	margin-top: 0;
+	padding-left: 10px;
+	height: 35px;
+	line-height: 35px;
+	border-left: 4px solid #eee;
+}
+
+.user {
+	width: 100%;
+	font-size: 16px;
+}
+.user div {
+	margin-bottom: 10px;
+}
+.user label {
+	font-size: 16px;
+	display: inline-block;
+	text-align: right;
+}
+}
+.user input {
+	margin-left:
+}
+.input {
+	width: 50%;
+}
+.user p {
+	margin-left: 30%;
+	padding-left: 10px;
+	margin-top: 12px;
+	color: #eee;
+}
+textarea {
+  	width: 60%;
+  	max-width: 60%;
+  	height: 100px;
+  	vertical-align: top;
+  	border: 1px solid #ccc;
+}
+.submit {
+	width: 100%;
+  	color: #fff;
+  	background-color: #35D;
+  	height: 40px;
+  	border-radius: 10px;
+}
+footer p {
+	padding-top: 10px;
+  	display: block;
+  	text-align: center;
+ 	margin: 0 auto;
+ 	color: #fff;
+}
