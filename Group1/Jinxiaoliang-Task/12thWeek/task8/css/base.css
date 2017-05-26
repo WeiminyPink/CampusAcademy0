@@ -1,0 +1,33 @@
+		body{margin:0;padding:0;width:100%}
+		.cloud{width:1300px;overflow:hidden;margin:20px;}
+		.cloud ul li{margin:10px;border:1px solid #999;height: 50px;display:block;background: #eee;float:left;border-radius: 8px; -moz-transition: all 1.5s; -webkit-transition: all 1.5s; -o-transition: all 1.5s; transition: all 1.5s; }
+		.cloud ul li:hover { border-radius:0;box-shadow:1px 1px 1px #000;background:#fff;-webkit-transform: scale(0.8);-o-transform: scale(0.8);-moz-transform: scale(0.8);-ms-transform: scale(0.8)}
+		@media (min-width:768px){
+			.sl1{width:30.3%}
+			.sl2{width:30.3%}
+			.sl3{width:30.3%}
+			.sl4{width:25%}
+			.sl5{width:41%}
+			.sl6{width:25%}
+			.sl7{width:8%}
+			.sl8{width:8%}
+			.sl9{width:15%}
+			.sl10{width:15%}
+			.sl11{width:41.5%}
+			.sl1{width:30.3%}
+		}
+
+	@media (max-width:768px){
+			.sl1{width:45%}
+			.sl2{width:48.3%}
+			.sl3{width:95%}
+			.sl4{width:25%}
+			.sl5{width:40%}
+			.sl6{width:26.4%}
+			.sl7{width:18%}
+			.sl8{width:18%}
+			.sl9{width:55.3%}
+			.sl10{width:25%}
+			.sl11{width:25%}
+			.sl1{width:45%}
+		}

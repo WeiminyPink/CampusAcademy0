@@ -1,0 +1,37 @@
+li{list-style:none}
+img{width:80px;height:80px}
+p{text-indent:2em}
+.all{margin: 0 auto;
+  padding: 20px;
+  background: #eee;
+  border: 1px solid #999;
+  overflow:hidden;
+  min-width: 600px;
+}
+
+.all_left{float: left;
+  padding: 20px;
+  width: 160px;
+  background: #fff;
+  border: 1px solid #999;
+}
+
+.all_center{
+			padding: 20px;
+  margin-left: 220px;
+  margin-right: 140px;
+  background: #fff;
+  border: 1px solid #999;
+}
+
+.all_right{width: 120px;
+  float: right;
+  background: #fff;
+  border: 1px solid #999;
+}
+.all_right img{background: #fff;
+  display: block;
+  margin: 20px;
+  border: 1px solid #999;
+				
+}
