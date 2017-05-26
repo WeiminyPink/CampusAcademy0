@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document of task-3 */
+
+body { border:1px solid #999; width:960px; background:#FFF; }
+
+#main-frame { background:#eee; border:1px solid #999; margin:20px; position:relative; height:500px; position:relative; }
+
+.left-frame { width:200px; height:118px; background:#FFF; border:1px solid #999; margin-left:20px; margin-top:20px; }
+.teamlogo { border:1px solid #999; margin-top:20px; margin-left:20px; }
+.teamname { display:block; position:absolute; top:40px; left:140px; }
+
+.middle-frame { border:1px solid #999; background:#FFF; display:block; position:absolute; right:160px; top:20px; left:240px }
+table { margin:20px; }
+table td { font-size:12px; padding-top:8px; }
+
+.right-frame { background:#FFF; border:1px solid #999; width:120px; display:block; float:right; position:absolute; top:20px; right:20px; }
+.personal-logo { border:1px solid #999; margin:20px 20px 0px 20px; }
+.personal-logo-4 { margin-bottom:20px; }
