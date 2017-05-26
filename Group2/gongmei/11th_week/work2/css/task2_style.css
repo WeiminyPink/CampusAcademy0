@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*整体背景*/
+body{
+    background: #000000;
+}
+#container{
+    width: 1300px;
+    margin: 0 auto;
+    background: #eee;
+}
+/*头部设置*/
+#header{                      
+    background: #444444;
+    display: block;
+    width: 1300px;
+    margin: 0 auto;
+}
+#header h1{
+    position: relative;
+    left: 60px;
+    top: 30px;
+}
+#header ul{
+    position: relative;
+    display: inline-block;
+    left: 800px;
+    top: -15px;
+}
+#header ul li{
+    float: left;
+    margin: 20px;
+}
+#header a{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+/*主体样式*/
+#main{
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.article{
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #888888;
+    margin: 20px auto 20px auto;
+    background: #ffffff;
+}
+.img{
+    width: 320px;
+    height: 250px;
+}
+.picture{
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #888888;
+    margin: 20px auto 20px auto;
+    background: #ffffff;
+}
+.title1{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.title2{
+    position: relative;
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #666666;
+    margin-bottom: 10px;
+}
+.author{
+    position: relative;
+    margin-left: 30px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #999999;
+    margin-bottom: 10px;
+}
+.article .img{
+    position: relative;
+    margin-left: 30px;
+}
+.pcontent{
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+dl{
+    position: relative;
+    left: 30px;
+    margin-bottom: 30px;
+}
+.pic_div{
+    position: relative;
+    left: 70px;
+    width: 400px;
+    border: 1px solid #666;
+    margin-bottom: 20px;
+}
+.p_pic{
+    position: relative;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.img{
+    display: block;
+    width: 300px;
+    height: 230px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+p{
+    position: relative;
+    margin-left: 30px;
+}
+ol{
+    position: relative;
+    margin-left: 30px;
+    left: 30px;
+}
+/*表格样式*/
+table{
+    position: relative;
+    left: 30px;
+    margin-bottom: 20px;
+}
+table th{
+    background: #555555;
+    color: #ffffff;
+    width: 184px;
+    line-height: 30px;
+    border: 1px solid #eeeeee;
+    text-align: left;
+    padding-left: 4px;
+}
+table td{
+    border: 1px solid #eee;
+    line-height: 30px;
+    padding-left: 4px;
+}
+table .total{
+    background: #aaaaaa;
+    font-weight: 600;
+}
+/*侧边栏*/
+.column{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #999999;
+    background: #ffffff;
+}
+.column .ce{
+    font-size: 19px;
+    line-height: 45px;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-left: 3px solid #aaaaaa;
+}
+/*表单样式*/
+form{
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+form .question{
+    position: relative;
+    display: inline-block;
+    line-height: 30px;
+    font-size: 15px;
+    width: 350px;
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+form .zhushi{
+    position: relative;
+    display: inline-block;
+    left: 340px;
+    font-size: 13px;
+    color: #666666;
+    top: -15px;
+}
+form .ym{
+    border: 1px solid #999999;
+    line-height: 22px;
+    padding: 3px;
+    width: 200px;
+}
+form option{
+    padding: 2px;
+}
+form .choose{
+    line-height: 30px;
+    padding-left: 2px;
+}
+form textarea{
+    display: inline-block;
+    width: 650px;
+    height: 100px;
+    padding: 5px;
+    vertical-align: top;
+}
+form .submit{
+    position: relative;
+    width: 1130px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: none;
+    background: #535ae2;
+    font-size: 20px;
+    color: #ffffff;
+}
+/*底部样式*/
+#footer{
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+#footer p{
+    color: #ffffff;
+}
