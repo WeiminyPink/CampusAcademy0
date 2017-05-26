@@ -1,0 +1,225 @@
+#content{
+    width: 500px;
+    margin-left: 50%;
+    position: absolute;
+    left: -250px;
+    top: 20px;
+}
+/*表格部分*/
+table{
+    width: 100%;
+    font-size: 33px;
+}
+table tbody tr td{
+    border: #fff solid 2px;
+    background: gray;
+}
+table tr td:first-of-type{
+    width: 20%
+}
+table tr td:last-of-type{
+    width: 20%
+}
+table tbody tr:nth-child(-n+3) td {
+    color: red;
+}
+table tbody tr:nth-child(odd) td{
+    background: #fff;
+}
+table thead th{
+    text-align: left;
+    color: #fff;
+    background: #000;
+    border: #fff solid 2px;
+}
+
+/*文本输入框部分*/
+input{
+    width: 200px;
+}
+.first_input{
+    text-align: center;
+    height: 50px;
+    margin-top: 50px;
+}
+.last_input{
+    text-align: center;
+    height:50px;
+}
+.last_input input{
+    transition: width 5s,border 5s; 
+}
+.last_input input:focus{
+    width: 400px;
+    border: red solid 2px;
+    outline: none;
+}
+
+/*轮播部分*/
+#carousel{
+    width: 500px;
+    height: 250px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+}
+#slider{
+    position: absolute;
+    left: -40px;
+    margin: 0;
+    width: 300%;
+    height: 250px;
+    animation:slide1 10s ease-out infinite;
+    z-index: -1;
+}
+#slider li{
+    width: 500px;
+    height: 100%;
+    list-style: none;
+    float: left;
+}
+#slider li:nth-child(1){
+    background: green;
+}
+#slider li:nth-child(2){
+    background: yellow;
+}
+#slider li:nth-child(3){
+    background: red;
+}
+
+@keyframes slide1{
+    0%{
+        margin-left: 0;
+    }
+    10%{
+        margin-left: 0;
+    }
+    25%{
+        margin-left: -500px;
+    }
+    35%{
+        margin-left: -500px;
+    }
+    50%{
+        margin-left: -1000px;
+    }
+    60%{
+        margin-left: -1000px;
+    }
+    75%{
+        margin-left: -500px;
+    }
+    85%{
+        margin-left: -500px;
+    }
+    100%{
+        margin-left: 0;
+    }
+}
+@keyframes slide2{
+    0%{
+        margin-left: -500px;
+    }
+    10%{
+        margin-left: -500px;
+    }
+    25%{
+        margin-left: -1000px;
+    }
+    35%{
+        margin-left: -1000px;
+    }
+    50%{
+        margin-left: -500px;
+    }
+    60%{
+        margin-left: -500px;
+    }
+    75%{
+        margin-left: 0px;
+    }
+    85%{
+        margin-left: 0px;
+    }
+    100%{
+        margin-left: -500px;
+    }
+}
+@keyframes slide3{
+    0%{
+        margin-left: -1000px;
+    }
+    10%{
+        margin-left: -1000px;
+    }
+    25%{
+        margin-left: -500px;
+    }
+    35%{
+        margin-left: -500px;
+    }
+    50%{
+        margin-left: 0;
+    }
+    60%{
+        margin-left: 0;
+    }
+    75%{
+        margin-left: -500px;
+    }
+    85%{
+        margin-left: -500px;
+    }
+    100%{
+        margin-left: -1000px;
+    }
+}
+
+
+#check{
+    height: 30px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#check label{
+    height: 100%;
+    width: 30px;
+    background: gray;
+    text-align: center;
+    float: left;
+    line-height: 30px;
+    cursor: pointer;
+    opacity: 0.5;
+    margin-left: 5px;
+    color: #fff;
+}
+#check label:hover{
+    opacity: 0.8;
+}
+#first, #secend, #third {
+  display:none;
+}
+#first:checked ~ #carousel #slider {
+    animation-name: slide1; 
+}
+#secend:checked ~  #carousel #slider {
+    animation-name: slide2;
+}
+#third:checked ~ #carousel #slider {
+    animation-name: slide3;
+}
+#first:active ~ #carousel #slider {
+    animation-name: none;
+    margin-left: 0; 
+}
+#secend:active ~  #carousel #slider {
+    animation-name: none;
+    margin-left: -500px; 
+}
+#third:active ~ #carousel #slider {
+    animation-name: none;
+    margin-left: -1000px; 
+}
