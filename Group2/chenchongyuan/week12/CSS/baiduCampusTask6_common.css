@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,div,img,p { margin: 0; padding: 0;}
+
+.container {  width: 892px; margin: 0 auto;}
+
+a { text-decoration: none;}
+
+/*顶部*/
+header { box-sizing: border-box; position: relative; width: 980px; height: 61px; margin: 0px auto; background-color: white;}
+#logo { float: left; width: 110px; height: 61px; background-color: #d45d5c;}
+#logo a { display: block; width: 110px; height: 61px; margin-top: 46px; color: #ffffff; font-size: 12px; font-family: "黑体";}
+#date { float: right;}
+#date a {display: block; margin-top: 46px; color: #d45d5c; font-size: 12px; font-family: "黑体";}
+#headHoz { width: 892px; height: 2px; background-color: #938e8c; margin: 0 auto;}
+
+/*主体*/
+main { box-sizing: border-box; position: relative; padding: 17px 0;}
+
+/*底部*/
+footer { box-sizing: border-box; position: relative; width: 980px; height: 60px; margin: 0px auto; background-color: white;}
+#net { float: right;}
+#net a { display: block; margin-top: 3px; color: #d45d5c; font-size: 12px; font-family: "黑体";}
+#footHoz { width: 892px; height: 1px; background-color: #938e8c; margin: 0 auto;}
