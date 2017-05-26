@@ -1,0 +1,75 @@
+/* 晚上和丁哥哥一起修仙 */
+body{ margin: 0; padding: 0; }
+
+.container
+{ 
+	height:960px; 
+	margin: 20px;
+	padding: 20px; 
+	background-color:#eee;
+	border:2px solid #999;
+}
+
+.left
+{ 
+	margin:0;
+	padding:20px;
+	background-color: white;
+	border:2px solid #999;
+	width:160px;
+	float:left;
+}
+
+
+
+.middle
+{ 
+	height: auto;
+	width: auto;
+	margin:0 190px 0 230px;
+	padding:20px;
+	background-color: white;
+	border:2px solid #999;
+	font-family: SimHei ;
+}
+
+.img
+{ 
+	margin:0;
+	float:left;
+    padding-left:0px;
+	width:200px;
+	height:100px; 
+}
+
+.right
+{
+	margin: 0;
+	padding:20px;
+	background-color: white;
+	border:2px solid #999;
+	width:120x;
+	height:auto;
+	float:right;
+}
+
+.right img
+{
+    margin:20px 20px 20px 20px;
+    float:right;
+	width:80px;
+	height:80px;
+}
+
+.left  p
+{
+	margin:20px 40px 20px 0;
+    float:right;
+	font-size: 16px;
+}
+
+.clear
+{
+    clear:both;
+    overflow:hidden;
+}

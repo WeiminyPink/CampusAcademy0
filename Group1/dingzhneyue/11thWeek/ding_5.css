@@ -1,0 +1,226 @@
+/* 和丁哥哥一起修仙 */
+html
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+
+	width:1300px; 
+	font-size: 14px;
+}
+img{
+	border:none; 
+}
+li
+{ 
+	list-style:none; 
+	margin-top: 5px;
+}
+a 
+{ 
+	text-decoration:none;
+}
+p
+{ 
+	letter-spacing:1.2px;line-height:20px
+}
+
+#top,#bottom 
+{ 
+	background:#333333; 
+	width:1300px;
+	height:70px;
+	margin:0 auto;
+}
+.top_menu
+{ 
+	float: right; 
+}
+.top_menu li
+{ 
+	float: left;
+	 padding-right: 18px; 
+	 padding-top: 0; 
+	 font-size:13px;
+}
+.top_menu a
+{ 
+	color:#fff;
+}
+
+.header1
+{ 
+	background: #fff; 
+	width:65%;
+	padding-left: 18px;
+	padding-top: 18px;
+	border-style:solid;
+	 border-width:20px; 
+	border-color:#dedede;
+	padding-bottom:18px;
+	margin-bottom: -16px;
+}
+.header2
+{
+	background: #fff;
+	width:65%;
+	padding-left: 18px;
+	border-style:solid; 
+	border-width:20px;
+	 border-color:#dedede;
+	 padding-bottom: 12px;
+	 margin-bottom: -16px;
+	}
+.header3,.zh,.header4
+{ 
+	background: #fff;
+	width:65%;
+	padding-left: 18px;
+	border-style:solid;
+	 border-width:20px; 
+	 border-color:#dedede;
+	margin-bottom: -16px;
+	padding-bottom: 15px;
+}
+.pic1 
+{ 
+	margin-bottom: 20px;
+	border:1px solid #000;
+	 border:black solid thin;
+	width: 200px;
+}
+.pic1 p
+{ 
+	padding-left:50px;
+}
+.pic1 img
+{ 
+	width:150px; 
+	height: 100px;
+	 padding-left:20px;
+	  padding-bottom: 10px;
+}
+
+td
+{ 
+	border:2px #dedede solid; 
+	padding-left: 10px;
+}
+table
+{ 
+	border-collapse:collapse;
+	font-size: 13px ;
+}
+th
+{ 
+	font-weight:bold;
+	text-align:left; 
+	padding-left: 10px;
+}
+
+.side
+{ 
+
+	display:inline-block;
+
+}
+.password
+{ 
+	margin-left: 35px;  
+}
+.header4 p
+{
+	padding-left: 110px;  
+}
+
+.sex,.city,.hobby
+{ 
+	margin-left: 70px;  
+}
+#man,#woman,#sports,#yishu,#sciece
+{ 
+	margin-left: 10px;  
+}
+.city select
+{
+	margin-left: 10px;
+}
+.talk
+{ 
+	display: inline;
+	margin-left: 40px; 
+}
+
+.input1
+{
+	width:80%;
+	height:40px;
+	border-radius: 10px;
+	font-size:15px; 
+	color:white;
+ 	margin-top:8px;
+ 	background:#3355d0;
+ 	margin:8px 60px 0 20px;
+
+ }
+ textarea 
+ { 
+ 	float:right; 
+ 	margin-right: 15px;
+ 	margin-top: -20px; 
+ }
+
+#bottom 
+{ 
+	position: relative; 
+	top: -5px;
+}
+#bottom p
+{ 
+	padding-top: 20px; 
+	text-align: center; 
+	color:#fff; 
+	font-size: 12px;
+}
+
+.header3
+{
+	height:430px;
+}
+.header3 dd
+{
+    margin-top: 15px;
+    border: 1px solid gray;
+    width: 120px;
+    text-align: center;
+    line-height: 40px;
+    float: left;  
+}
+.header3 dd img
+{
+    height: 90px;
+    width: 60%;
+}
+
+.header4
+{
+	position: absolute;
+    top: 60px;
+    width: 30%;
+    right: 0;
+}
+
+.left
+{
+	background: #dedede;
+}
+.right
+{
+    position: absolute;
+    top: 20px;
+    width: 75%;
+    right: 280px;
+	
+}

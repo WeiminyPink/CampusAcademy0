@@ -1,0 +1,460 @@
+ body
+{
+	margin: 0;
+	padding: 0;
+	width: 980px;
+	height: 1386px;
+}
+
+#content
+{
+	margin-left: 44px;
+	margin-top: 0;
+	width: 892px;
+	height:1386px;
+}
+
+/*顶部*/
+.left_bg
+{
+	background: #d45d5c;
+	padding-top: 0;
+	width: 110px;
+	height:61px;
+}
+.left_word
+{
+	font-size: 12px;
+	font-family: 黑体;
+	color: #ffffff;
+	display:  inline-block;
+	margin-top:45px;
+	padding-left: 6px;
+}
+.right_word
+{
+	position: relative;
+	color: black;
+	top:-12px;
+	right:-850px;
+	font-size: 12px;
+	font-family: 黑体;
+	padding-top: 0px;
+}
+.line_1 hr
+{
+	border:none;
+	border-top:2px solid #938e8c;
+	width: 805px;
+	height: 2px;
+	margin-top: 0px;
+	padding-left: 88px;
+}
+
+/*中上部*/
+.middle_1 
+{
+	position: absolute;
+	width: 641px;
+	margin-top:24px;
+}
+.middle_1 img
+{
+	width: 641px;
+	height: 301px;
+	position: absolute;
+}
+.next
+{
+	padding-top: 50px;
+}
+.next .line_2 hr
+{
+	position: relative;
+	top: -56px;
+	width:203px;
+	border:none;
+	border-top:2px solid #cc8091;
+	margin-left:688px;
+}
+.bg_1
+{
+	position: absolute;
+	float: left;
+	height: 301px;
+	width: 191px;
+	z-index:1;
+	background: #84a283;
+	opacity:0.6; 
+	padding-left: 0px;
+}
+.bg_2
+{
+	position: absolute;
+	float：right;
+	height: 301px;
+	width: 191px;
+	z-index:1;
+	background: #be837f;
+	opacity:0.6; /*不透明度*/
+	margin-left: 450px;
+}
+/*首字母大写*/
+.next span .about ::first-letter
+{
+	font-size: 32px;
+}
+.next span .technologe::first-letter
+{
+	font-size: 32px;
+}
+.about,.technologe
+{
+	position: relative;
+	top: -60px;
+	right: -688px;
+	color: #000;
+	font-size: 24px;
+}
+.next .line_3 hr
+{
+	position: relative;
+	right:-413px;
+	border: none;
+	width: 93px;
+	top: -100px;
+	border-top:2px solid #000;
+}
+.next .line_4 hr
+{
+	position: relative;
+	right:-452px;
+	border: none;
+	width: 170px;
+	top:-82px;
+	border-top:2px solid #000;
+
+}
+.next .eng2 i
+{
+	position: relative;
+	right:-688px;
+	font-size: 12px;
+	color:#676767;
+	font-family: 楷体;
+	line-height:10px;
+	top: -86px;
+}
+.next .num_1
+{
+	position: relative;
+	font-size: 116px;
+	font-family: 微软雅黑;
+	color: #75b86b;
+	right: -665px;
+	top:-85px;
+}
+.next .num_2,.right1,.right2
+{
+	color:#cc8091;
+	font-family: 微软雅黑;
+}
+.next .num_2
+{
+	position: relative;
+	top: 70px;
+	right:220px;
+	font-size: 55px;
+}
+.right1
+{
+	position: relative;
+	top:60px;
+	font-size: 21px;
+	right: 250px;
+}
+.right2
+{
+	font-size: 12px;
+	position: relative;
+	top:-82px;
+	right: -100px;
+}
+.middle_2
+{
+	height: 500px; 
+	width:641px;
+	margin-top: 380px;
+}
+.middle_2 p
+{
+	color:#231815;
+	font-size: 12px;
+	line-height: 16px;
+	font-family: 微软雅黑;
+}
+.middle_2 h2
+{
+	font-size: 18px;
+	text-decoration: underline;
+}
+.middle_2 .left
+{
+	float: left;
+	width:230px;
+	color: #418c59;
+}
+.middle_2 .right
+{
+	float: right;
+	width: 160px;
+	color: #cc7680;
+	margin-right: 10px;
+}
+.middle_2 .middle
+{
+	width:200px;
+	color: #d59f59;
+	float: left;
+	margin-left: 22px;
+}
+.middle_2 .right i
+{
+	color: #cd4a48;
+	opacity:0.7; 
+}
+.middle_2 .bottom
+{
+	font-family: 黑体;
+	margin-top: 220px;
+	margin-left: -450px;
+	float:left;
+}
+.middle_2 .bottom i
+{
+	font-size: 72px;
+	color: #f5e327;
+}
+.middle_2 .bottom .biu1
+{
+	font-size: 42px;
+	color: #11456b;
+    line-height: 16px;
+}
+.middle_2 .bottom .biu2
+{
+	font-size: 33px;
+	color: #11456b;
+}
+.middle_2 .bottom hr
+{
+	position: absolute;
+	color: #11456b;
+	width:405px; 
+	border-top:2px solid #11456b;
+	float: left;
+}
+.middle_2 img
+{
+	width: 458px;
+	height: 275px;
+	float: right;
+	margin-right: -252px;
+	margin-top: 50px;
+}
+.middle_2 .xbg
+{
+	opacity:0.4; 
+	position: relative;
+	z-index:1;
+	background: #000;
+	height: 61px;
+	width:458px;
+	float: right;
+	top: -61px;
+	right: -252px;
+}
+
+.middle_2 .xbg_1 span
+{	
+	z-index:2;
+	position: relative;
+	font-size:26px;
+	color: #fff;
+	float: left;
+	font-family: 微软雅黑;
+	left:500px;
+	top: -50px; 
+}
+.middle_2 .xbg_1 i
+{
+
+	position: relative;
+	z-index:2;
+	float: right;
+	color: #72b16a;
+	left: 550px;
+	top:-70px;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	letter-spacing: 1.4px; 
+}
+.under .left span
+{
+	float: left;
+	font-size: 70px;
+	color: #f5e327;
+	font-family: 微软雅黑;
+	line-height: 70px;
+}
+.under .left 
+{
+	position: absolute;
+	width: 415px;
+	height: 
+}
+.under .left p
+{
+	font-size: 12px;
+	color: #767777;
+	font-family: 宋体;
+	line-height: 20px;
+	margin-top:-100px;
+}
+.under .left img
+{
+	height: 300px;
+	width: 150px;
+	float: right;
+	padding: 15px;
+	margin-top: 10px;
+	line-height: 320px;
+}
+.under .right .bg
+{
+	width: 459px;
+	height: 318px;
+	background: #f3f1c6;
+	float: right;
+	margin-top:-10px;
+}
+.under .bg .first
+{
+	line-height: 16px;
+}
+.under .bg .first img
+{
+	padding-top: 35px;
+	padding-left: 35px;
+	float: left;
+}
+.under .bg .first p
+{
+	padding: 0;
+	margin: 0;
+	margin-top: 30px;
+	font-size: 16px;
+	color: #5a5b5b;
+	font-family: 宋体;
+	float: left;
+	margin-left: 8px;
+	line-height: 16px;
+}
+.under .second .red
+{
+	background: #d45d5c;
+	width: 260px;
+	height: 160px;
+	float: left;
+	margin-top: 9px;
+}
+.under .bg .first i
+{
+	font-size: 12px;
+	color: #5a5b5b;
+	font-family:宋体;
+	line-height: 20px;
+}
+.under .second .red h4
+{
+	padding: 0;
+	margin: 0;
+	margin-left: 13px;
+	color: #fff;
+	font-size: 110px;
+	font-family: 微软雅黑;
+}
+.under .second .red img
+{
+	position: relative;
+	top: -110px;
+	right: -85px;
+}
+.under .second .red i
+{
+	font-size: 21px;
+	color: #fff;
+	line-height: 24px;
+	font-family: 黑体;
+	position: relative;
+	top: -175px;
+	right: -95px;
+}
+.under .second .red p
+{
+	position: relative;
+	color: #fff;
+	font-size: 12px;
+	line-height: 12px;
+	font-family: 黑体;
+	top: -180px;
+	right: -98px;
+}
+.under .third .word i
+{
+	position: relative;
+	left: 10px;
+	top: -140px;
+	width: 200px;
+	float: right;
+	font-size: 14px; 
+	color: #5a5b5b;
+	font-family: 黑体;
+	line-height: 16px;
+}
+.a1
+{
+	position: relative;
+	left: -30px;
+	top:10px;
+	color: #d45d5c;
+	font-size: 72px;
+	font-family:黑体;
+	height: 160px;
+	width: 260px;
+}
+.a2
+{
+	position: relative;
+	top:105px;
+	color: #d45d5c;
+	font-size: 72px;
+	font-family:黑体;
+	height: 160px;
+	left: 80px;
+}
+.under hr
+{
+	position: relative;
+	width: 892px;
+	border-top:2px solid #938e8c;
+	top: 46px;
+}
+.over
+{
+	font-size: 12px;
+	font-family: 黑体;
+	color: #d45d5c;
+	float: right;
+	margin-top: 36px;
+}
