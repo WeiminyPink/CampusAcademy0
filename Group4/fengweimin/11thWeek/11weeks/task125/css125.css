@@ -1,0 +1,46 @@
+body{padding:0px;margin:0px auto;position: relative;background:#dedede;}
+#top{width:1280px;height:60px;background:url(img1/topbackground.png) no-repeat;
+	margin:0 auto;padding-top: 0px;padding-bottom:20px;}
+.topmenu{margin:0px;padding-left:900px;}
+.topmenu li{float:left;padding-right:20px;margin-top:20px;line-height:20px;}
+.topmenu a{color:#fff;text-decoration:none;margin-top: 0px;}
+
+.passage{position:relative;width:760px;margin-left:120px;padding-top:10px;
+	border:1px solid #cbcbcb;border-right:2px solid #cbcbcb;border-bottom:2px solid #cbcbcb;
+	padding-bottom: 20px;margin-bottom: 20px;background:#fff;}
+.passage p{font-size:16px;padding-left:20px;padding-right: 20px;}
+.passage h2{padding-left: 20px;padding-right: 20px;}
+.passage img{padding-left: 20px;padding-right: 20px;}
+
+.secondtitle{font-size:16px;color:#8d97a0;}
+
+.pic_list{position:relative;width:760px;margin-left:120px;padding-top:10px;
+	border:1px solid #cbcbcb;border-right:2px solid #cbcbcb;border-bottom:2px solid #cbcbcb;
+	padding-bottom: 20px;margin-bottom: 20px;background:#fff;}
+.pic_list ul{padding-left: 0;height:450px;width:800px;}
+.pic_list li{border:1px solid #cbcbcb;width:160px;height: 200px;
+	margin-left:20px;margin-bottom:20px;padding-left:20px;list-style:none;float:left;}
+.pic_list img{height: 140px; width:140px;}
+.pic_list p{text-align:center;}
+.pic_list h2{padding-left:20px;}
+
+.biaoge{width:720px;margin:0 auto;}
+.biaoge .biaotou{background:#333333;color:#fff;}
+.biaoge .total{background: #ccc;}
+.biaoge .caozuo{color:#64168e;}
+
+.wrap{width:500px;margin-left:900px;padding-top:10px;border:1px solid #cbcbcb;
+	border-right:2px solid #cbcbcb;border-bottom:2px solid #cbcbcb;padding-bottom: 20px;margin-bottom: 20px;
+	margin-top:20px;position: absolute;top: 60px;background:#fff;}
+.wrap h2{padding-left:60px;}
+.celan{margin-left: 60px;}
+.celan textarea{width:200px;height:80px;}
+.celan .warning{padding-left:132px;color:#d6c9c0;font-size:14px;}
+.celan .move1{padding-left:34px;}
+.celan .move2{padding-left: 2px;}
+.celan .move3{padding-left: 82px;}
+.celan .move4{padding-left:50px;}
+.celan .btn{width:500px;height:40px;border:none;
+	background:url(img1/btn.jpg) no-repeat;cursor:pointer;}
+
+.footer{background-color: #000;color: #fff;text-align: center;height: 50px;padding-top: 25px;}
