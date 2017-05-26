@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>six</title>
+    <link rel="stylesheet" href="./six.css">
+    	<style type="text/css">
+    		div{
+    			display: inline-block;
+    			width: 150px;
+    		}
+    		.box{
+    			width: 100%;
+    			
+    			/*  弹性布局   */
+    			display:     -ms-flex;
+    			display:    -moz-flex;
+    			display: -webkit-flex;
+    			display:      -o-flex;
+    			display:         flex;
+    			 
+    			    -ms-flex-flow: row wrap;
+    			   -moz-flex-flow: row wrap;
+    			-webkit-flex-flow: row wrap;
+    			     -o-flex-flow: row wrap;
+    			        flex-flow: row wrap;
+    			
+    			    -ms-justify-content: space-around;
+    			   -moz-justify-content: space-around;
+    			-webkit-justify-content: space-around;
+    			     -o-justify-content: space-around;
+    			        justify-content: space-around;
+    			
+    			    -ms-align-items:center;
+    			   -moz-align-items:center;
+    			-webkit-align-items:center;
+    			     -o-align-items:center;
+    			        align-items:center;
+    		}
+    		@media only screen and (max-width: 640px ) {
+    			.box{	    			
+	    			    -ms-justify-content: space-between;
+	    			   -moz-justify-content: space-between;
+	    			-webkit-justify-content: space-between;
+	    			     -o-justify-content: space-between;
+	    			        justify-content: space-between;
+	    			        
+	    			    -ms-align-items:flex-start;
+	    			   -moz-align-items:flex-start;
+	    			-webkit-align-items:flex-start;
+	    			     -o-align-items:flex-start;
+	    			        align-items:flex-start;
+	    		}
+	    		.box > div{
+	    			margin-bottom: 20px;
+	    		}
+	    		.div4{order: -1;}
+    		}
+    		
+    		
+    		.box > div {border: 1px solid red;}
+
+    		.div1{height: 120px;}
+    		.div2{height: 100px;}
+    		.div3{height: 40px;}
+    		.box > div.div4{
+    			height: 200px;
+    			border: 1px solid blue;
+    		}
+    	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="div1"></div>
+	    <div class="div2"></div>
+	    <div class="div3"></div>
+	    <div class="div4"></div>
+	</div>
+    
+</body>
+</html>
