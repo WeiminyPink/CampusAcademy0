@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>第五次任务</title>
+	<style type="text/css">
+		#head { margin: 0 auto; height: 60px; background-color: #333333;}
+		.menu {  width: 1000px; float: right;}
+		.menu li { float: right; padding: 0 1px; font-size: 12px; display: block;}
+		.menu a { color: #ffffff; text-decoration: none;}
+
+		#content { margin: 0 auto; padding: 20px; height: 2660px; background-color: #dedede;}
+
+		.one { margin-left: 40px; padding: 20px; width: 960px; height: 800px; box-shadow: 2px 2px 1px #aeaeae; background-color: #ffffff;}
+		.one h2 { color: #7b7776; }
+		.one p { font-size: 15px; line-height: 24px; margin: 0 auto;}
+
+		.two {margin-left: 40px; margin-top: 40px;  padding: 20px; padding: 20px; width: 960px; height: 700px; box-shadow: 2px 2px 1px #aeaeae; background-color: #ffffff; }
+		.two h2 { color: #7b7776; }
+		.two ul { margin: 0px; line-height: 24px; }
+		.two li { display: block; }
+		.two p { font-size: 15px; line-height: 24px; margin: 0 auto;}
+
+		.three {margin-left: 40px; margin-top: 40px; padding: 20px; width: 960px; height: 400px; box-shadow: 2px 2px 1px #aeaeae; background-color: #ffffff; }
+		.three ul table {float: left; margin: 8px 20px;}
+		.three table {border: 1px solid #333333; padding: 10px; margin-left: 60px; margin: 8px 60px;}
+		.three tr { line-height: 20px; }
+
+		.four {margin-left: 40px;  margin-top: 40px; padding: 20px; width: 960px; height: 450px; box-shadow: 2px 2px 1px #aeaeae; background-color: #ffffff; }
+		.x { width: 480px; }
+		.y { width: 200px; }
+
+		.five { margin: 20px auto; float: right; width: 360px; height: 450px; box-shadow: 2px 2px 1px #aeaeae; background-color: #ffffff; }
+		.five div form { width: 200px; margin: 0 auto; }
+		.submitButton { width: 300px; height: 40px; border-radius:8px; background-color: #3355d0; font-size: 20px;margin-left: 30px; margin-top: 30px;}
+
+
+		#footer { margin: 0 auto; height: 70px; background-color: #333333; }
+		#footer p { text-align: center; line-height: 70px;}
+	</style>
+</head>
+<body style="margin: 0px;">
+	<div id="head">
+		<img src="images/head.png">
+		<ul class="menu">
+			<li><a href="#" style="margin-right: 20px;">导航链接四</a></li>
+			<li><img src="images/dian.png"></li>
+			<li><a href="#">导航链接三</a></li>
+			<li><img src="images/dian.png"></li>
+			<li><a href="#">导航链接二</a></li>
+			<li><img src="images/dian.png"></li>
+			<li><a href="#">导航链接一</a></li>
+			<li><img src="images/dian.png"></li>
+		</ul>
+	</div>
+
+	<div id="content">
+		<div class="five">
+			<p style="padding-left: 15px;"><strong>这里以后是个侧栏，这个是侧栏的标题</strong></p>
+			<form  style="padding-left: 30px;">
+				<div>
+					<label class="tips">请输入邮箱地址</label>
+					<input type="text" placeholder="这是一个文本输入框" />
+                	<p>邮箱地址请按要求格式输入</p>
+                </div>
+                <div>
+                	<label class="tips">请输入密码</label>
+                	<input type="password" placeholder="密码" />
+            	</div>
+            	<div>
+                	<label class="tips">请重复输入密码</label>
+                	<input type="password" placeholder="请重复输入密码" />
+                	<p>密码请为6-16位英文数字</p>
+				</div>
+			</form>
+			<form action="save.php" method="post"  style="padding-left: 30px;">
+                <div>
+                    <label class="tips">性别</label>
+                    <input type="radio" value="male" name="sex" checked="checked" />
+                    <label>男</label>
+                    <input type="radio" value="female" name="sex" />
+                    <label>女</label>
+                </div>
+            </form>
+            <form action="save.php" method="post"  style="padding-left: 30px;">
+                <div>
+                    <label class="tips">城市</label>
+                    <select>
+                        <option value="北京">北京</option>
+                        <option value="上海" selected="selected">上海</option>
+                        <option value="广州">广州</option>
+                    </select>
+                </div>
+            </form>
+            <form action="save.php" method="post"  style="padding-left: 30px;">
+                <div>
+                    <label class="tips">爱好</label>
+                    <input type="checkbox" value="sport" name="hobby" />
+                    <label>运动</label>
+                    <input type="checkbox" value="art" name="hobby" />
+                    <label>艺术</label>
+                    <input type="checkbox" value="science" name="hobby" />
+                    <label>科学</label>
+                </div>
+            </form>
+            <form action="save.php" method="post" style="padding-left: 30px;">
+                <div>
+                    <label class="tips">个人描述</label>
+ 					<textarea rows="3" cols="30" >这是一个多行输入框( •̀ .̫ •́ )✧</textarea>
+                </div>
+            </form>
+        <input type="button" class="submitButton" value="确认提交" style="text-decoration: none;" />
+		</div>
+		<div class="one">
+			<h1>文章一级标题</h1>
+			<h2>文章二级标题</h2>
+			<p style=" padding: 5px 0px; color: #7b7776; ">文章作者&nbsp文章发表时间</p>
+			<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+			<img src="images/tu.png" style="padding: 20px 0px;">
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了。</p>
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" target="_blank">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+		</div>
+
+		<div class="two">
+			<h1>文章一级标题</h1>
+			<h2>文章二级标题</h2>
+			<p style=" padding: 5px 0px; color: #7b7776; ">文章作者&nbsp文章发表时间</p>
+			<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnbsp这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+			<img src="images/tu.png" style="padding: 20px 0px;">
+			<ul>
+				<li>列表项目一</li>
+				<li>列表项目二</li>
+				<li>列表项目三</li>
+			</ul>
+		</div>
+
+		<div class="three">
+			<h1>图片</h1>
+			<ul>
+			<table>
+				<tr><td style="padding-left: 18px; font-size: 14px;">好看的图片</td></tr>
+				<tr><td><img src="images/tu1.png"></td></tr>
+			</table>
+			<table>
+				<tr><td style="padding-left: 18px; font-size: 14px;">好看的图片</td></tr>
+				<tr><td><img src="images/tu1.png"></td></tr>
+			</table>
+			<table>
+				<tr><td style="padding-left: 18px; font-size: 14px;">好看的图片</td></tr>
+				<tr><td><img src="images/tu1.png"></td></tr>
+			</table>
+			<table>
+				<tr><td style="padding-left: 18px; font-size: 14px;">好看的图片</td></tr>
+				<tr><td><img src="images/tu1.png"></td></tr>
+			</table>
+			<table>
+				<tr><td style="padding-left: 18px; font-size: 14px;">好看的图片</td></tr>
+				<tr><td><img src="images/tu1.png"></td></tr>
+			</table>
+			</ul>
+			<ul>
+			<table>
+				<tr><td style="padding-left: 18px; font-size: 14px;">好看的图片</td></tr>
+				<tr><td><img src="images/tu1.png"></td></tr>
+			</table>
+			<table>
+				<tr><td style="padding-left: 18px; font-size: 14px;">好看的图片</td></tr>
+				<tr><td><img src="images/tu1.png"></td></tr>
+			</table>
+			<table>
+				<tr><td style="padding-left: 18px; font-size: 14px;">好看的图片</td></tr>
+				<tr><td><img src="images/tu1.png"></td></tr>
+			</table>
+			<table>
+				<tr><td style="padding-left: 18px; font-size: 14px;">好看的图片</td></tr>
+				<tr><td><img src="images/tu1.png"></td></tr>
+			</table>
+			<table>
+				<tr><td style="padding-left: 18px; font-size: 14px;">好看的图片</td></tr>
+				<tr><td><img src="images/tu1.png"></td></tr>
+			</table>
+			</ul>
+		</div>
+
+		<div class="four">
+			<h1>最后一篇文章一级标题</h1>
+			<h2>文章二级标题</h2>
+			<p style=" padding: 5px 0px; color: #7b7776; ">文章作者&nbsp文章发表时间</p>	
+			<ol>
+				<li>排名1</li>
+				<li>排名2</li>
+				<li>排名3</li>
+			</ol>
+			<p>下面是一个表格，我这里给表格加一个border="1"好让你看出是个表格，你们不用写html时加</p>
+			<table cellspacing="0" border="1">
+				<tr style="background-color: #333333;">
+					<td style="color: #ffffff;">表头</td>
+					<td style="color: #ffffff;">表头</td>
+					<td style="color: #ffffff;">表头</td>
+				</tr>
+				<tr>
+					<td class="x">表内容单元格</td>
+					<td class="x">表内容单元格</td>
+					<td class="y">操作</td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td style="color: blue;">操作</td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td style="color: blue;">操作</td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td style="color: blue;">操作</td>
+				</tr>
+				<tr style="background-color: #cccccc;">
+					<td>总计</td>
+					<td colspan="2">1000</td>
+				</tr>
+			</table>
+		</div>
+
+		
+	</div>
+
+	<div id="footer">
+		<p>版权所有@</p>	
+	</div>
+</body>
+</html>
