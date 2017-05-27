@@ -1,0 +1,496 @@
+.head
+{
+	width: 100%;
+	height: 50px;
+	padding: 20px 60px 0px 60px
+}
+.new
+{
+	font-size: 20px;
+	color: #000000;
+	display: inline-block;
+	height: 100%;
+}
+.new ul
+{
+	display: table;
+	clear: both;
+}
+.head ul li a
+{
+	display: inline-block;
+	height: 40px;
+	float: left;
+	padding: 0px 20px;
+}
+.shouye
+{
+	border-bottom: 4px #ff2d2d solid;
+	color: #ff2d2d;
+
+}
+.datu
+{
+	width: 100%;
+	height: 700px;
+	background-image: url(image/datu_02.jpg);
+	background-size: 1190px 500px;
+	background-repeat: no-repeat;
+	background-position: 60px 10px;
+	padding-left: 60px;
+	position: absolute;
+}
+.datu1
+{
+	color: #ffffff;
+	padding-left: 150px;
+	position: relative;
+	top: 200px;
+}
+.datu1 strong 
+{
+	font-size: 60px;
+}
+.datu1 p
+{
+	line-height: 0.5em;
+	letter-spacing: 3px;
+	height: 30px;
+}
+.datu1 button 
+{
+	margin-top: 20px;
+	border: 1px #ff5151 solid;
+	font-size: 30px;
+	background-color: #ff5151;
+	width: 300px;
+	height: 60px;
+	color: #ffffff;
+}
+.menu
+{
+	position: relative;
+	top: 520px;
+}
+.menu ul
+{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.menu li 
+{
+	flex-direction: column;
+	align-items: center;
+	height: 230px;
+	text-align: center;
+	width: 250px;
+}
+.menu p
+{
+	border-right: 2px #cccccc solid;
+	padding-right: 60px;
+	padding-top: 30px;
+}
+.about
+{
+	background-color: #f0f0f0;
+	height: 350px;
+	width: 1190px;
+	text-align: center;
+	position: relative;
+	top: 510px;
+	left: 60px;
+
+}
+.about1
+{
+	position: relative;
+	top: 80px;
+}
+.about1 p
+{
+	font-size: 50px;
+	color: #cccccc;
+}
+.search
+{
+	position: relative;
+	top: 500px;
+	background-image: url(image/shou.jpg);
+	background-size: 1190px 500px;
+	background-repeat: no-repeat;
+	background-position: 60px 10px;
+	height: 400px;
+}
+.search1
+{
+	text-align: center;
+	position: relative;
+	top: 70px;
+	color: #ffffff;
+}
+.search1 h1
+{
+	font-size: 40px;
+	padding-bottom: 10px;
+}
+.search1 h2 
+{
+		text-decoration: overline;
+
+} 
+.input
+{
+	padding-top: 50px;
+}
+.input select
+{ 
+ 	 border: 1px #ff0000 solid;
+ 	 height: 35px;
+ 	 width: 240px;
+ 	 margin-right: 30px;
+}
+.input input
+{
+	width: 240px;
+	height: 35px;
+	background-color: #ff0000;
+	border: 1px #ff0000 solid;
+	color: #ffffff;
+}
+.activity
+{
+	width: 1190px;
+	height: 500px;
+	background-color: #f0f0f0;
+	position: relative;
+	top: 500px;
+	left: 60px;
+	text-align: center;
+}
+.activity div
+{
+	float: left;
+	padding-left: 60px;
+	padding-top: 50px;
+}
+.activity strong
+{
+	font-size: 15px;
+	font-family: "楷体";
+	color: #000000;
+}
+.activity p
+{
+	font-size: 20px;
+	font-family: "楷体";
+	color: #adadad;
+}
+.newworld
+{
+	width: 1190px;
+	height: 500px;
+	position: relative;
+	top: 500px;
+	left: 60px;
+}
+.newworld div
+{
+	float: left;
+}
+.newworld1
+{
+	height: 567px;
+	width: 800px;
+	text-align: center;
+	background-image: url(image/time.jpg);
+}
+.newworld1 h1
+{
+  font-size: 50px;
+  font-family: "Microsoft YaHei";
+  color: rgb(255, 255, 255);
+}
+.newworld1 h2
+{
+  font-size: 158px;
+  font-family: "Microsoft YaHei";
+  color: rgb(255, 255, 255);
+}
+.newworld1 p
+{
+  font-size: 22px;
+  font-family: "Microsoft YaHei";
+  color: rgb(255, 255, 255);
+}
+.newworld1 h1 ,.newworld1 p,.newworld1 h2
+{
+	position: relative;
+	top: 85px;
+}
+.wenzi
+{
+	height: 500px;
+	width: 300px;
+	top: 130px;
+	position: relative;
+	left: 60px;
+}
+.wenzi h3
+{	text-align: center;
+	font-size: 30px;
+	font-family: "Microsoft YaHei";
+}
+.wenzi p
+{
+  font-size: 12px;
+  font-family: "SimSun";
+  color: rgb(170, 170, 170);
+  line-height: 2.5;
+}
+.button input
+{
+	border:1px #ff0000 solid;
+	background-color: #ffffff;
+	width: 80px;
+  	font-size: 12px;
+ 	font-family: "Microsoft YaHei";
+  	color: rgb(226, 92, 96);
+ 	line-height: 2.613;
+ 	position: relative;
+ 	top: 350px;
+ 	left: -140px;
+}
+.slidedot span
+{
+	display:inline-block; 
+	height: 12px; 
+	width: 12px;
+	border-radius: 50%;
+	border: 1px #929293 solid;
+	cursor: pointer;
+	position: relative;
+	top: 370px;
+	left: -135px;
+	margin-right: 14px;
+}
+.active
+{
+	background-color: #9d9d9d;
+}
+.newtime
+{
+	width: 1190px;
+	height: 500px;
+	position: relative;
+	top: 500px;
+	left: 60px;
+}
+.newtime div
+{
+	float: left;
+}
+.newtime1
+{
+	width: 396px;
+	height: 519px;
+	background-color: #e7504d;
+	text-align: center;
+}
+.newtime1 p ,.newtime1 span,.newtime1 input
+{
+	position: relative;
+	top: 170px;
+}
+.newtime2
+{	text-align: center;
+	width: 396px;
+	height: 349px;
+	background-color: #ffffff;
+	position: relative;
+	top: 170px
+}
+.newtime3
+{
+	position: relative;
+	left: 404px;
+	top: -295px;
+	width: 390px;
+}
+.newtime1 p ,.newtime1 h2
+{
+  font-size: 21px;
+  font-family: "SimHei";
+  color: rgb(255, 255, 255);
+}
+.newtime1 h2
+{
+	text-decoration: line-through;
+	position: relative;
+	top: 174px;
+}
+.newtime2 p
+{
+  font-size: 21px;
+  font-family: "SimHei";
+  color: rgb(50, 51, 51);
+}
+.newtime2 h2
+{
+	text-decoration: line-through;
+	
+}
+.newtime1 input
+{
+	border: 1px #ffffff solid;
+	color: #ffffff;
+	background-color:#e7504d;
+	width: 170px;
+	height: 45px;
+	position: relative;
+	top: 191px;
+	left: -2px;
+}
+.newtime2 input
+{
+	border: 1px #e7504d solid;
+	background-color: #ffffff;
+	color: #e7504d;
+	width: 170px;
+	height: 45px;
+	position: relative;
+	top: 16px;
+}
+.volunteer
+{
+	width: 1229px;
+	height: 500px;
+	position: relative;
+	top: 118px;
+	padding-left: 367px;
+}
+.volunteer1
+{
+	text-align: center;
+}
+.volunteer1 h2
+{
+  font-size: 21px;
+  font-family: "SimHei";
+  color: rgb(50, 51, 51);
+}
+.volunteer1 p
+{ font-size: 12px;
+  font-family: "Microsoft YaHei";
+  color: rgb(170, 170, 170);
+  width: 430px;
+}
+.volunteer1 h1
+{
+	text-decoration: underline;
+	position: relative;
+	top: -24px;
+}
+.volunteer2 
+{
+	width: 289px;
+	position: relative;
+	top: 147px;
+	left: -799px;
+}
+.volunteer2 h1
+{
+  font-size: 14px;
+  font-family: "SimHei";
+  color: rgba(35, 24, 21, 0.8);
+  padding-bottom: 20px;
+}
+.volunteer2 p
+{font-size: 12px;
+  font-family: "SimSun";
+  color: rgba(35, 24, 21, 0.6);
+  line-height: 20px;
+}
+.volunteer2 a
+{
+	position: relative;
+	left: 230px;
+}
+.volunteer3
+{
+	width: 900px;
+	height: 264px;
+	position: relative;
+	top: -100px;
+
+}
+.volunteer3 p
+{
+	float: left;
+	padding-right: 35px;
+	padding-bottom: 15px;
+}
+.volunteer3 p input
+{
+	background-color: #ededee;
+	border: none;
+	width: 415px;
+	height: 40px
+}
+.volunteer3 a
+{
+	border: 1px #ededee solid;
+	border-width: 3px 405px 3px 394px;
+	background-color: #ededee;
+  	font-size: 16px;
+  	font-family: "SimHei";
+  	color: rgb(50, 51, 51);
+}
+.footer
+{
+	width: 1230px;
+	position: relative;
+	top: 140px;
+}
+.footer img
+{
+	width: 1230px;
+}
+.contact
+{
+	position: relative;
+	top: -338px;
+	left: 369px;
+	text-align: center;
+	width: 485px;
+}
+.footer h1
+{
+  font-size: 21px;
+  font-family: "SimHei";
+  color: rgb(255, 255, 255);
+  line-height: 2.303;
+}
+.footer p
+{font-size: 12px;
+  font-family: "SimSun";
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+}
+.footer input
+{
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  color: rgb(170, 170, 170);
+  line-height: 2;
+  width:428px;
+}
+.footer a
+{
+	background-color: #c7c7c9;
+	border: 1px #c7c7c9 solid;
+	border-width: 4px 8px 6px 8px;
+	position: relative;
+	right: 54px;
+}

@@ -1,0 +1,129 @@
+table
+{
+	width:250px;
+	margin: 0 auto;
+
+}
+table thead tr th
+{
+	background-color: #000000;
+	color: #ffffff; 
+	text-align: left;
+}
+table tbody tr:nth-of-type(even)
+{
+	background-color:#6c6c6c; 
+}
+table tbody tr:nth-child(-n+3)
+{
+	color: red;
+}
+.input1
+{
+	width: 250px;
+	margin: 0 auto;
+	padding: 20px 0px 20px 0px;
+}
+.input2
+{
+	width: 250px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+.input2 input
+{
+	width: 160px;
+}
+.input2 input:focus
+{
+	border-color: blue;
+	width: 220px;
+	height: 50px;
+}
+.picture
+{
+	width: 440px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.picture1
+{
+	width: 500%;
+	height: 100%;
+	left: 0px;
+	transition: left 2s;
+	animation: 0.5s slider-init linear;
+}
+.picture1 li 
+{
+	display: inline-block;
+	list-style: none;
+	width: 440px;
+	height: 440px;
+	animation: 0.5s slider-init linear;
+}
+.picture1 li :target
+{
+	animation: 0.5s slider-out linear;
+}
+.picture1 li:nth-child(1)
+{
+	background-image: url(image/1.jpg);
+}
+.picture1 li:nth-child(2)
+{
+	background-image: url(image/2.jpg);
+}
+.picture1 li:nth-child(3)
+{
+	background-image: url(image/3.jpg);
+}
+.picture1 li:nth-child(4)
+{
+	background-image: url(image/4.jpg);
+}
+.button
+{
+	width: 120px;
+	height: 20px;
+	position: relative;
+	left: 832px;
+	top: -23px;
+}
+.button a:link
+{
+	color: #000000;
+}
+.button a:hover
+{
+	color: #5b00ae;
+}
+.button a:active
+{
+	color: #f00078;
+}
+.button a:visited
+{
+	color: #ff0000;
+}
+
+#one:target.picture
+{
+	left: 0;
+}
+#two:target.picture
+{
+	left: -100%;
+}
+#two:target.picture
+{
+	left: -200%;
+}
+#two:target.picture
+{
+	left: -300%;
+}
+#two:target.picture
+{
+	left: -400%;
+}
