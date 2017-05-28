@@ -1,0 +1,112 @@
+body,div,table,tr,td,th,input,ul,li{margin:0;padding:0;}
+input{outline:none;}
+li{list-style:none;}
+a{text-decoration:none;}
+body{background:#e0e0e0;}
+.wrap{
+    width:300px;
+    margin:0 auto;
+    background:#fff;
+    padding:20px;
+}
+table{
+    width:216px;
+    margin:0 auto;
+}
+table th {
+    background-color:#000;
+    color:#fff;
+    text-align:left;
+    font-weight:normal;
+}
+table  tr:nth-of-type(odd) td {/*td的奇数行*/
+    background-color: #bbb;
+}
+table tr:nth-child(-n+4) td {/*选中tr的第一个和第四个元素之间的td*/
+    color: red;
+}
+table td+td {
+    text-align:center;
+}
+.begin{
+    width:98px;
+    height:18px;
+}
+.after{
+    width:196px;
+    height:18px;
+    box-shadow:0 0 5px 2px #7aaff1;
+    border:none;
+}
+.middle{
+    margin-top:50px;
+}
+.middle input{
+    display:block;
+    margin:20px auto;
+}
+.begin:focus{
+    transform:scaleX(2);
+    transition:1500ms ease;
+    box-shadow:0 0 5px 2px #7aaff1;
+    border:none;
+}
+.wrapT {
+    position:relative;
+    width:270px;
+    height:110px;
+    margin:50px auto;
+    overflow:hidden;
+}
+.sliders {
+    width:1080px;
+    height:110px;
+    -webkit-animation:slide 3000ms ease infinite;
+    animation:slide 3000ms ease infinite;
+}
+.sliders li {
+    float:left;
+    width:270px;
+    height:110px;
+}
+#sliderOne,#sliderFour{
+    background:#36D1C4;
+}
+#sliderTwo{
+    background:#FFF2BE;
+}
+#sliderThree{
+    background:#F6318C;
+}
+.buttons{
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+.buttons a{
+    display:inline-block;
+    width:28px;
+    height:28px;
+    text-align:center;
+    line-height:28px;
+    color:#fff;
+    background-color:rgba(225,225,225,0.6);
+}
+@-webkit-keyframes slide {
+    0%{margin-left:0;}
+    15%{margin-left:-270px;}
+    30%{margin-left:-540px;}
+    45%{margin-left:-810px;}
+    60%{margin-left:-540px;}
+    75%{margin-left:-270px;}
+    100%{margin-left:0;}
+}
+@keyframes slide {
+    0%{margin-left:0;}
+    15%{margin-left:-270px;}
+    30%{margin-left:-540px;}
+    45%{margin-left:-810px;}
+    60%{margin-left:-540px;}
+    75%{margin-left:-270px;}
+    100%{margin-left:0;}
+}
