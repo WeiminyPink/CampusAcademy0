@@ -1,0 +1,100 @@
+body {
+	margin: 50px 500px;
+}
+table {
+	text-align: left;
+	margin: 40 auto;
+}
+table thead tr {
+	background-color: #333;
+	color: #fff;
+}
+tbody:nth-child(odd){
+	background-color: #bbb;
+}
+tbody:nth-child(2),tbody:nth-child(3),tbody:nth-child(4) {
+	color: #e41010;
+}
+input {
+	display: inline-block;
+	width: 120px;
+	border: 2px solid #bbb;
+	margin: 40px 20px;
+	transition: width 0.3s;
+}
+input:focus {
+	width: 160px;
+	border-color: #00bfff;
+}
+.banner {
+	width: 300px;
+	height: 150px;
+	position: relative;
+	overflow: hidden;
+	background-color: green;
+}
+.banner ul {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0;
+    padding: 0;
+}
+.banner li {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: -100%;
+	top: 0;
+	list-style-type: none;
+	animation: 0.5s slider-out linear;
+}
+#pic_1 {
+	background-color: green;
+}
+#pic_2 {
+	background-color: blue;
+}
+#pic_3 {
+	background-color: black;
+}
+.banner li:target {
+  left: 0%;
+  animation: 0.5s slider-in linear;
+}
+
+@keyframes slider-out {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+@keyframes slider-in {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+.control {
+  z-index: 100;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+}
+.control a {
+  display: block;
+  margin: 0 1px;
+  background-color: #bbb;
+  color: white;
+  text-decoration: none;
+  padding: 10px 14px;
+}
