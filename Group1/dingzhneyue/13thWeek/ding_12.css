@@ -1,0 +1,100 @@
+/*表格和输入框*/
+table{
+	border-collapse: collapse;/*为表格设置合并边框模型*/
+	text-align:left;
+	margin:30px 0;
+	width: 250px;
+ }
+th,td{
+    height:16px;
+    border: 1.5px solid #fff;
+}
+th{
+    background-color: black;
+    color: #fff;
+}
+tr:nth-child(odd){/*奇数元素*/
+    background-color: #ccc;
+}
+ tr:nth-child(2),tr:nth-child(3),tr:nth-child(4){       
+ 	color:red;     
+ }
+
+/*文本框*/
+.input{
+    margin-left:50px;
+    width:120px;
+    transition:width .7s;
+}
+.input:focus{
+   width: 220px;
+}
+
+
+ /*轮播图*/
+.gif{
+    position: relative;
+    width:300px;
+    height: 150px;
+    margin-top:20px;
+    overflow: hidden; 
+}
+.pics{
+    position:absolute;
+    left: 0;
+    width:900px;
+    height:150px;
+    animation: gif linear 12s infinite;
+}
+/*动画效果*/
+@keyframes gif{
+	0%{ left: 0; }/*0%是开头动画*/
+    28%{ left: 0; }
+    35%{ left: -300px; }
+    63%{ left: -300px; }
+    70%{ left: -600px; }
+    100%{ left: 0; }/*100%是结束动画*/
+}
+.pic{
+	position:absolute;
+    display: inline-block;
+    width:300px;
+    height:150px;
+}
+#one{
+	background-color:#62c181;
+    left: 0;
+}
+#two{
+    background-color:#3170ff;
+    left: 300px;
+}
+#three{
+    background-color:#62c181;
+    left:600px;
+}
+.tag{
+	text-decoration:none;
+    display: inline-block;
+    width:30px;
+    height: 25px;
+    margin:0;
+    position: relative;
+    top:-25px;
+    left: 194px;
+ 	background-color: rgba(0,0,0,0.7);
+    color:white;
+    text-align: center;
+}
+.tag1:target{
+    left: 0;
+    animation: .1s 1;
+}
+.tag2:target{
+    left:0; 
+    animation: .1s 1;  
+}
+.tag3:target{
+    left:0;
+    animation: .1s 1;      
+}
