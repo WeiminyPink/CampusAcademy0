@@ -1,0 +1,36 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+.container{
+	width:95%;
+	height:300px;
+	border:1px solid #666;
+    padding:20px;
+    margin:auto;
+    display:flex;
+    flex-flow:row-wrap;
+    justify-content:space-around; 
+    align-items:center;
+}
+.container>div
+{
+	width:150px;
+}
+.item1{
+	border:1px solid #f00;
+    height:120px;
+}
+.item2{
+	border:1px solid #f00;
+    height:100px;
+}
+.item3{
+	border:1px solid #f00;
+    height:40px;
+}
+.item4{
+	border:1px solid #0000ff;
+	height:200px;
+}
