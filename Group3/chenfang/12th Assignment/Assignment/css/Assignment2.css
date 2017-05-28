@@ -10,10 +10,10 @@ body{
 }
 #both{
     margin:20px 20px 0 0;
-    height:auto;s
+    height:auto;
 }
 [class*="col-"]{
-    float: left;s
+    float: left;
 }
 @media screen and (min-width:768pt){
     .col-md-1{
