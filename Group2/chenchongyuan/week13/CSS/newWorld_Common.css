@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin: 0; padding: 0;}
+
+ul { list-style: none;}
+
+li { float: left;}
+
+a { text-decoration: none;}
+
+/* 居中容器 */
+.container { position: relative; width: 1280px; left: 50%; margin-left: -640px;}
+
+/* 半透明遮罩1 */
+.shade1 { background-color: rgba(0,0,0,0.20);}
+
+/* 半透明遮罩2 */
+.shade2 { background-color: rgba(233,18,22,0.10);}
+
+/* 首页顶部 */
+header { height: 57px;}
+.headerLogo { position: absolute; margin-left: 59px; margin-top: 13px;}
+.headerLogo span { position: relative; left: 12px; top: -6px; font-family: "黑体"; font-size: 21px; color: #393a3a;}
+.headerNav { position: absolute; margin-left: 680px;}
+.headerNav li { padding: 16.5px 15px; margin: 0px 5px; font-family: "微软雅黑"; font-size: 14px;}
+.headerNav li:hover { border-bottom: 5px solid #e7504d;}
+.headerNav a { color: #787b83;}
+.headerNav a:hover { color: #e74f4d;}
+.headerLogin { position: absolute; top: 16px; right: 62px;}
+.headerLogin span { position: relative; margin: 0px 5px; font-family: "微软雅黑"; font-size: 14px; color: #e74f4d;}
+
+/* 首页尾部 */
+.footerTopPart { height: 358px; background-color: #32353e;}
+.footerTitle { position: absolute; top: 92px; left: 599px; font-family: "黑体"; font-size: 21px; color: white;}
+.footerComment { position: absolute; top: 123px; left: 407px; width: 470px; font-family: "宋体"; font-size: 12px; line-height: 18px; color: white; text-align: center;}
+.footerSearch { position: absolute; top: 183px; left: 385px; width: 430px; height: 40px; font-family: "微软雅黑"; font-size: 14px; color: #aaaaaa; text-indent: 5px; outline: none;}
+.footerSubmit { position: absolute; top: 183px; left: 819px; width: 80px; height: 44px; font-family: "微软雅黑"; font-size: 15px; color: white;background-color: #6f7178; border: none; cursor: pointer; outline: none;}
+.blogs { position: absolute; top: 260px; left: 536px;}
+.blogs li { padding: 0 14px;}
+.footerBottomPart { height: 57px; background-color: #2f2f38;}
+.newWorld { position: absolute; bottom: 16px; left: 40px; font-family: "宋体"; font-size: 12px; color: #ebebeb;}
+.backToTop { position: absolute; bottom: 16px; right: 40px; font-family: "宋体"; font-size: 12px; color: #ebebeb;}
