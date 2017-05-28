@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 内容块1 */
+#contentBlock1 { height: 691px; background-image: url(../images/newWorld/newWorld3.png);}
+#block1Title { position: absolute; left: 116px; top: 222px; font-family: "微软雅黑"; font-size: 60px; color: #ffffff;}
+#block1Comment { position: absolute; left: 124px; top: 304px; width: 295px; line-height: 33px; font-family: "微软雅黑"; font-size: 21px; color: #fffdfd;}
+#block1Button { display: block; position: absolute; left: 126px; top: 430px; width: 330px; height: 63px; background-color: #e74f4d; font-family: "微软雅黑"; font-size: 30px; color: #ffffff; text-align: center; line-height: 63px;}
+
+/* 内容块2 */
+#block2Pic { position: absolute; top: 46px;}
+#block2Pic li { padding: 0px 139px;}
+#block2Comment { position: absolute; top: 133px;}
+#block2Comment li { width: 152px; padding: 10px 80px; font-family: "黑体"; font-size: 13px; color: #fffdfd; text-align: center;}
+#block2Comment a { color: #767777;}
+#block2Comment a:hover { text-decoration: underline;}
+#block2Comment .spacer { width: 2px; height: 52px; background-color: #bbbbbb; padding: 0; margin: 0;}
+
+/* 内容块3 */
+#contentBlock3 { height: 360px; background-color: #ededec;}
+#contentBlock3 img { position: absolute; top: 89px; left: 595px;}
+#contentBlock3 p { position: absolute; top: 224px; left: 200px; font-family: "黑体"; font-size: 53.6px; color: #a1a1a1;}
+
+/* 内容块4 */
+#contentBlock4  { height: 340px; background-image: url(../images/newWorld/newWorld20.png);}
+#block4Title { position: absolute; top: 52px; left: 500px; font-family: "微软雅黑"; font-size: 21px; color: white;}
+.commonSpacer { position: absolute; width: 30px; height: 3px;}
+#block4Comment { position: absolute; top: 115px; left: 448px; font-family: "微软雅黑"; font-size: 12px; color: white;}
+.select { position: absolute; top: 170px; width: 235px; height: 35px; font-family: "微软雅黑"; font-size: 12px; color: #a8aaaa; border: 1px solid #be4e48; text-indent: 5px; outline: none;}
+#block4Button { display: block; position: absolute; top: 170px; left: 920px; width: 236px; height: 35px; background-color: #be4e48; font-family: "微软雅黑"; font-size: 14px; color: white; text-align: center; line-height: 35px;}
+
+/* 内容块5 */
+#contentBlock5 { height: 604px; background-color: #f8f8f8;}
+.gallery { position: absolute; top: 100px; width: 220px; height: 500px;}
+.topPart { height: 60px;}
+.topTitle { font-family: "微软雅黑"; font-size: 21px; text-align: center; margin: 5px;}
+.topComment, .bottomComment { font-family: "微软雅黑"; font-size: 12px; color: #818281; text-align: center;}
+.midPic { width: 220px; height: 338px; background-color: white; border: 1px solid #e2e2e1;}
+.midPic img { margin-top: 13px; margin-left: 9px;}
+.bottomTitle { font-family: "微软雅黑"; font-size: 14px; text-align: center; margin: 8px;}
+#gallery1 { left: 148px;}
+#gallery2 { left: 437px;}
+#gallery3 { left: 693px;}
+#gallery4 { left: 949px;}
+
+/* 内容块6 */
+#block6Left { float: left; width: 850px; height: inherit; background-image: url(../images/newWorld/newWorld15.png);}
+#block6Left1 { position: absolute; top: 130px; left: 352px; font-family: "微软雅黑"; font-size: 49.5px; color: white;}
+#block6Left2 { position: absolute; top: 150px; left: 237px; font-family: "微软雅黑"; font-size: 157.8px; color: white;}
+#block6Left3 { position: absolute; top: 348px; left: 349px; font-family: "微软雅黑"; font-size: 21.9px; color: white;}
+#block6Left4 { position: absolute; top: 385px; left: 370px; font-family: "微软雅黑"; font-size: 21.9px; color: white;}
+.whiteTria { position: absolute; width: 0px; border-width: 15px 25px; border-style: solid;}
+#block6Right { float: right; width: 430px; height: inherit;}
+#block6Right1 { position: absolute; top: 165px; right: 168px; font-family: "微软雅黑"; font-size: 20px;}
+#block6Right1 span { color: #e74f4d;}
+#block6Right2 { position: absolute; top: 215px; right: 70px; width: 290px; font-family: "宋体"; font-size: 12px; color: #aaaaaa; line-height: 30px;}
+#block6RightButton { display: block; position: absolute; top: 366px; right: 160px; width: 106px; height: 34px; border: 1px solid #e46669; text-align: center; line-height: 34px; color: #e46669;}
+#circleBtns { position: absolute; top: 425px; right: 170px;}
+#circleBtns li { width: 12px; height: 12px; border: 1px solid #929293; border-radius: 50%; margin: 0 7px; cursor: pointer;}
+.circleBtnsOn { background-color: #929293;}
+
+/* 内容块7 */
+#block7Left { float: left; width: 850px; height: inherit;}
+#block7LeftL { float: left; width: 425px; height: inherit; background-color: #e74f4d;}
+#block7LeftR { float: right; width: 425px; height: inherit; background-color: white;}
+.blockTitle { position: absolute; font-family: "黑体"; font-size: 21px;}
+.block7LeftButton { display: block; position: absolute; top: 275px; width: 170px; height: 43px; font-family: "黑体"; font-size: 21px; text-align: center; line-height: 43px;}
+.spacer2 { position: absolute; width: 30px; height: 2px;}
+#block7Right { float: right; width: 430px; height: inherit; background-image: url(../images/newWorld/newWorld10.png);}
+
+/* 内容块8 */
+#block8Comment { position: absolute; top: 164px; left: 428px; width: 422px; font-family: "微软雅黑"; font-size: 12px; color: #aaaaaa; text-align: center;}
+.block8Aisde { position: absolute; width: 288px; height: 92px;}
+.asideTitle { font-family: "黑体"; font-size: 14px; padding-bottom: 13px;}
+.asideTitle a { color: #666160;}
+.asideComment { font-family: "宋体"; font-size: 12px; color: #adabab; padding: 13px 0 10px;}
+.asideMore { position: absolute; font-family: "宋体"; font-size: 12px; right: 0px;}
+.asideMore a {  color: #959291;}
+.asideTitle a:hover,.asideMore a:hover { text-decoration: underline;}
+.block8Search { position: absolute; width: 310px; height: 40px; font-family: "宋体"; font-size: 12px; background-color: #ececee; border: none; outline: none; text-indent: 10px;}
+#block8TextArea { position: absolute; width: 639px; height: 120px; font-family: "宋体"; font-size: 12px; background-color: #ececee; border: none; outline: none; text-indent: 10px; line-height: 35px;}
+#block8Button { display: block; position: absolute; top: 544px; left: 501px; width: 638px; height: 40px; font-family: '黑体'; font-size: 14px; color: #323333; background-color: #ececee; text-align: center; line-height: 40px;}

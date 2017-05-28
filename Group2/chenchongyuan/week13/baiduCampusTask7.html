@@ -1,0 +1,220 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>新世界</title>
+<link type="text/css" rel="stylesheet" href="CSS/newWorld_Index.css">
+<link type="text/css" rel="stylesheet" href="CSS/newWorld_Common.css">
+	<script>
+		function showBtns(a) {
+			var btns = document.getElementById('circleBtns');
+			var array = btns.getElementsByTagName('li');
+			var length = array.length;
+			for(var i = 0; i<length; i++){
+				array[i].className = '';
+			}
+			a.className = 'circleBtnsOn';
+		}
+	</script>
+</head>
+
+<body>
+	<header class="container">
+		<a class="headerLogo" href=""><img src="images/newWorld/newWorld1.png"><span>新世界</span></a>
+		<ul class="headerNav">
+			<li><a href="">首页</a></li>
+			<li><a href="">最新活动</a></li>
+			<li><a href="">项目介绍</a></li>
+			<li><a href="">爱心社区</a></li>
+			<li><a href="">关于我们</a></li>
+		</ul>
+		<a class="headerLogin" href=""><img src="images/newWorld/newWorld2.png"><span>登录</span></a>
+	</header>
+	<main>
+		<div id="contentBlock1" class="container">
+			<div class="shade1" style="height: 691px">
+				<p id="block1Title">Time of new life</p>
+				<p id="block1Comment">新时代，年轻的人们让我们一起体验新生活，享受新生活</p>
+				<a id="block1Button" href="">开始体验</a>
+			</div>
+		</div>
+		<div id="contentBlock2" class="container" style="height: 250px">
+			<ul id="block2Pic">
+				<li><img src="images/newWorld/newWorld4.png"></li>
+				<li><img src="images/newWorld/newWorld5.png"></li>
+				<li><img src="images/newWorld/newWorld6.png"></li>
+				<li><img src="images/newWorld/newWorld7.png"></li>
+			</ul>
+			<ul id="block2Comment">
+				<li><a href="">打造全新世界观，让你更爱你的生活</a></li>
+				<li class="spacer"></li>
+				<li><a href="">丰富多彩的公益活动，发挥新世界的主人公意识</a></li>
+				<li class="spacer"></li>
+				<li><a href="">时尚的新理念，超前体验未知的生活</a></li>
+				<li class="spacer"></li>
+				<li><a href="">完善的培养机制，培养你全新的世界观</a></li>
+			</ul>
+		</div>
+		<div id="contentBlock3" class="container" style="height: 360px;">
+			<img src="images/newWorld/newWorld8.png">
+			<p>关于新世界，你还不知道的还有什么？</p>
+		</div>
+		<div id="contentBlock4" class="container">
+			<div class="shade2" style="height: 340px;">
+				<div id="block4Title">查找新世界城市活动信息</div>
+				<div class="commonSpacer" style=" top: 90px; left: 602px; background-color: #ffffff;"></div>
+				<div id="block4Comment">每个城市的有不同的活动信息，请自主查询您所需要了解的城市</div>
+				<select class="select" style="left: 126px;">
+					<option>中国</option>
+					<option>英国</option>
+					<option>日本</option>
+					<option>澳大利亚</option>
+				</select>
+				<select class="select" style="left: 390px;">
+					<option>北京市</option>
+					<option>天津市</option>
+					<option>河北省</option>
+					<option>陕西省</option>
+					<option>内蒙古自治区</option>
+					<option>辽宁省</option>
+				</select>
+				<select class="select" style="left: 656px;">
+					<option>城市1</option>
+					<option>城市2</option>
+					<option>城市3</option>
+					<option>城市4</option>
+				</select>
+				<a id="block4Button" href="">搜&nbsp;&nbsp;&nbsp;&nbsp;索</a>
+			</div>
+		</div>
+		<div id="contentBlock5" class="container">
+			<div id="gallery1" class="gallery">
+				<div class="topPart">
+					<p class="topTitle">北&nbsp;&nbsp;&nbsp;&nbsp;京&nbsp;&nbsp;&nbsp;&nbsp;活&nbsp;&nbsp;&nbsp;&nbsp;动</p>
+					<p class="topComment">新社区大联盟</p>
+				</div>
+				<div class="midPic"><img src="images/newWorld/newWorld17.png"></div>
+				<div class="bottomPart">
+					<p class="bottomTitle">北京活动</p>
+					<p class="bottomComment">新社区大联盟</p>
+				</div>
+			</div>
+			<div id="gallery2" class="gallery">
+				<div class="topPart">
+					<p class="topTitle">上&nbsp;&nbsp;&nbsp;&nbsp;海&nbsp;&nbsp;&nbsp;&nbsp;活&nbsp;&nbsp;&nbsp;&nbsp;动</p>
+					<p class="topComment">夜上海新景观探索</p>
+				</div>
+				<div class="midPic"><img src="images/newWorld/newWorld19.png"></div>
+				<div class="bottomPart">
+					<p class="bottomTitle">上海活动</p>
+					<p class="bottomComment">夜上海新景观探索</p>
+				</div>
+			</div>
+			<div id="gallery3" class="gallery">
+				<div class="topPart">
+					<p class="topTitle">深&nbsp;&nbsp;&nbsp;&nbsp;圳&nbsp;&nbsp;&nbsp;&nbsp;活&nbsp;&nbsp;&nbsp;&nbsp;动</p>
+					<p class="topComment">全新海岸线观景站</p>
+				</div>
+				<div class="midPic"><img src="images/newWorld/newWorld18.png"></div>
+				<div class="bottomPart">
+					<p class="bottomTitle">深圳活动</p>
+					<p class="bottomComment">全新海岸线观景站</p>
+				</div>
+			</div>
+			<div id="gallery4" class="gallery">
+				<div class="topPart">
+					<p class="topTitle">香&nbsp;&nbsp;&nbsp;&nbsp;港&nbsp;&nbsp;&nbsp;&nbsp;活&nbsp;&nbsp;&nbsp;&nbsp;动</p>
+					<p class="topComment">奢侈消费大派送</p>
+				</div>
+				<div class="midPic"><img src="images/newWorld/newWorld16.png"></div>
+				<div class="bottomPart">
+					<p class="bottomTitle">香港活动</p>
+					<p class="bottomComment">奢侈消费大派送</p>
+				</div>
+			</div>
+		</div>
+		<div id="contentBlock6" class="container" style="height: 566px;">
+			<div id="block6Left">
+				<p id="block6Left1">新世界</p>
+				<p id="block6Left2">TIME</p>
+				<p id="block6Left3">@新世界-北京</p>
+				<p id="block6Left4">2016.04.01</p>
+			</div>
+			<div class="whiteTria" style="top: 268px; right: 430px; border-color: transparent white transparent transparent"></div>
+			<div id="block6Right">
+				<p id="block6Right1">新世界/<span>01</span></p>
+				<p id="block6Right2">新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界</p>
+				<a id="block6RightButton" href="">更多详情</a>
+				<ul id="circleBtns">
+					<li class="circleBtnsOn" onClick="showBtns(this)"></li>
+					<li onClick="showBtns(this)"></li>
+					<li onClick="showBtns(this)"></li>
+				</ul>
+			</div>
+		</div>
+		<div id="contentBlock7" class="container" style="height: 520px;">
+			<div id="block7Left">
+				<div id="block7LeftL">
+					<p class="blockTitle" style="color: white; top: 173px; left: 181px;">新时代</p>
+					<p class="blockTitle" style="color: white; top: 202px; left: 130px;">关于爱生活的我们</p>
+					<div class="spacer2" style="top: 248px; left: 198px;  background-color: white;"></div>
+					<a class="block7LeftButton" style="left: 129px; border: 1px solid white; color: white;" href="">查看更多</a>
+				</div>
+				<div id="block7LeftR">
+					<p class="blockTitle" style="color: #323333; top: 173px; left: 607px;">新时代</p>
+					<p class="blockTitle" style="color: #323333; top: 202px; left: 555px;">关于爱生活的我们</p>
+					<div class="spacer2" style="top: 248px; left: 622px;  background-color: #abaaaa;"></div>
+					<a class="block7LeftButton" style="left: 555px; border: 1px solid #e95b58; color: #e95b58;" href="">查看更多</a>
+				</div>
+			</div>
+			<div class="whiteTria" style="top: 245px; left: 850px; border-color: transparent transparent transparent white;"></div>
+			<div id="block7Right">
+				<div class="shade1" style="height: inherit;"></div>
+			</div>
+		</div>
+		<div id="contentBlock8" class="container" style="height: 750px;">
+			<p class="blockTitle" style="top: 119px; left: 555px;">成为我们的志愿者</p>
+			<div class="spacer2" style="top: 153px; left: 622px;  background-color: #ea6663;"></div>
+			<p id="block8Comment">新世界的大家庭需要每一个爱生活的人的加入，如果你够年轻，有梦想，有激情那就不要犹豫，快来加入我们，成为改变所有人生活的人 </p>
+			<div class="block8Aisde" style="top: 304px; left: 129px;">
+				<p class="asideTitle"><a href="">新世界志愿者协议</a></p>
+				<p class="asideComment">加入新世界志愿者的人员必须遵守中华人民共共和国的相关法律法规，并且本着平等资源的原则 ......</p>
+				<div class="asideMore"><img src="images/newWorld/newWorld21.png" style="margin-right: 7px;"><a href="">more</a></div>
+			</div>
+			<div class="block8Aisde" style="top: 434px; left: 129px;">
+				<p class="asideTitle"><a href="">新世界志愿者权利</a></p>
+				<p class="asideComment">新世界志愿者享受新世界内部所有资源共享的权利，并且享受所在四新世界活动的优先参与资格</p>
+				<div class="asideMore"><img src="images/newWorld/newWorld21.png" style="margin-right: 7px;"><a href="">more</a></div>
+			</div>
+			<div class="block8Aisde" style="top: 544px; left: 129px;">
+				<p class="asideTitle"><a href="">更多条款</a></p>
+				<div class="asideMore"><img src="images/newWorld/newWorld21.png" style="margin-right: 7px;"><a href="">more</a></div>
+			</div>
+			<input class="block8Search" type="text" placeholder="姓名" style="top: 300px; left: 501px;">
+			<input class="block8Search" type="text" placeholder="年龄" style="top: 300px; left: 830px;">
+			<input class="block8Search" type="text" placeholder="联系方式" style="top: 355px; left: 501px;">
+			<input class="block8Search" type="text" placeholder="联系地址" style="top: 355px; left: 830px;">
+			<textarea id="block8TextArea" placeholder="请简单描述您梦想的生活" style="top: 409px; left: 501px;"></textarea>
+			<a id="block8Button" href="">提交申请</a>
+		</div>
+	</main>
+	<footer class="container" style="height: 415px;">
+		<div class="footerTopPart">
+			<p class="footerTitle">联系我们</p>
+			<p class="footerComment">为了更好的获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们的产品资讯也可以通过以下任何方式关注我们动态</p>
+			<input class="footerSearch" type="text" placeholder="someone@email.com">
+			<input class="footerSubmit" type="submit" value="提交">
+			<ul class="blogs">
+				<li><a href=""><img src="images/newWorld/newWorld11.png"></a></li>
+				<li><a href=""><img src="images/newWorld/newWorld12.png"></a></li>
+				<li><a href=""><img src="images/newWorld/newWorld13.png"></a></li>
+				<li><a href=""><img src="images/newWorld/newWorld14.png"></a></li>
+			</ul>
+		</div>
+		<div class="footerBottomPart">
+			<p class="newWorld">@2016新世界</p>
+			<a class="backToTop" href="#">Back to top</a>
+		</div>
+	</footer>
+</body>
+</html>
