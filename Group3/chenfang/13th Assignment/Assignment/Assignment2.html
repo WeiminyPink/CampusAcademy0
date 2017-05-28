@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Assignment2</title>
+    <style>
+        /*--------------------样式重置--------------------*/
+        body, p, h1, h2, h3, h4, h5, h6, dl, dd{
+            margin: 0;
+            padding:0;
+        }
+        table{
+            border-collapse:collapse;//重置table默认单元格内存在间隙样式
+        }
+
+        table{
+            border:2px solid #fff;
+        }
+        th,td{
+            border:2px solid #fff;
+        }
+        th{
+            background-color:#000;
+            text-align:left;
+            color:#fff;
+            padding:2px;
+        }
+        tr:nth-child(-1n+4){
+            color:red;
+        }
+        tr:nth-child(odd){
+            background-color:lightgrey;
+        }
+
+        input{
+            width:200px;
+            transition:width 1s;
+            -moz-transition: width 1s; /* Firefox 4 */
+            -webkit-transition: width 1s; /* Safari 和 Chrome */
+            -o-transition: width 1s; /* Opera */
+        }
+        input:focus{
+            width:500px;
+        }
+        
+        .banner{
+            width:500px;
+            height:250px;
+            position: relative;
+        }
+        .pic{
+            position: absolute;
+            width:1500px;
+        }
+        .cover{
+            width:1000px;
+            height:250px;
+            background-color:#fff;
+            position: relative;
+            right:-500px;
+            z-index:2;
+        }
+        .red,.green,.blue{
+            position: relative;
+            float:left;
+            width:500px;
+            height:250px;
+            transition:left 1s;
+            -webkit-transition: width 1s;
+        }
+        .red{
+            background-color:red;
+        }
+        .green{
+            background-color:green;
+        }
+        .blue{
+            background-color:blue;
+        }
+        .num{
+            margin:5px;
+            position: absolute;
+            right:0;
+            bottom:0;
+            width:35px;
+            height:35px;
+            color:#fff;
+            cursor: pointer;
+            z-index:2;
+        }
+        .num div{
+            background-color:#fff;
+            opacity:0.2;
+            width:35px;
+            height:35px;
+        }
+        .num p{
+            float:right;
+            font-size:20px;
+            margin-right:10px;
+            margin-top:5px;
+        }
+        .two{
+            right:40px;
+            z-index:1;
+        }
+        .one
+        {
+            right:80px;
+            z-index:1;
+        }
+        .num:hover div{
+            opacity:0.5;
+            z-index:1;
+        }
+
+        #red:target{
+            background-color:blue;
+            width:0;
+        }
+        #green:target{
+            width:0;
+        }
+        #blue:target{
+            left:-1000px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="container">
+    <div class="table">
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>网站</th>
+                <th>热度</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>百度前端技术学院</td>
+                <td>13000</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>百度前端技术学院</td>
+                <td>12000</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>百度前端技术学院</td>
+                <td>11000</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>百度前端技术学院</td>
+                <td>10000</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>百度前端技术学院</td>
+                <td>9000</td>
+            </tr>
+            <tr>
+                <td>6.</td>
+                <td>百度前端技术学院</td>
+                <td>8000</td>
+            </tr>
+            <tr>
+                <td>7.</td>
+                <td>百度前端技术学院</td>
+                <td>7000</td>
+            </tr>
+            <tr>
+                <td>8.</td>
+                <td>百度前端技术学院</td>
+                <td>6000</td>
+            </tr>
+            <tr>
+                <td>9.</td>
+                <td>百度前端技术学院</td>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <td>10.</td>
+                <td>百度前端技术学院</td>
+                <td>4000</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="block" style="height:80px;"></div>
+
+    <div class="input">
+        <input type="text"/>
+    </div>
+
+    <div class="block" style="height:80px;"></div>
+
+    <div class="banner">
+        <div class="pic">
+            <div class="red" id="red"></div>
+            <div class="green" id="green"></div>
+            <div class="blue" id="blue"></div>
+        </div>
+        <div class="cover"></div>
+        <a class="num one" href="#red"><p>1</p><div></div></a>
+        <a class="num two" href="#green"><p>2</p><div></div></a>
+        <a class="num three" href="#blue"><p>3</p><div></div></a>
+    </div>
+</div>
+
+</body>
+</html>
