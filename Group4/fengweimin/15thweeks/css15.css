@@ -1,0 +1,320 @@
+body,ul,p,h1,h2,h3,h4,dl,dd,form,input,textarea,select
+{padding: 0; margin: 0;}
+li {list-style: none;}
+img {border: none;}
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
+html{
+	font-size:10px;
+	font-family: "Adobe 黑体 Std";
+}
+
+.top{width:75rem;
+	height:8.4rem;
+	background: #243343;
+	margin: 0 auto;
+}
+.top .font1{background: url(15img/logo.jpg) no-repeat;
+	color:#fff;
+	font-size: 1.801rem;
+	padding: 2.8rem 0 3.0rem 18.6rem;
+	display: inline-block;
+}
+.top .top_right{float:right;
+	padding:2.8rem 2.4rem 0 0;
+}
+.top_right a{font-size: 2.0rem;
+	font-family: "微软雅黑";
+	color:#fefefe;
+	margin:0 2.6rem 3.1rem 0;
+}
+
+.head{height:34.4rem;
+	width:75.0rem;
+	background: url(15img/headbg.jpg) no-repeat;
+	margin: 0 auto;
+	position: relative;
+}
+.head .font1{font-size:1.921rem;
+    color:#e5e5e4;
+    padding:8.4rem 0 0 5.8rem;
+}
+.head .font2{font-size: 3.842rem;
+	color: #fff;
+	padding-left: 5.8rem;
+	line-height: 4.6rem;
+}
+.head .font3{font-size: 1.409rem;
+	color: #0bc6a8;
+	padding: 0 0 5.8rem 5.8rem;
+	line-height: 2.7rem;
+}
+.head .border{padding-left: 5.8rem;}
+.head .erweima{position: absolute;
+	top: 25.7rem;
+	left: 6.3rem;
+	background: url(15img/border.png) no-repeat;
+}
+.head .font4{font-size: 0.771rem;
+	color: #90908b;
+	padding-left: 6.6rem;
+	line-height: 0.1rem
+}
+
+.tutor{width:75rem;
+	margin:0 auto;
+	position: relative;
+}
+.line1{position: absolute;
+	top: 12.5rem;
+	left: 10.5rem;
+}
+.line2{position: absolute;
+	top: 13.5rem;
+	left: 13.5rem;
+}
+.line3{position: absolute;
+	top: 12.5rem;
+	right: 10.5rem;
+}
+.line4{position: absolute;
+	top: 13.5rem;
+	right: 13.5rem;
+}
+.tutor h1{font-size: 3.621rem;
+	color: #00caab;
+	display: inline-block;
+	margin: 10.8rem 0 0 30.5rem;
+	font-weight: bold;
+	line-height: 3.8rem;
+}
+.tutor .one{font-size: 1.81rem;
+	color:#8f8f8f;
+	line-height: 1.4rem;
+	padding:0 0 3.6rem 25rem;
+} 
+.tutor .tutor1{margin-left: 7rem;
+	display: inline-block;
+}
+.tutor1 img{}
+.tutorleft,.tutorright{background: url(15img/tutorlrbg.png) no-repeat;
+	box-shadow: 0.8px 0.8px 2px 0.8px #f0f0f0;
+	width: 25.5rem;
+	height: 15.2rem;
+	border-radius: 0.4rem;
+	position: absolute;
+	display: inline;
+	top: 47.4rem;
+	left: 7.8rem;
+}
+.tutor .two,.tutor .two2{width: 7.4rem;
+	height: 2.1rem;
+	font-size: 1.2rem;
+	color: #fff;
+	text-align: center;
+	background-color:#00c8a9;
+	transform: skew(6deg);
+	padding-top: 0.8rem;
+	display: block;
+	position: absolute;
+	margin: 0;
+	top: 46.2rem;
+	left: 8.8rem;
+	float: left;
+	z-index:1000;
+}
+.tutor .two2{position: absolute;
+	top: 46.2rem;
+	left: 43.4rem;
+	margin: 0;
+	float: left;
+	z-index:1000;
+}
+.tutorright{position: absolute;
+	display: inline;
+	top: 47.4rem;
+	left: 42.3rem;
+}
+.tutor .three{font-size: 1.4rem;
+	color:#656565;
+	padding:3.6rem 0 0 2.8rem;
+}
+.tutor .four{font-size: 1.4rem;
+	padding: 0 0 2rem 10rem;
+}
+.tutor .four span{font-size: 1.2rem;
+	color:#f6b37d;
+}
+.tutor .tutor2{}
+.tutor2 img{}
+.tutor .more{margin:12rem 0 0 34rem;
+	padding:2.5rem 0 5.2rem 0;
+}
+.tutor a{margin-right:1.6rem;}
+.tutor a:hover{background: url(15img/ahover.png) no-repeat;}
+
+.student{background: url(15img/studentbg.jpg) no-repeat;
+	height: 67.4rem;
+	width:75rem;
+	margin:0 auto;
+	position:relative;
+}
+.line5{position: absolute;
+	top: 8.5rem;
+	left: 10.5rem;
+}
+.line6{position: absolute;
+	top: 9.2rem;
+	left: 13.6rem;
+}
+.line7{position: absolute;
+	top: 8.5rem;
+	right: 10.5rem;
+}
+.line8{position: absolute;
+	top: 9.2rem;
+	right: 13.6rem;
+}
+
+.student h1{font-size: 3.622rem;
+	color:#fff;
+	display: inline-block;
+	margin: 6.8rem 0 0 30.5rem;
+	font-weight: bold;
+	line-height: 3.6rem;
+}
+.student .title{font-size: 1.811rem;
+	color:#fff;
+	padding: 0 0 5.4rem 25.8rem;
+	line-height: 1.8rem;
+}
+.stu1{width: 32.9rem;
+	height: 17.5rem;
+	background-color: #f9f9f9;
+	border-radius: 0.6rem;
+	margin: 0rem 2.2rem 2.8rem 2.2rem;
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+.stu1 img{margin: 4rem 2rem 0 3rem;
+	float: left;
+}
+.dent1 a{color:#fff;}
+.dent1{width: 4rem;
+	height: 1.6rem;
+	background:url(15img/stubg.png) no-repeat;
+	font-size: 1.116rem;
+	text-align: center;
+	padding-top: 0.5rem;
+	position: absolute;
+	left: 30.5rem;
+	top: 2.6rem;
+}
+.dent2{font-size:1.861rem;
+	padding-top:3rem;
+}
+.dent3{font-size: 1.116rem;
+	color:#bebebe;
+	line-height: 0.2rem
+}
+.dent4{font-size: 1.303rem;
+	padding: 1.4rem 0 0.6rem 0;
+}
+.dent5{font-size: 1.303rem;
+	color: #07c5b1;
+	padding-left: 12.5rem;
+}
+
+.dream{width:75rem;
+	margin:0 auto;
+	position:relative;
+	text-align: center;
+}
+.dream h1{font-size: 3.619rem;
+	color:#00caab;
+	padding: 10.6rem 0 0 0rem;
+	line-height: 3.6rem;
+}
+.dream1{
+
+}
+.dream2{}
+.dream3{}
+.dream1 a{}
+.dream1 img{}
+.dr1{font-size: 1.801rem;
+	color:#909090;
+	padding: 1.6rem 0 3rem 0rem;
+}
+.dr2{font-size: 3.122rem;
+	line-height: 3rem;
+	padding:3.6rem 0 2.2rem 0;
+}
+.dr3{font-size: 5rem;
+	color:#00caab;
+}
+.dr4{font-size: 2.082rem;
+	color:#5c5c5c;
+	line-height: 3rem;
+	padding-bottom: 7rem;
+}
+
+.firm{width:75rem;
+	height:48rem;
+	margin:0 auto;
+	position:relative;
+	background: url(15img/firmbg.jpg) no-repeat;
+	text-align: center;
+}
+.firm h1{font-size: 3.618rem;
+	color:#fff;
+	padding-top: 6.2rem;
+	line-height: 3.6rem;
+}
+.firm p{font-size: 1.8rem;
+	color:#fff;
+	padding-bottom:4rem;
+}
+.baidu{width: 19rem;
+	height: 10rem;
+	background-color: #ffffff;
+	border-top-left-radius: 0.8rem;
+	margin:0rem 0.2rem 0.2rem 8.8rem;
+	display: inline-block;
+	float: left;
+}
+.baidu img{padding:3rem 0 0 2.4rem;}
+.jd{margin-left: 0;
+	border-radius: 0rem;
+	display: inline-block;
+}
+.huawei{margin-left: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0.8rem;
+	display: inline-block;
+}
+.mobile{margin-left: 8.8rem;
+	border-bottom-left-radius: 0.8rem;
+	border-top-left-radius: 0;
+}
+.sohu{margin-left: 0;
+	border-radius: 0;
+	display: inline-block;
+}
+.xiecheng{margin-left: 0;
+	border-bottom-right-radius: 0.8rem;
+	border-top-left-radius: 0;
+	display: inline-block;
+}
+
+.footer{width:75rem;
+    height:27rem;
+    background: #34495e;
+    margin:0 auto;
+    text-align: center;
+    color:#bcbcbc;
+}
+.footer{padding: 3.2rem 0 1.8rem 0;}
+.f1{font-size: 1.801rem;padding-bottom: 5rem;}
+.f2{font-size: 1.405rem}
