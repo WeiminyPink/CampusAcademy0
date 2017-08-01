@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/ecmascript">
+function leo(n){
+	var navUi = document.getElementById("m"+n);
+	if(navUi.style.display != "block")
+	{
+		for(var i=0;i<=2;i++)
+		{
+			document.getElementById("m"+i).style.display = "none";
+		}
+		navUi.style.display = "block";
+	}
+	else
+	{
+		navUi.style.display = "none";
+	}
+};
+</script>
+<style type="text/css">
+body {
+	margin:30px 150px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+img {border:0}
+#nav {
+	width:145px;
+	background: #4181c8;
+	border: 1px solid #4181c8;
+}
+#nav li {
+	width: 145px;
+	line-height: 24px;
+	border-top: 1px solid #a2b4c9;
+	border-bottom: 1px solid #708195;
+	position: relative;
+}
+.img {
+	position: absolute;
+	top:5px;left:10px;
+}
+.navLink {
+	width: 115px;
+	height: 24px;
+	padding-left:30px;
+	display: block;
+	color: #ffffff;
+	text-decoration: none;
+}
+.navLink:hover {
+	background: url(navLink.gif) repeat-x;
+}
+.menu {
+	width:145px;
+	display: none;
+}
+.menu li {
+	width:145px;
+	height: 22px;
+	border-bottom: 1px solid #708195;
+	background: #4d87c9;
+	position: relative;
+}
+.menu a:hover{color:#faf838;}
+.menuLink {padding-left:50px;color:#fff;text-decoration: none;}
+.menuLink:hover {
+	text-decoration: none;
+}
+.img2 {
+	position: absolute;
+	top:5px;left:30px;
+}
+</style>
+</head>
+
+<body>
+
+<ul id="nav">
+	<li><a onclick="leo(0)" href="#" class="navLink"><img src="xialaimg/nav.gif" class="img" />首页</a></li>
+    <ul id="m0" class="menu">
+        <li><a href="#" class="menuLink"><img src="xialaimg/nav2.gif" class="img2" />好友动态</a></li>
+        <li><a href="#" class="menuLink"><img src="xialaimg/nav2.gif" class="img2" />特别关心</a></li>
+        <li><a href="#" class="menuLink"><img src="xialaimg/nav2.gif" class="img2" />与我先关</a></li>
+        <li><a href="#" class="menuLink"><img src="xialaimg/nav2.gif" class="img2" />那年今日</a></li>
+    </ul>
+    <li><a onclick="leo(1)" href="#" class="navLink"><img src="xialaimg/nav.gif" class="img" />我的主页</a></li>
+    <ul id="m1" class="menu">
+        <li><a href="#" class="menuLink"><img src="xialaimg/nav2.gif" class="img2" />日志</a></li>
+        <li><a href="#" class="menuLink"><img src="xialaimg/nav2.gif" class="img2" />相册</a></li>
+        <li><a href="#" class="menuLink"><img src="xialaimg/nav2.gif" class="img2" />说说</a></li>
+        <li><a href="#" class="menuLink"><img src="xialaimg/nav2.gif" class="img2" />留言板</a></li>
+    </ul>
+    <li><a onclick="leo(2)" href="#" class="navLink"><img src="xialaimg/nav.gif" class="img" />游戏</a></li>
+    <ul id="m2" class="menu">
+        <li><a href="#" class="menuLink"><img src="xialaimg/nav2.gif" class="img2" />积分商城</a></li>
+        <li><a href="#" class="menuLink"><img src="xialaimg/nav2.gif" class="img2" />每日礼包</a></li>
+        <li><a href="#" class="menuLink"><img src="xialaimg/nav2.gif" class="img2" />王者荣耀</a></li>
+        <li><a href="#" class="menuLink"><img src="xialaimg/nav2.gif" class="img2" />了解更多>></a></li>
+    </ul>  
+</ul>
+</body>
+</html>

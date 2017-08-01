@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>task20</title>
+<style>
+.wrap{height:30px;width:800px;margin:100px auto;}
+textarea{resize:none;outline:none;}
+li{display:inline-block;
+   background-color:#52b9bf;
+   color:pink;
+   height:30px;
+   text-align:center;
+   line-height:30px;
+   cursor:pointer;
+   margin-right:10px;
+   padding:0 2px;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+    <textarea id="input"></textarea>
+    <button id="leftin">左侧入</button>
+    <button id="rightin">右侧入</button>
+    <button id="leftout">左侧出</button>
+    <button id="rightout">右侧出</button>
+    <input type="text" />
+    <button id="search">查询</button>
+    <div id="result">
+        <ul id="list"></ul>
+    </div>
+</div>
+<script type="text/javascript">
+    var oInput = document.getElementById('input');
+    var oLeftin = document.getElementById('leftin');
+    var oRightin = document.getElementById('rightin');
+    var oLeftout = document.getElementById('leftout');
+    var oRightout = document.getElementById('rightout');
+    var oSearch = document.getElementById('search');
+    var oUl = document.getElementsByTagName('ul')[0];
+
+    //判断输入是否为空的函数
+//    function judgeContent(){
+//        if(oInput.value.length ==0){
+//            alert("输入为空");
+//            return false;
+//        }
+//    }
+
+    //添加左侧入的函数
+    function addContentLeft()
+    {
+//        judgeContent();
+        if(oInput.value.length ==0)
+        {
+            alert("输入为空");
+            return false;
+        }
+        var a=oInput.value.trim().split(/,|，|、|\s|\n|\r|\t/);
+        var oLi = document.createElement('li');
+        oLi.innerHTML = oInput.value;//把输入的内容添加到li中
+        oUl.insertBefore(oLi,oUl.firstChild);
+        oInput.value = null;//清空文本框里面的内容
+    }
+    oLeftin.onclick = addContentLeft;
+
+    //添加右侧入的函数
+    function addContentRight()
+    {
+//        judgeContent();
+        if(oInput.value.length ==0)
+        {
+            alert("输入为空");
+            return false;
+        }
+        var oLi = document.createElement('li');
+        oLi.innerHTML = oInput.value;
+        oUl.appendChild(oLi);
+        oInput.value = null;
+    }
+    oRightin.onclick = addContentRight;
+
+    //左侧出的函数
+    function deleteLeft()
+    {
+        if(oUl.hasChildNodes())
+        {
+            oUl.removeChild(oUl.firstChild);
+        }
+        else
+        {
+            alert("队列为空");
+            return false;
+        }
+    }
+    oLeftout.onclick = deleteLeft;
+
+    //右侧出的函数
+    function deleteRight()
+    {
+        var aLi = document.getElementsByTagName('li');
+        if(aLi.length !== 0)
+        {//检查ul是否拥有任何子节点
+            oUl.removeChild(oUl.lastChild);
+        }
+        else
+        {
+            alert("队列为空");
+            return false;
+        }
+    }
+    oRightout.onclick = deleteRight;
+
+
+//    function searchText(){
+//        var aList = document.getElementsByTagName("li");
+//       for(var i=0;i<aList.length;i++){
+//           var searchResult = aList[i].innerHTML;
+//           var aList[i].innerHTML = "<span>" + searchResult + "</span>";
+//       }
+//    }
+
+    //查询函数
+    function searchData() 
+    {
+        var value = oSearch.previousSibling.previousSibling.value.trim();//input中的内容（value），去掉value里面的空格
+        var re = new RegExp(value);
+        for (var i = 0; i < oUl.children.length; i++) 
+        {
+            if (value != '' && oUl.children[i].textContent.match(re)) 
+            {//textContent获取内容，获取的内容能够找到匹配的值
+                oUl.children[i].style.backgroundColor = '#f3a46f';
+            }
+        }
+    }
+    oSearch.onclick = searchData;
+</script>
+</body>
+</html>

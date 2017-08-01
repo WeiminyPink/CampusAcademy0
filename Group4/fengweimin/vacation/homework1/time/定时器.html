@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+body{color:pink; font-size: 50px;}
+.all{width:538px;height:66px;background: #233;margin: 50px auto;border-radius:8px;}
+</style>
+<script type="text/javascript">
+function toDouble(num)
+{
+	if(num<10)
+	{
+		return '0'+num;
+	}
+	else
+	{
+		return ''+num;
+	}
+}
+
+window.onload=function ()
+{
+	var oBtn=document.getElementById('btn1');
+	var oBtnn=document.getElementById('btn2');
+	var aImg=document.getElementsByTagName('img');
+	var i=0;
+	var timer=null;
+
+	function updateTime()
+	{
+		var oDate=new Date();
+		//var arr=['2','1','5','5','3','2'];
+		var str=toDouble(oDate.getHours())+toDouble(oDate.getMinutes())+toDouble(oDate.getSeconds());
+
+		//alert(str);
+
+		for(i=0;i<aImg.length;i++)
+		{
+			aImg[i].src='timeimg/'+str.charAt(i)+'.png';
+		}
+	};
+
+    
+	timer=setInterval(updateTime,1000);
+	updateTime();
+
+	btn1.onclick=function ()
+	{
+		clearInterval(timer);
+	}
+	
+	btn2.onclick=function ()
+	{
+		setInterval(updateTime());
+		timer=setInterval(updateTime,1000);
+	    updateTime();
+	}
+
+}; 
+</script>
+</head>
+<body>
+<div class="all">
+<input id="btn2" type="button" value="Start"/>
+<img src="timeimg/0.png"/>
+<img src="timeimg/0.png"/>
+点
+<img src="timeimg/0.png"/>
+<img src="timeimg/0.png"/>
+分
+<img src="timeimg/0.png"/>
+<img src="timeimg/0.png"/>
+秒
+<input id="btn1" type="button" value="Over"/>
+</div>
+</body>
+</html>
