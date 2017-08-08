@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head>
+<title>twoxiala</title>
+</head>
+<style>
+body{padding:0; margin:0;}
+li {list-style:none;}
+#nav {margin:100px auto;width:800px;}
+.nav_li {width:150px;
+	height:30px;
+	background:pink;
+	font-size:18px;
+	text-align:center;
+	float: left;
+	margin-left: 1px;
+	border: 1px solid #fff;
+	color:#fff;
+}
+.list_ul {font-size:14px;
+	color:white;
+	display: none;
+	position:relative;
+}
+.list_li {width:px;
+	background:#dab8f5;
+	padding:5px 0;
+}
+.list_li:hover {background-color:#b8f0f5;}
+.list_li a {text-decoration:none;color:white;}
+.child_ul1,.child_ul2,.child_ul3,.child_ul4,.child_ul5
+ {width:100px;
+	background:#8af3c0;
+	position:absolute;
+	display: none;
+}
+.child_li {padding:5px;}
+.child_li:hover {color:pink;}
+.child_ul1 {left:150px;top:0px;}
+.child_ul2 {left:150px;top:20px;}
+.child_ul3 {left:150px;top:40px;}
+.child_ul4 {left:150px;top:60px;}
+.child_ul5 {left:150px;top:80px;}
+</style>
+<script type="text/javascript" >
+	window.onload=function()
+	{
+		var oDiv=document.getElementById('nav');
+		var aLi=oDiv.getElementsByTagName('li');
+		var i=0;
+
+		for(i=0;i<aLi.length;i++)
+		{
+			if(aLi[i].className=='nav_li')
+			{
+				aLi[i].onmouseover=function()
+				{
+					var oDivList=this.getElementsByTagName('ul')[0];
+					oDivList.style.display='block';
+				}
+				aLi[i].onmouseout=function()
+				{
+					var oDivList=this.getElementsByTagName('ul')[0];
+					oDivList.style.display='none';
+				}
+			}
+			else if(aLi[i].className=='list_li')
+			{
+				aLi[i].onmouseover=function()
+				{
+					var oDivChild=this.getElementsByTagName('ul')[0];
+					oDivChild.style.display='block';
+				}
+				aLi[i].onmouseout=function()
+				{
+					var oDivChild=this.getElementsByTagName('ul')[0];
+					oDivChild.style.display='none';
+				}
+			}
+		}
+	}
+</script>
+<body>
+	<div id="nav">
+	<ul class="nav_ul">
+	<li class="nav_li">家
+	<ul class="list_ul">
+		<li class="list_li">门
+		<ul class="child_ul1">
+			<a href="#"><li class="child_li">美心</li></a>
+			<a href="#"><li class="child_li">美心</li></a>
+			<a href="#"><li class="child_li">美心</li></a>
+		</ul>
+		</li>
+		<li class="list_li">空调
+			<ul class="child_ul2">
+			<a href="#"><li class="child_li">格力</li></a>
+			<a href="#"><li class="child_li">格力</li></a>
+			<a href="#"><li class="child_li">格力</li></a>
+		</ul>
+		</li>
+		<li class="list_li">洗衣机
+			<ul class="child_ul3">
+			<a href="#"><li class="child_li">海尔</li></a>
+			<a href="#"><li class="child_li">海尔</li></a>
+			<a href="#"><li class="child_li">海尔</li></a>
+		</ul>
+		</li>
+	</ul>
+	</li>
+
+	<li class="nav_li">重庆
+	<ul class="list_ul">
+		<li class="list_li">解放碑
+		<ul class="child_ul1">
+			<a href="#"><li class="child_li">好吃街</li></a>
+			<a href="#"><li class="child_li">好吃街</li></a>
+			<a href="#"><li class="child_li">好吃街</li></a>
+		</ul>
+		</li>
+		<li class="list_li">沙坪坝
+			<ul class="child_ul2">
+			<a href="#"><li class="child_li">磁器口</li></a>
+			<a href="#"><li class="child_li">磁器口</li></a>
+			<a href="#"><li class="child_li">磁器口</li></a>
+		</ul>
+		</li>
+		<li class="list_li">南岸区
+			<ul class="child_ul3">
+			<a href="#"><li class="child_li">重邮</li></a>
+			<a href="#"><li class="child_li">重邮</li></a>
+			<a href="#"><li class="child_li">重邮</li></a>
+		</ul>
+		</li>
+	</ul>
+	</li>
+
+	<li class="nav_li">重邮
+	<ul class="list_ul">
+		<li class="list_li">学院
+		<ul class="child_ul1">
+			<a href="#"><li class="child_li">计算机</li></a>
+			<a href="#"><li class="child_li">通信</li></a>
+			<a href="#"><li class="child_li">自动化</li></a>
+		</ul>
+		</li>
+		<li class="list_li">周边美食
+			<ul class="child_ul2">
+			<a href="#"><li class="child_li">堕落街</li></a>
+			<a href="#"><li class="child_li">堕落街</li></a>
+			<a href="#"><li class="child_li">堕落街</li></a>
+		</ul>
+		</li>
+		<li class="list_li">周边景点
+			<ul class="child_ul3">
+			<a href="#"><li class="child_li">一棵树</li></a>
+			<a href="#"><li class="child_li">加勒比</li></a>
+			<a href="#"><li class="child_li">植物园</li></a>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	</ul>
+	</div>
+</body>
+</html>

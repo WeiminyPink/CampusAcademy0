@@ -1,0 +1,59 @@
+*{margin:0;padding: 0;}
+a{color:#000;
+	text-decoration: none;
+}
+button{width:50px;
+	height:50px;
+	border-radius: 50px;
+	background-color:#40A798;
+	font-size: 20px;
+	float: right;
+}
+#mask{width:100%;
+	height:1000px;
+	background: #303481;
+	opacity: 0.75;
+	position: absolute;
+    left: 0;
+    top:0;
+    z-index: 1000;
+}
+#login{width:450px;
+	height: 300px;
+	background: #F5F5F5;
+	position: fixed;
+    left: 30%;
+    top:30%;
+    display: none;
+    z-index: 1001;
+}
+#login #title{background: #D6E6F2;
+	width:100%;
+	height:50px;
+	line-height: 50px;
+	font-size: 20px;
+}
+.close{width:30px;
+	height:30px;
+	background: #D6E6F2;
+	cursor: pointer;
+	position: absolute;
+	right: 5px;
+	top:5px;
+	color:#fff;
+}
+/*.close:hover{background: red;}*/
+.text1{text-align: center;padding-top: 20px;}
+#login p{color: #000;}
+#login form p{
+	margin: 20px 0 0 60px;
+}
+#login form p input{
+	width:260px;
+	height:35px;
+	border:1px solid #ddd;
+}
+#btn{margin-left: 32px;
+	background: #FFF200;
+	cursor: pointer;
+}
