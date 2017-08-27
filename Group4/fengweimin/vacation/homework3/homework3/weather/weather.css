@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#outline{
+    height:360px;
+    width: 200px;
+    margin:50px auto;
+}
+#outline li{
+    list-style: none;
+    display: inline-block;
+    background: #625772;
+    height: 30px;
+    width:60px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+#outline a{
+    text-decoration: none;
+    color:#fff;
+}
+#innerline{
+    width: 200px;
+    background: pink;
+    overflow: hidden;
+    height:240px;
+    border-radius: 0 8px 8px 8px;
+}
+#outline .active{background: pink;}
+img {
+    width: 75px;
+    height: 70px;
+}
+
+.day {
+    float: left;
+    width: 200px;
+    text-align: center;
+}
+
+p {
+    height: 44px;
+    line-height: 44px;
+}

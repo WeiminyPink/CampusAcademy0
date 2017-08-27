@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color:#625772;
+	color:#eeefef;
+	font-size:62.5%;
+	margin:0;
+	padding:0;
+}
+.table {width:940px;
+	margin:0 auto;
+	padding:10px;
+}
+.lead {font-size:2em;
+	margin-bottom:40px;
+}
+h1,h2 {}
+h1 {color:#F38181;
+	font-size:36px;
+	font-weight:400;
+	margin:0;
+}
+h2 {font-size:22px;
+	font-weight:400;
+	margin:5px 0;
+	letter-spacing:.1em;
+}
+h3 {font-size:1.6em;
+	margin:10px 0 10px 10px;
+}
+a:hover {text-decoration:none;
+	color:#A9EEE6;
+}
+a img {border:none;}
+p {margin:0 0 10px 8px;
+	font-size:1.5em;
+	font-weight:400;
+	line-height:1.6em;
+}
+
+.clear {clear:both;
+	line-height:0;
+	font-size:0;
+}
+#outline{
+	width: 900px;
+	height: 530px;
+	overflow: hidden;
+	position: relative;
+}
+.line {border-left:6px solid #FEFAEC;
+	margin:20px auto;
+	width:900px;
+	position: absolute;
+}
+.lineToggle {
+	float:right;
+	margin-right:6px;
+	white-space:nowrap;
+}
+
+.expandAll {color:#625772;
+	cursor:pointer;
+	background:#F38181;
+	border-radius:4px;
+	font-size:12px;
+	padding:3px 5px;
+}
+.expandAll:hover {color:#7DBADF;
+	cursor:pointer;
+}
+.expandAll:hover {color:#7DBADF;
+	cursor:pointer;
+}
+.linemajor h2 {background: #FEFAEC;
+	width: 80px;
+	border-radius: 0 20px 20px 0;
+	color: #625772;
+	cursor: pointer;
+	font-size:3em;
+	font-weight:400;
+	margin:0 0 10px;
+	padding:4px 4px 4px 8px;
+}
+.lineevent{display: none;}
+dl .lineminor {clear:left;
+	float:left;
+	margin:0 12px 0 0;
+	padding:4px 4px 4px 0;
+	position:relative;
+	width:880px;
+}
+.lineminor dt {clear:left;
+	font-size:1.6em;
+	list-style-type:none;
+	line-height:1.2em;
+	margin:0 0 12px;
+	padding:0 0 0 24px;
+	white-space:nowrap;
+}
+.lineminor dt a {color:#F38181;
+	cursor:pointer;
+}
+.lineminor dt a.closed {color:#999;
+	font-size:1em;
+	margin-left:0;
+}
+.lineminor dt a.open {color:#7DBADF;}
+.lineminor dt a:hover {color:#7DBADF;}
+.lineminor dd {padding-left:24px;
+	width:100%;
+}
+.lineminor dd h3 {color:#FFF;
+	clear:both;
+	float:left;
+	font-size:1.5em;
+	margin:0;
+	white-space:nowrap;
+}
+.lineevent p {clear:left;
+	float:left;
+	line-height:1.5em;
+	margin:6px 0 10px;
+	width:500px;
+}
+.lineevent h4 {clear:left;
+	float:left;
+	font-size:1.4em;
+	font-weight:400;
+	margin:10px 0 0;
+	padding:0 0 0 20px;
+}
+/*.lineevent div.media {float:right;
+	padding:0 0 12px;
+	width:300px;
+}
+.lineevent .media img {border:2px solid #000;
+	margin:0;
+}
+.lineevent .media p {font-size:1.2em;
+	margin:0;
+	padding:0;
+}
+.lineevent .media a:link,.lineevent .media a:visited {color:#ab221b;}
+.lineevent .media a:hover {color:#7DBADF;}

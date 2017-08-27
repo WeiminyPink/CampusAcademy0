@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="utf-8">
+<title>tabb</title>
+<link rel="stylesheet" type="text/css" href="tabb.css">
+<script src="jquery-3.2.1.js"></script>
+<script src="tabb.js"></script>
+</head>
+<body>
+<div class="tab">
+	<ul class="nav">
+		<li class="active"><a href="javascript:void(0);">雨红莲</a></li>
+		<li><a href="#">林荫路</a></li>
+		<li><a href="#">银杏</a></li>
+		<li><a href="#">二教</a></li>
+	</ul>
+	<div class="wrap">
+		<div class="item current">
+			<img src="tabbimg/1.jpg" />
+		</div>
+		<div class="item">
+			<img src="tabbimg/2.jpg" />
+		</div>
+		<div class="item">
+			<img src="tabbimg/3.jpg" />
+		</div>
+		<div class="item">
+			<img src="tabbimg/4.jpg" />
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+		var lis = $(".nav li");
+		var divs = $(".wrap div");
+		lis.click(function(){
+			var active = $(this);//选中的li分类
+			var num = active.index();//相对于同胞的元素的位置
+			lis.removeClass();//清空li CSS属性
+			active.addClass("active");//选中li添加属性
+			divs.css("display","none");//隐藏wrap中的div标签
+			divs.eq(num).css("display","block");//展示选中的li所对应的div内容
+		})
+});
+</script>
+</body>
+</html>
